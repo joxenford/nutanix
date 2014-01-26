@@ -22,6 +22,8 @@
 		44D769B6189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
 		44D769BE189484410060617F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44D769BC189484410060617F /* InfoPlist.strings */; };
 		44D769C0189484410060617F /* TestMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D769BF189484410060617F /* TestMachineTests.m */; };
+		44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D769CA18952C490060617F /* NewsAndEventsCell.m */; };
+		44D769CE18952C490060617F /* XMLFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D769CC18952C490060617F /* XMLFeedItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		44D769BB189484410060617F /* TestMachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMachineTests-Info.plist"; sourceTree = "<group>"; };
 		44D769BD189484410060617F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44D769BF189484410060617F /* TestMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMachineTests.m; sourceTree = "<group>"; };
+		44D769C918952C490060617F /* NewsAndEventsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsAndEventsCell.h; sourceTree = "<group>"; };
+		44D769CA18952C490060617F /* NewsAndEventsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsAndEventsCell.m; sourceTree = "<group>"; };
+		44D769CB18952C490060617F /* XMLFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLFeedItem.h; sourceTree = "<group>"; };
+		44D769CC18952C490060617F /* XMLFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLFeedItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				44D769A3189484410060617F /* Main.storyboard */,
 				44D769A6189484410060617F /* MasterViewController.h */,
 				44D769A7189484410060617F /* MasterViewController.m */,
+				44D769C918952C490060617F /* NewsAndEventsCell.h */,
+				44D769CA18952C490060617F /* NewsAndEventsCell.m */,
+				44D769CB18952C490060617F /* XMLFeedItem.h */,
+				44D769CC18952C490060617F /* XMLFeedItem.m */,
 				44D769A9189484410060617F /* DetailViewController.h */,
 				44D769AA189484410060617F /* DetailViewController.m */,
 				44D769AC189484410060617F /* Images.xcassets */,
@@ -255,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
+				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
 				44D769A8189484410060617F /* MasterViewController.m in Sources */,
 				44D7699E189484410060617F /* main.m in Sources */,
+				44D769CE18952C490060617F /* XMLFeedItem.m in Sources */,
 				44D769AB189484410060617F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
