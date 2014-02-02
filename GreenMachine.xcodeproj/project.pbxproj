@@ -37,14 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		44D7698E189484410060617F /* TestMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		44D76995189484410060617F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		44D76999189484410060617F /* TestMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMachine-Info.plist"; sourceTree = "<group>"; };
+		44D76999189484410060617F /* GreenMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreenMachine-Info.plist"; sourceTree = "<group>"; };
 		44D7699B189484410060617F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44D7699D189484410060617F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44D7699F189484410060617F /* TestMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMachine-Prefix.pch"; sourceTree = "<group>"; };
+		44D7699F189484410060617F /* GreenMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreenMachine-Prefix.pch"; sourceTree = "<group>"; };
 		44D769A0189484410060617F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44D769A1189484410060617F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44D769A4189484410060617F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,9 +53,9 @@
 		44D769A9189484410060617F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		44D769AA189484410060617F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		44D769AC189484410060617F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		44D769B2189484410060617F /* TestMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D769B2189484410060617F /* GreenMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D769B3189484410060617F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		44D769BB189484410060617F /* TestMachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMachineTests-Info.plist"; sourceTree = "<group>"; };
+		44D769BB189484410060617F /* GreenMachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreenMachineTests-Info.plist"; sourceTree = "<group>"; };
 		44D769BD189484410060617F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44D769BF189484410060617F /* TestMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMachineTests.m; sourceTree = "<group>"; };
 		44D769C918952C490060617F /* NewsAndEventsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsAndEventsCell.h; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
-				44D76997189484410060617F /* TestMachine */,
-				44D769B9189484410060617F /* TestMachineTests */,
+				44D76997189484410060617F /* GreenMachine */,
+				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
 				44D7698F189484410060617F /* Products */,
 			);
@@ -101,8 +101,8 @@
 		44D7698F189484410060617F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44D7698E189484410060617F /* TestMachine.app */,
-				44D769B2189484410060617F /* TestMachineTests.xctest */,
+				44D7698E189484410060617F /* GreenMachine.app */,
+				44D769B2189484410060617F /* GreenMachineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		44D76997189484410060617F /* TestMachine */ = {
+		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
 				44D769A0189484410060617F /* AppDelegate.h */,
@@ -135,33 +135,35 @@
 				44D769AC189484410060617F /* Images.xcassets */,
 				44D76998189484410060617F /* Supporting Files */,
 			);
+			name = GreenMachine;
 			path = TestMachine;
 			sourceTree = "<group>";
 		};
 		44D76998189484410060617F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				44D76999189484410060617F /* TestMachine-Info.plist */,
+				44D76999189484410060617F /* GreenMachine-Info.plist */,
 				44D7699A189484410060617F /* InfoPlist.strings */,
 				44D7699D189484410060617F /* main.m */,
-				44D7699F189484410060617F /* TestMachine-Prefix.pch */,
+				44D7699F189484410060617F /* GreenMachine-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		44D769B9189484410060617F /* TestMachineTests */ = {
+		44D769B9189484410060617F /* GreenMachineTests */ = {
 			isa = PBXGroup;
 			children = (
 				44D769BF189484410060617F /* TestMachineTests.m */,
 				44D769BA189484410060617F /* Supporting Files */,
 			);
+			name = GreenMachineTests;
 			path = TestMachineTests;
 			sourceTree = "<group>";
 		};
 		44D769BA189484410060617F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				44D769BB189484410060617F /* TestMachineTests-Info.plist */,
+				44D769BB189484410060617F /* GreenMachineTests-Info.plist */,
 				44D769BC189484410060617F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -170,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44D7698D189484410060617F /* TestMachine */ = {
+		44D7698D189484410060617F /* GreenMachine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "TestMachine" */;
+			buildConfigurationList = 44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachine" */;
 			buildPhases = (
 				44D7698A189484410060617F /* Sources */,
 				44D7698B189484410060617F /* Frameworks */,
@@ -182,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = TestMachine;
+			name = GreenMachine;
 			productName = TestMachine;
-			productReference = 44D7698E189484410060617F /* TestMachine.app */;
+			productReference = 44D7698E189484410060617F /* GreenMachine.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44D769B1189484410060617F /* TestMachineTests */ = {
+		44D769B1189484410060617F /* GreenMachineTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "TestMachineTests" */;
+			buildConfigurationList = 44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachineTests" */;
 			buildPhases = (
 				44D769AE189484410060617F /* Sources */,
 				44D769AF189484410060617F /* Frameworks */,
@@ -200,9 +202,9 @@
 			dependencies = (
 				44D769B8189484410060617F /* PBXTargetDependency */,
 			);
-			name = TestMachineTests;
+			name = GreenMachineTests;
 			productName = TestMachineTests;
-			productReference = 44D769B2189484410060617F /* TestMachineTests.xctest */;
+			productReference = 44D769B2189484410060617F /* GreenMachineTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -214,12 +216,15 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "James Oxenford";
 				TargetAttributes = {
+					44D7698D189484410060617F = {
+						DevelopmentTeam = HJWMFM488E;
+					};
 					44D769B1189484410060617F = {
 						TestTargetID = 44D7698D189484410060617F;
 					};
 				};
 			};
-			buildConfigurationList = 44D76989189484410060617F /* Build configuration list for PBXProject "TestMachine" */;
+			buildConfigurationList = 44D76989189484410060617F /* Build configuration list for PBXProject "GreenMachine" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44D7698D189484410060617F /* TestMachine */,
-				44D769B1189484410060617F /* TestMachineTests */,
+				44D7698D189484410060617F /* GreenMachine */,
+				44D769B1189484410060617F /* GreenMachineTests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +291,7 @@
 /* Begin PBXTargetDependency section */
 		44D769B8189484410060617F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44D7698D189484410060617F /* TestMachine */;
+			target = 44D7698D189484410060617F /* GreenMachine */;
 			targetProxy = 44D769B7189484410060617F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,10 +403,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestMachine/TestMachine-Prefix.pch";
-				INFOPLIST_FILE = "TestMachine/TestMachine-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestMachine/GreenMachine-Prefix.pch";
+				INFOPLIST_FILE = "TestMachine/GreenMachine-Info.plist";
+				PRODUCT_NAME = GreenMachine;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -411,10 +417,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestMachine/TestMachine-Prefix.pch";
-				INFOPLIST_FILE = "TestMachine/TestMachine-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestMachine/GreenMachine-Prefix.pch";
+				INFOPLIST_FILE = "TestMachine/GreenMachine-Info.plist";
+				PRODUCT_NAME = GreenMachine;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -435,8 +442,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TestMachineTests/TestMachineTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestMachineTests/GreenMachineTests-Info.plist";
+				PRODUCT_NAME = GreenMachineTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,8 +461,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMachine/TestMachine-Prefix.pch";
-				INFOPLIST_FILE = "TestMachineTests/TestMachineTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestMachineTests/GreenMachineTests-Info.plist";
+				PRODUCT_NAME = GreenMachineTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -464,7 +471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44D76989189484410060617F /* Build configuration list for PBXProject "TestMachine" */ = {
+		44D76989189484410060617F /* Build configuration list for PBXProject "GreenMachine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D769C1189484410060617F /* Debug */,
@@ -473,21 +480,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "TestMachine" */ = {
+		44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D769C4189484410060617F /* Debug */,
 				44D769C5189484410060617F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "TestMachineTests" */ = {
+		44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D769C7189484410060617F /* Debug */,
 				44D769C8189484410060617F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

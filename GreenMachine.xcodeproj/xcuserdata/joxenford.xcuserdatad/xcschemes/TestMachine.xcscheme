@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "44D7698D189484410060617F"
-               BuildableName = "TestMachine.app"
-               BlueprintName = "TestMachine"
-               ReferencedContainer = "container:TestMachine.xcodeproj">
+               BuildableName = "GreenMachine.app"
+               BlueprintName = "GreenMachine"
+               ReferencedContainer = "container:GreenMachine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "44D769B1189484410060617F"
-               BuildableName = "TestMachineTests.xctest"
-               BlueprintName = "TestMachineTests"
-               ReferencedContainer = "container:TestMachine.xcodeproj">
+               BuildableName = "GreenMachineTests.xctest"
+               BlueprintName = "GreenMachineTests"
+               ReferencedContainer = "container:GreenMachine.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44D7698D189484410060617F"
-            BuildableName = "TestMachine.app"
-            BlueprintName = "TestMachine"
-            ReferencedContainer = "container:TestMachine.xcodeproj">
+            BuildableName = "GreenMachine.app"
+            BlueprintName = "GreenMachine"
+            ReferencedContainer = "container:GreenMachine.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44D7698D189484410060617F"
-            BuildableName = "TestMachine.app"
-            BlueprintName = "TestMachine"
-            ReferencedContainer = "container:TestMachine.xcodeproj">
+            BuildableName = "GreenMachine.app"
+            BlueprintName = "GreenMachine"
+            ReferencedContainer = "container:GreenMachine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44D7698D189484410060617F"
-            BuildableName = "TestMachine.app"
-            BlueprintName = "TestMachine"
-            ReferencedContainer = "container:TestMachine.xcodeproj">
+            BuildableName = "GreenMachine.app"
+            BlueprintName = "GreenMachine"
+            ReferencedContainer = "container:GreenMachine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

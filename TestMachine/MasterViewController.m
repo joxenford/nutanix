@@ -149,9 +149,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // NSIndexPath* indexPath = [self.tableView indexPathForSelectedRow];
     XMLFeedItem* newsItem = [newsFeed objectAtIndex:indexPath.row];
-    self.detailViewController.url = [newsItem link];
+    [self.detailViewController updateLabel:[newsItem link]];
+    [self.detailViewController loadWebView:[newsItem content]];
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue*)segue sender:(id)sender
@@ -162,51 +162,10 @@
         DetailViewController* detailViewController = segue.destinationViewController;
         XMLFeedItem* newsItem = [newsFeed objectAtIndex:indexPath.row];
         detailViewController.url = [newsItem link];
+        detailViewController.content = [newsItem content];
+       
     }
 }
 
-
-
-
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-//{
-//    return 1;
-//}
-//
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-//{
-//    return _objects.count;
-//}
-//
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-//
-//    NSDate *object = _objects[indexPath.row];
-//    cell.textLabel.text = [object description];
-//    return cell;
-//}
-//
-//- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    // Return NO if you do not want the specified item to be editable.
-//    return YES;
-//}
-//
-//- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    if (editingStyle == UITableViewCellEditingStyleDelete) {
-//        [_objects removeObjectAtIndex:indexPath.row];
-//        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-//    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-//        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-//    }
-//}
-//
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    NSDate *object = _objects[indexPath.row];
-//    self.detailViewController.detailItem = object;
-//}
 
 @end

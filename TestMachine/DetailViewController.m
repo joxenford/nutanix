@@ -1,48 +1,50 @@
 #import "DetailViewController.h"
+#import "XMLFeedItem.h"
 
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
-- (void)configureView;
+
+// (void)configureView;
 @end
 
 @implementation DetailViewController
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void) updateLabel:(NSString *)passedObject
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
-        
-        // Update the view.
-        [self configureView];
-    }
-
-    if (self.masterPopoverController != nil) {
-        [self.masterPopoverController dismissPopoverAnimated:YES];
-    }        
-}
-
-- (void)configureView
-{
-    // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    if (![self.detailDescriptionLabel.text isEqualToString:passedObject]) {
+        self.detailDescriptionLabel.text = passedObject;
     }
 }
+
+//- (void)configureView
+//{
+//    // Update the user interface for the detail item.
+//
+////    if (self.detailItem) {
+////        self.detailDescriptionLabel.text = [self.detailItem description];
+//    if (self.url) {
+//        self.detailDescriptionLabel.text = _url; }
+//    NSLog(@"Passed URL: %@", _url);
+//}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+ //   [self configureView];
+  
+    [self loadWebView:self.content];
+    
 }
-
-- (void)didReceiveMemoryWarning
+- (void) loadWebView:(NSString *)content
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSURL* url = [NSURL URLWithString:self.content];
+    NSURLRequest* request = [NSURLRequest requestWithURL:url];
+   // [self.webView loadRequest:request];
+    [self.webView loadHTMLString:self.content baseURL:nil];
+    NSLog(@"content: %@", content);
 }
 
 #pragma mark - Split view
