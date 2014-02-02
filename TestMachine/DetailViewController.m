@@ -15,6 +15,7 @@
 {
     if (![self.detailDescriptionLabel.text isEqualToString:passedObject]) {
         self.detailDescriptionLabel.text = passedObject;
+        self.url = passedObject;
     }
 }
 
@@ -40,11 +41,11 @@
 }
 - (void) loadWebView:(NSString *)content
 {
-    NSURL* url = [NSURL URLWithString:self.content];
+    NSURL* url = [NSURL URLWithString:self.url];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
-   // [self.webView loadRequest:request];
-    [self.webView loadHTMLString:self.content baseURL:nil];
-    NSLog(@"content: %@", content);
+    [self.webView loadRequest:request];
+ //   [self.webView loadHTMLString:self.content baseURL:nil];
+ //   NSLog(@"content: %@", content);
 }
 
 #pragma mark - Split view
