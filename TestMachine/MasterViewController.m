@@ -31,18 +31,20 @@
     self.clearsSelectionOnViewWillAppear = NO;
     self.preferredContentSize = CGSizeMake(320.0, 600.0);
     [super awakeFromNib];
-    [self parseXML];
+    
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+     regularFont = [UIFont fontWithName:@"Montserrat-Regular" size:15];
 	// Do any additional setup after loading the view, typically from a nib.
    // self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
  //   UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
  //   self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    [self parseXML];
 }
 
 - (void)didReceiveMemoryWarning
@@ -144,6 +146,7 @@
     NewsAndEventsCell* cell = [tableView dequeueReusableCellWithIdentifier:tableIdentifier];
     XMLFeedItem* newsItem = [newsFeed objectAtIndex:indexPath.row];
     cell.titleLabel.text = [newsItem title];
+    cell.titleLabel.font = regularFont;
     return cell;
 }
 

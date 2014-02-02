@@ -1,4 +1,6 @@
 #import "AppDelegate.h"
+#import "UISS.h"
+
 
 @implementation AppDelegate
 
@@ -9,6 +11,8 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
     return YES;
+    
+    [UISS configureWithDefaultJSONFile];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
