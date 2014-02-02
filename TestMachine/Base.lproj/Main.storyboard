@@ -17,7 +17,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fS-aE-onr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752" y="-630"/>
+            <point key="canvasLocation" x="644" y="-1094"/>
         </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="yUG-lL-AsK">
@@ -65,13 +65,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1376" y="376"/>
+            <point key="canvasLocation" x="1512" y="-92"/>
         </scene>
-        <!--Split View Controller - New-->
+        <!--Split View Controller - News-->
         <scene sceneID="Nki-YV-4Qg">
             <objects>
                 <splitViewController id="H1p-Uh-vWS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="New" image="NutanixApp_NewsIcon" id="8uY-iC-jQF"/>
+                    <tabBarItem key="tabBarItem" title="News" image="NutanixApp_NewsIcon" id="8uY-iC-jQF"/>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -95,13 +95,14 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="WKv-uX-mUB" kind="relationship" relationship="viewControllers" id="uLL-aV-sVE"/>
                         <segue destination="H1p-Uh-vWS" kind="relationship" relationship="viewControllers" id="ywm-T9-IGd"/>
                         <segue destination="zb3-wA-pT8" kind="relationship" relationship="viewControllers" id="Uxy-gu-v6c"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jf-QR-rbs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1672" y="371"/>
+            <point key="canvasLocation" x="-1548" y="353"/>
         </scene>
         <!--Master View Controller - Master-->
         <scene sceneID="smW-Zh-WAh">
@@ -148,9 +149,56 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1191" y="-630"/>
+            <point key="canvasLocation" x="1235" y="-1094"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--Page View Controller - Overview-->
+        <scene sceneID="cxn-k6-UiJ">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="WKv-uX-mUB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Overview" id="WWy-3l-1yz"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="663-K5-NGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-436" y="2021"/>
+        </scene>
+        <!--Page Content View Controller-->
+        <scene sceneID="nf9-wp-BDb">
+            <objects>
+                <viewController storyboardIdentifier="PageContentViewController" id="hwM-ji-2ux" customClass="PageContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KxT-oW-0ju"/>
+                        <viewControllerLayoutGuide type="bottom" id="qle-Zp-eMK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WZG-vQ-dzE">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is Nutanix?!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAK-KG-Jea">
+                                <rect key="frame" x="44" y="46" width="192" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tzs-us-I8h">
+                                <rect key="frame" x="368" y="974" width="33" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="startWalkthrough" destination="Tzs-us-I8h" id="9hZ-Ly-iWD"/>
+                        <outlet property="titleLabel" destination="DAK-KG-Jea" id="9Ts-fU-Wpe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdK-mo-Nc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="2001"/>
+        </scene>
+        <!--View Controller - Video-->
         <scene sceneID="D7i-0T-UkA">
             <objects>
                 <viewController id="zb3-wA-pT8" sceneMemberID="viewController">
@@ -163,11 +211,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hr9-i0-Fez"/>
+                    <tabBarItem key="tabBarItem" title="Video" id="hr9-i0-Fez"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zdT-to-vRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-501" y="737"/>
+            <point key="canvasLocation" x="-473" y="851"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r7l-gg-dq7">
@@ -182,7 +230,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SLD-UC-DBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="534" y="376"/>
+            <point key="canvasLocation" x="644" y="-92"/>
         </scene>
     </scenes>
     <resources>

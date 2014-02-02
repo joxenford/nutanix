@@ -14,6 +14,8 @@
 		4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44748625189E7D9100FA06CF /* DefaultTheme.plist */; };
 		4474862B189E7D9100FA06CF /* MainTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748627189E7D9100FA06CF /* MainTheme.m */; };
 		4474862C189E7D9100FA06CF /* Themer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748629189E7D9100FA06CF /* Themer.m */; };
+		4474862F189E965800FA06CF /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474862E189E965800FA06CF /* PageContentViewController.m */; };
+		44748632189E9A5500FA06CF /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748631189E9A5500FA06CF /* PageViewController.m */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -54,6 +56,10 @@
 		44748627189E7D9100FA06CF /* MainTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTheme.m; sourceTree = "<group>"; };
 		44748628189E7D9100FA06CF /* Themer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Themer.h; sourceTree = "<group>"; };
 		44748629189E7D9100FA06CF /* Themer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Themer.m; sourceTree = "<group>"; };
+		4474862D189E965800FA06CF /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageContentViewController.h; path = TestMachine/PageContentViewController.h; sourceTree = "<group>"; };
+		4474862E189E965800FA06CF /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageContentViewController.m; path = TestMachine/PageContentViewController.m; sourceTree = "<group>"; };
+		44748630189E9A5500FA06CF /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageViewController.h; path = TestMachine/PageViewController.h; sourceTree = "<group>"; };
+		44748631189E9A5500FA06CF /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageViewController.m; path = TestMachine/PageViewController.m; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +117,10 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
+				44748630189E9A5500FA06CF /* PageViewController.h */,
+				44748631189E9A5500FA06CF /* PageViewController.m */,
+				4474862D189E965800FA06CF /* PageContentViewController.h */,
+				4474862E189E965800FA06CF /* PageContentViewController.m */,
 				44748625189E7D9100FA06CF /* DefaultTheme.plist */,
 				44748626189E7D9100FA06CF /* MainTheme.h */,
 				44748627189E7D9100FA06CF /* MainTheme.m */,
@@ -342,6 +352,8 @@
 			files = (
 				4474862C189E7D9100FA06CF /* Themer.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
+				4474862F189E965800FA06CF /* PageContentViewController.m in Sources */,
+				44748632189E9A5500FA06CF /* PageViewController.m in Sources */,
 				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
 				4474862B189E7D9100FA06CF /* MainTheme.m in Sources */,
 				44D769A8189484410060617F /* MasterViewController.m in Sources */,
