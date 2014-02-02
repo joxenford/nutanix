@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */; };
+		441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */; };
+		441601E4189E73B20065B4F3 /* table_header_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 441601E1189E73B20065B4F3 /* table_header_1.png */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		441601E1189E73B20065B4F3 /* table_header_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_header_1.png; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +127,7 @@
 		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
+				441601E1189E73B20065B4F3 /* table_header_1.png */,
 				44D769A0189484410060617F /* AppDelegate.h */,
 				44D769A1189484410060617F /* AppDelegate.m */,
 				44D769A3189484410060617F /* Main.storyboard */,
@@ -142,6 +149,8 @@
 		44D76998189484410060617F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */,
+				441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */,
 				44D76999189484410060617F /* GreenMachine-Info.plist */,
 				44D7699A189484410060617F /* InfoPlist.strings */,
 				44D7699D189484410060617F /* main.m */,
@@ -248,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */,
 				44D769AD189484410060617F /* Images.xcassets in Resources */,
 				44D7699C189484410060617F /* InfoPlist.strings in Resources */,
+				441601E4189E73B20065B4F3 /* table_header_1.png in Resources */,
+				441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */,
 				44D769A5189484410060617F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
