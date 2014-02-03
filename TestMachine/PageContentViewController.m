@@ -18,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    self.backgroundImageView.image = [UIImage imageNamed:self.imageFile];
+    self.titleLabel.text = self.titleText;
+    
 }
 
 - (void)didReceiveMemoryWarning
