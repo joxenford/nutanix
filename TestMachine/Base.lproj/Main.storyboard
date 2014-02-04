@@ -153,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="1235" y="-1094"/>
         </scene>
-        <!--View Controller - IntroViewController-->
+        <!--Intro View Controller - IntroViewController-->
         <scene sceneID="HmB-PN-b9v">
             <objects>
-                <viewController title="IntroViewController" id="qEr-pm-WE5" sceneMemberID="viewController">
+                <viewController title="IntroViewController" id="qEr-pm-WE5" customClass="IntroViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uYi-g0-LQs"/>
                         <viewControllerLayoutGuide type="bottom" id="HZE-0J-wid"/>
@@ -181,10 +181,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="603" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Nv-s0Z">
-                                <rect key="frame" x="20" y="142" width="603" height="127"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="810" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Nv-s0Z">
+                                <rect key="frame" x="20" y="142" width="810" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Nutanix is a software company that happens to sell hardware to provide a unique converged infrastructure approach called the "Virtual Computing Platform". While we have some very attractive hardware form factors, the key is the software that makes it all work together.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="810" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-Id-WPn">
+                                <rect key="frame" x="20" y="324" width="810" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Nutanix Virtual Computing Platform provides your virtual workloads with all of the performance benefits of local, direct-attached- storage, while still providing all of the management benefits of a shared storage model. You may be asking yourself, “How can Nutanix do this”?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Well, we’re glad you asked..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-nK-gZw">
+                                <rect key="frame" x="403" y="554" width="269" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -193,15 +206,21 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="GI6-Ap-DIm"/>
+                    <connections>
+                        <outlet property="gladYouAskedLabel" destination="0fm-nK-gZw" id="uml-L8-vKr"/>
+                        <outlet property="nutanixIsASoftwareLabel" destination="87w-Nv-s0Z" id="bK3-uI-hJD"/>
+                        <outlet property="nutanixVirtualComputingLabel" destination="zBc-Id-WPn" id="b0T-PH-dGE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBU-7h-AFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="MFg-sp-OiN" customClass="Themer"/>
             </objects>
             <point key="canvasLocation" x="765" y="2045"/>
         </scene>
-        <!--View Controller - SectionOneViewController-->
+        <!--Section One View Controller - SectionOneViewController-->
         <scene sceneID="YiX-QB-1ad">
             <objects>
-                <viewController title="SectionOneViewController" id="3Vo-y6-kPx" sceneMemberID="viewController">
+                <viewController title="SectionOneViewController" id="3Vo-y6-kPx" customClass="SectionOneViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7ao-41-lzF"/>
                         <viewControllerLayoutGuide type="bottom" id="sxc-Tt-PDZ"/>
@@ -226,12 +245,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PyU-q7-6ya">
+                                <rect key="frame" x="192" y="194" width="640" height="390"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90980398650000005" green="0.90196084980000002" blue="0.89411771299999998" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="TSa-na-LbV"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="webView" destination="PyU-q7-6ya" id="bNk-Af-0vI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Adr-hO-sal" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -300,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4a-cF-XLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="689" y="3062"/>
+            <point key="canvasLocation" x="729" y="3062"/>
         </scene>
         <!--View Controller - SectionTwoViewController-->
         <scene sceneID="Bdn-37-oae">
