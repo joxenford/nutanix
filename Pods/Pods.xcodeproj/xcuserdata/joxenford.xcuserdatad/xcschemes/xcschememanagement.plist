@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-UISS.xcscheme</key>
+		<key>Pods-CoreParse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E426C98BD44D40A3A0A31C4E</key>
+		<key>C530A4336A9546B482CD10F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E689DBC9261A455299FA9FE5</key>
+		<key>D3A2CF7DEE624ED485FFE7D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA05868B28574A3E8EAE5352</key>
 		<dict>
 			<key>primary</key>
 			<true/>
