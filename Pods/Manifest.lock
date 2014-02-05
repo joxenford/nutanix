@@ -1,10 +1,13 @@
 PODS:
-  - UISS (1.1.1)
+  - CoreParse (1.1)
+  - NUI (0.5.1):
+    - CoreParse
 
 DEPENDENCIES:
-  - UISS
+  - NUI
 
 SPEC CHECKSUMS:
-  UISS: 21e28c8c0c2c0bc4634025b8c4484df7ffe6808d
+  CoreParse: 11f0ec66ac10a637fc16995b13ca372e2eeb61dc
+  NUI: ee197d6f9101b8288a354f18325f1fa5b4814c0f
 
 COCOAPODS: 0.29.0

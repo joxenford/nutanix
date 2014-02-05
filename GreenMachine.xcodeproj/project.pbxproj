@@ -14,8 +14,11 @@
 		4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44748625189E7D9100FA06CF /* DefaultTheme.plist */; };
 		4474862B189E7D9100FA06CF /* MainTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748627189E7D9100FA06CF /* MainTheme.m */; };
 		4474862C189E7D9100FA06CF /* Themer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748629189E7D9100FA06CF /* Themer.m */; };
-		4474862F189E965800FA06CF /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474862E189E965800FA06CF /* PageContentViewController.m */; };
-		44748635189EF97300FA06CF /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748634189EF97300FA06CF /* OverviewViewController.m */; };
+		4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474864D18A02C1900FA06CF /* IntroViewController.m */; };
+		4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474865218A0655B00FA06CF /* SectionOneViewController.m */; };
+		4474865518A070DB00FA06CF /* youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = 4474865418A070DB00FA06CF /* youtube.html */; };
+		4474865F18A1DD4900FA06CF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474865E18A1DD4900FA06CF /* CoreImage.framework */; };
+		4474866118A1DD5100FA06CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474866018A1DD5100FA06CF /* QuartzCore.framework */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -56,10 +59,13 @@
 		44748627189E7D9100FA06CF /* MainTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTheme.m; path = ../MainTheme.m; sourceTree = "<group>"; };
 		44748628189E7D9100FA06CF /* Themer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Themer.h; path = ../Themer.h; sourceTree = "<group>"; };
 		44748629189E7D9100FA06CF /* Themer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Themer.m; path = ../Themer.m; sourceTree = "<group>"; };
-		4474862D189E965800FA06CF /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
-		4474862E189E965800FA06CF /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
-		44748633189EF97300FA06CF /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverviewViewController.h; path = ../OverviewViewController.h; sourceTree = "<group>"; };
-		44748634189EF97300FA06CF /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverviewViewController.m; path = ../OverviewViewController.m; sourceTree = "<group>"; };
+		4474864C18A02C1900FA06CF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = TestMachine/IntroViewController.h; sourceTree = "<group>"; };
+		4474864D18A02C1900FA06CF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = TestMachine/IntroViewController.m; sourceTree = "<group>"; };
+		4474865118A0655B00FA06CF /* SectionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionOneViewController.h; path = TestMachine/SectionOneViewController.h; sourceTree = "<group>"; };
+		4474865218A0655B00FA06CF /* SectionOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionOneViewController.m; path = TestMachine/SectionOneViewController.m; sourceTree = "<group>"; };
+		4474865418A070DB00FA06CF /* youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = youtube.html; path = TestMachine/youtube.html; sourceTree = "<group>"; };
+		4474865E18A1DD4900FA06CF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4474866018A1DD5100FA06CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4474866118A1DD5100FA06CF /* QuartzCore.framework in Frameworks */,
+				4474865F18A1DD4900FA06CF /* CoreImage.framework in Frameworks */,
 				44D76994189484410060617F /* CoreGraphics.framework in Frameworks */,
 				44D76996189484410060617F /* UIKit.framework in Frameworks */,
 				44D76992189484410060617F /* Foundation.framework in Frameworks */,
@@ -117,6 +125,11 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
+				4474865418A070DB00FA06CF /* youtube.html */,
+				4474865118A0655B00FA06CF /* SectionOneViewController.h */,
+				4474865218A0655B00FA06CF /* SectionOneViewController.m */,
+				4474864C18A02C1900FA06CF /* IntroViewController.h */,
+				4474864D18A02C1900FA06CF /* IntroViewController.m */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -137,6 +150,8 @@
 		44D76990189484410060617F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4474866018A1DD5100FA06CF /* QuartzCore.framework */,
+				4474865E18A1DD4900FA06CF /* CoreImage.framework */,
 				44D76991189484410060617F /* Foundation.framework */,
 				44D76993189484410060617F /* CoreGraphics.framework */,
 				44D76995189484410060617F /* UIKit.framework */,
@@ -149,10 +164,6 @@
 		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
-				44748633189EF97300FA06CF /* OverviewViewController.h */,
-				44748634189EF97300FA06CF /* OverviewViewController.m */,
-				4474862D189E965800FA06CF /* PageContentViewController.h */,
-				4474862E189E965800FA06CF /* PageContentViewController.m */,
 				44748625189E7D9100FA06CF /* DefaultTheme.plist */,
 				44748626189E7D9100FA06CF /* MainTheme.h */,
 				44748627189E7D9100FA06CF /* MainTheme.m */,
@@ -298,6 +309,7 @@
 				4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */,
 				441601E4189E73B20065B4F3 /* table_header_1.png in Resources */,
 				441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */,
+				4474865518A070DB00FA06CF /* youtube.html in Resources */,
 				44D769A5189484410060617F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,10 +364,10 @@
 			files = (
 				4474862C189E7D9100FA06CF /* Themer.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
-				4474862F189E965800FA06CF /* PageContentViewController.m in Sources */,
 				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
-				44748635189EF97300FA06CF /* OverviewViewController.m in Sources */,
 				4474862B189E7D9100FA06CF /* MainTheme.m in Sources */,
+				4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */,
+				4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */,
 				44D769A8189484410060617F /* MasterViewController.m in Sources */,
 				44D7699E189484410060617F /* main.m in Sources */,
 				44D769CE18952C490060617F /* XMLFeedItem.m in Sources */,

@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-UISS.xcscheme</key>
+		<key>Pods-CoreParse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
