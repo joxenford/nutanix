@@ -1,9 +1,11 @@
-@primaryFontName: Montserrat-Regular;
-@secondaryFontName: Montserrat-Regular;
-@secondaryFontNameBold: Montserrat-Bold;
-@inputFontName: Montserrat-Regular;
+@primaryFontName: Lato-Regular;
+@secondaryFontName: Lato-Regular;
+@secondaryFontNameBold: Lato-Bold;
+@inputFontName: Lato-Regular;
 @primaryFontColor: #555555;
 @secondaryFontColor: #888888;
+@nutanixBlue: #0072BB;
+@nutanixGreen: #D4DF3B;
 @primaryBackgroundColor: #E6E6E6;
 @primaryBackgroundTintColor: #ECECEC;
 @primaryBackgroundColorTop: #F3F3F3;
@@ -15,28 +17,28 @@
 @primaryBorderWidth: 1;
 
 BarButton {
-    background-color: @primaryBackgroundColor;
-    background-color-highlighted: #CCCCCC;
+    background-color: @nutanixBlue;
+    background-color-highlighted:@nutanixBlue;
     border-color: @primaryBorderColor;
     border-width: @primaryBorderWidth;
     corner-radius: 7;
     font-name: @secondaryFontNameBold;
-    font-color: @primaryFontColor;
+    font-color: #FFFFFF;
     font-color-disabled: @secondaryFontColor;
     font-size: 13;
     text-shadow-color: clear;
 }
 Button {
-    background-color-top: #FFFFFF;
-    background-color-bottom: @primaryBackgroundColorBottom;
-    border-color: @primaryBorderColor;
+    background-color-top: @nutanixBlue;
+    background-color-bottom: @nutanixBlue;
+    border-color: @nutanixBlue;
     border-width: @primaryBorderWidth;
-    font-color: @primaryFontColor;
+    font-color: #FFFFFF;
     font-color-highlighted: @secondaryFontColor;
     font-name: @secondaryFontName;
     font-size: 18;
     height: 37;
-    corner-radius: 7;
+    corner-radius: 5;
     exclude-views: UIAlertButton;
     exclude-subviews: UITableViewCell,UITextField;
 }
@@ -71,10 +73,10 @@ SmallLabel {
 NavigationBar {
     font-name: @secondaryFontName;
     font-size: 20;
-    font-color: @primaryFontColor;
+    font-color: #FFFFFF;
     text-shadow-color: clear;
-    background-color-top: @primaryBackgroundColorTop;
-    background-color-bottom: @primaryBackgroundColorBottomStrong;
+    background-color-top: @nutanixBlue;
+    background-color-bottom: @nutanixBlue;
 }
 Progress {
     progress-tint-color: @primaryBackgroundTintColor;
@@ -100,12 +102,12 @@ Switch {
     on-tint-color: @primaryBackgroundTintColor;
 }
 TabBar {
-    background-color-top: @primaryBackgroundColorTop;
-    background-color-bottom: @primaryBackgroundColorBottom;
+    background-color-top: @nutanixBlue;
+    background-color-bottom: @nutanixBlue;
 }
 TabBarItem {
     font-name: @secondaryFontName;
-    font-color: @primaryFontColor;
+    font-color: #FFFFFF;
     font-size: 18;
     text-offset: 0,-11;
 }
