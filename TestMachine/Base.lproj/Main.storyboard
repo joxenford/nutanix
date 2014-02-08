@@ -17,7 +17,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fS-aE-onr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="-1110"/>
+            <point key="canvasLocation" x="771" y="-2030"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="yUG-lL-AsK">
@@ -39,7 +39,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IQE-Ln-Wvp">
-                                <rect key="frame" x="20" y="202" width="663" height="526"/>
+                                <rect key="frame" x="20" y="202" width="663" height="501"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -66,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1617" y="-104"/>
+            <point key="canvasLocation" x="1589" y="-1072"/>
         </scene>
         <!--Split View Controller - News-->
         <scene sceneID="Nki-YV-4Qg">
@@ -83,7 +83,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZU-Oi-B1e" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-465" y="-636"/>
+            <point key="canvasLocation" x="-497" y="-2030"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="sho-id-EsV">
@@ -99,7 +99,7 @@
                     <connections>
                         <segue destination="S19-Dm-HeO" kind="relationship" relationship="viewControllers" id="QYY-Xb-8fO"/>
                         <segue destination="H1p-Uh-vWS" kind="relationship" relationship="viewControllers" id="ywm-T9-IGd"/>
-                        <segue destination="zb3-wA-pT8" kind="relationship" relationship="viewControllers" id="Uxy-gu-v6c"/>
+                        <segue destination="tuQ-X7-Vds" kind="relationship" relationship="viewControllers" id="9nH-9h-GGX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jf-QR-rbs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -151,7 +151,96 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1593" y="-1110"/>
+            <point key="canvasLocation" x="1261" y="-2030"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f8i-J3-Z6y">
+            <objects>
+                <viewController id="ydi-Cz-wL3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AZ1-qk-0ph"/>
+                        <viewControllerLayoutGuide type="bottom" id="4PT-ny-Rwc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xnh-wr-qHi">
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="table_header_1" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-Am-9Aq">
+                                <rect key="frame" x="191" y="66" width="320" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="VkT-KS-0ul"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PjQ-ju-dcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1700" y="927"/>
+        </scene>
+        <!--Table View Controller - Video-->
+        <scene sceneID="2Ci-cn-1m0">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="xee-wr-cLp" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" id="z5g-sC-2v9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="70" id="0im-hh-581">
+                                <rect key="frame" x="0.0" y="86" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0im-hh-581" id="CQv-Uf-u8Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xee-wr-cLp" id="aDF-eP-14g"/>
+                            <outlet property="delegate" destination="xee-wr-cLp" id="L6W-Lc-xNx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Video" id="mia-Aj-fOW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aum-ec-GhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1279" y="-21"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EHs-b0-XnL">
+            <objects>
+                <navigationController id="SkL-gW-Etd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="uFx-UH-8wv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xee-wr-cLp" kind="relationship" relationship="rootViewController" id="35L-em-WHd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iUq-4F-YS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="791" y="-21"/>
+        </scene>
+        <!--Split View Controller - Video-->
+        <scene sceneID="e7v-la-kZj">
+            <objects>
+                <splitViewController id="tuQ-X7-Vds" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Video" id="GSx-rz-pMW"/>
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="SkL-gW-Etd" kind="relationship" relationship="masterViewController" id="mvE-uJ-hUe"/>
+                        <segue destination="4Yl-pG-XIi" kind="relationship" relationship="detailViewController" id="p8q-x8-11Z"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RdA-2g-Dly" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-445" y="495"/>
         </scene>
         <!--Intro View Controller - IntroViewController-->
         <scene sceneID="HmB-PN-b9v">
@@ -182,7 +271,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Nutanix?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bo5-tP-hJE">
-                                <rect key="frame" x="20" y="67" width="202" height="32"/>
+                                <rect key="frame" x="20" y="90" width="202" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <nil key="highlightedColor"/>
@@ -190,15 +279,15 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="LargeLabel"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="810" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Nv-s0Z">
-                                <rect key="frame" x="20" y="107" width="810" height="208"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="964" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Nv-s0Z">
+                                <rect key="frame" x="20" y="107" width="964" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Nutanix is a software company that happens to sell hardware to provide a unique converged infrastructure approach called the "Virtual Computing Platform". While we have some very attractive hardware form factors, the key is the software that makes it all work together.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="781" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-Id-WPn">
-                                <rect key="frame" x="20" y="336" width="781" height="96"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="948" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-Id-WPn">
+                                <rect key="frame" x="20" y="360" width="948" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The Nutanix Virtual Computing Platform provides your virtual workloads with all of the performance benefits of local, direct-attached- storage, while still providing all of the management benefits of a shared storage model. You may be asking yourself, “How can Nutanix do this”?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -213,8 +302,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zBc-Id-WPn" firstAttribute="top" secondItem="87w-Nv-s0Z" secondAttribute="bottom" constant="21" id="9KG-ie-1xC"/>
-                            <constraint firstItem="87w-Nv-s0Z" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="8" id="JIU-Wc-BBr"/>
+                            <constraint firstItem="zBc-Id-WPn" firstAttribute="top" secondItem="87w-Nv-s0Z" secondAttribute="bottom" constant="45" id="9KG-ie-1xC"/>
+                            <constraint firstItem="bo5-tP-hJE" firstAttribute="top" secondItem="uYi-g0-LQs" secondAttribute="bottom" constant="26" id="DmD-7f-tgH"/>
+                            <constraint firstItem="87w-Nv-s0Z" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="-15" id="JIU-Wc-BBr"/>
                             <constraint firstItem="87w-Nv-s0Z" firstAttribute="leading" secondItem="zBc-Id-WPn" secondAttribute="leading" id="LE2-GM-Soh"/>
                             <constraint firstAttribute="centerX" secondItem="0fm-nK-gZw" secondAttribute="centerX" constant="-0.5" id="NRi-Qg-KiT"/>
                             <constraint firstItem="0fm-nK-gZw" firstAttribute="top" secondItem="zBc-Id-WPn" secondAttribute="bottom" constant="104" id="PwB-cb-bF6"/>
@@ -222,7 +312,7 @@
                             <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="87w-Nv-s0Z" secondAttribute="leading" id="bEK-47-QmB"/>
                             <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="Q54-Qv-kMn" secondAttribute="bottom" constant="20" symbolic="YES" id="f53-fp-4xx"/>
                             <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="20" id="kHR-Rh-pxn"/>
-                            <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="620" id="ryn-uE-zwD"/>
+                            <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="597" id="ryn-uE-zwD"/>
                             <constraint firstAttribute="centerY" secondItem="0fm-nK-gZw" secondAttribute="centerY" constant="-164" id="sva-AC-qgE"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -237,7 +327,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBU-7h-AFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="MFg-sp-OiN" customClass="Themer"/>
             </objects>
-            <point key="canvasLocation" x="705" y="2045"/>
+            <point key="canvasLocation" x="705" y="1849"/>
         </scene>
         <!--Section One View Controller - SectionOneViewController-->
         <scene sceneID="YiX-QB-1ad">
@@ -287,27 +377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Adr-hO-sal" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="2045"/>
-        </scene>
-        <!--View Controller - Video-->
-        <scene sceneID="D7i-0T-UkA">
-            <objects>
-                <viewController id="zb3-wA-pT8" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4aC-eo-NCj"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ghz-r4-Uyq"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="A8V-Tg-zz4">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Video" id="hr9-i0-Fez"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zdT-to-vRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-441" y="867"/>
+            <point key="canvasLocation" x="1879" y="1849"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r7l-gg-dq7">
@@ -323,7 +393,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SLD-UC-DBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="-104"/>
+            <point key="canvasLocation" x="752" y="-1072"/>
         </scene>
         <!--View Controller - SectionThreeViewController-->
         <scene sceneID="Q4J-Xe-r5A">
@@ -355,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4a-cF-XLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729" y="3062"/>
+            <point key="canvasLocation" x="4125" y="1849"/>
         </scene>
         <!--View Controller - SectionTwoViewController-->
         <scene sceneID="Bdn-37-oae">
@@ -476,7 +546,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3p-Xx-rKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-484" y="3062"/>
+            <point key="canvasLocation" x="3003" y="1849"/>
         </scene>
         <!--Navigation Controller - Overview-->
         <scene sceneID="Ko3-11-jtP">
@@ -495,7 +565,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6mE-7H-P1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-465" y="2045"/>
+            <point key="canvasLocation" x="-453" y="1849"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="b1s-mG-35b">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Yl-pG-XIi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gQf-si-YtU">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ydi-Cz-wL3" kind="relationship" relationship="rootViewController" id="Gdd-Gq-QYN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v3a-rF-Ua6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="791" y="927"/>
         </scene>
     </scenes>
     <resources>

@@ -135,6 +135,5 @@ LargeTextField {
     font-size: 28;
 }
 View {
-    background-color: @primaryBackgroundColor;
-    background-image: NUIViewBackground.png;
+    background-color: #FFFFFF;
 }
