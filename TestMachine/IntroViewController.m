@@ -21,12 +21,12 @@
     [self fadeIn:_nextButton delay:12];
 }
 
-- (void) fadeIn:(UIView*) label delay:(float) delay;
+- (void) fadeIn:(UIView*)view delay:(float) delay;
 {
-    label.alpha = 0;
+    view.alpha = 0;
     
     [UIView animateWithDuration:1.0 delay:delay options:UIViewAnimationOptionCurveEaseIn
-                     animations:^{ label.alpha = 1;}
+                     animations:^{ view.alpha = 1;}
                      completion:nil];
 }
 

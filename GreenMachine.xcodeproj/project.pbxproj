@@ -19,6 +19,8 @@
 		4474865518A070DB00FA06CF /* youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = 4474865418A070DB00FA06CF /* youtube.html */; };
 		4474865F18A1DD4900FA06CF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474865E18A1DD4900FA06CF /* CoreImage.framework */; };
 		4474866118A1DD5100FA06CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474866018A1DD5100FA06CF /* QuartzCore.framework */; };
+		44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */; };
+		44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -76,6 +78,10 @@
 		4474865418A070DB00FA06CF /* youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = youtube.html; path = TestMachine/youtube.html; sourceTree = "<group>"; };
 		4474865E18A1DD4900FA06CF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		4474866018A1DD5100FA06CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoMasterViewController.h; path = TestMachine/VideoMasterViewController.h; sourceTree = "<group>"; };
+		44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoMasterViewController.m; path = TestMachine/VideoMasterViewController.m; sourceTree = "<group>"; };
+		44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoDetailViewController.h; path = TestMachine/VideoDetailViewController.h; sourceTree = "<group>"; };
+		44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoDetailViewController.m; path = TestMachine/VideoDetailViewController.m; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +151,10 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
+				44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */,
+				44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */,
+				44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */,
+				44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */,
 				4474865418A070DB00FA06CF /* youtube.html */,
 				4474865118A0655B00FA06CF /* SectionOneViewController.h */,
 				4474865218A0655B00FA06CF /* SectionOneViewController.m */,
@@ -405,6 +415,8 @@
 				4474862C189E7D9100FA06CF /* Themer.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
 				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
+				44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */,
+				44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */,
 				4474862B189E7D9100FA06CF /* MainTheme.m in Sources */,
 				4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */,
 				4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */,
