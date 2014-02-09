@@ -319,6 +319,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="GI6-Ap-DIm"/>
                     <connections>
+                        <outlet property="_nextButton" destination="Q54-Qv-kMn" id="KTE-79-zOE"/>
                         <outlet property="gladYouAskedLabel" destination="0fm-nK-gZw" id="uml-L8-vKr"/>
                         <outlet property="nutanixIsASoftwareLabel" destination="87w-Nv-s0Z" id="bK3-uI-hJD"/>
                         <outlet property="nutanixVirtualComputingLabel" destination="zBc-Id-WPn" id="b0T-PH-dGE"/>
@@ -327,7 +328,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBU-7h-AFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="MFg-sp-OiN" customClass="Themer"/>
             </objects>
-            <point key="canvasLocation" x="705" y="1849"/>
+            <point key="canvasLocation" x="847" y="1841"/>
         </scene>
         <!--Section One View Controller - SectionOneViewController-->
         <scene sceneID="YiX-QB-1ad">
