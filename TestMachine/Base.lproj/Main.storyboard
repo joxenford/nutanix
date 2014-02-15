@@ -267,7 +267,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3Vo-y6-kPx" kind="push" id="XKn-c8-YWq"/>
+                                    <segue destination="3Vo-y6-kPx" kind="push" id="6tJ-R3-gYf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Nutanix?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bo5-tP-hJE">
@@ -321,6 +321,7 @@
                     <connections>
                         <outlet property="_nextButton" destination="Q54-Qv-kMn" id="KTE-79-zOE"/>
                         <outlet property="gladYouAskedLabel" destination="0fm-nK-gZw" id="uml-L8-vKr"/>
+                        <outlet property="nextButton" destination="Q54-Qv-kMn" id="Hxo-02-bEw"/>
                         <outlet property="nutanixIsASoftwareLabel" destination="87w-Nv-s0Z" id="bK3-uI-hJD"/>
                         <outlet property="nutanixVirtualComputingLabel" destination="zBc-Id-WPn" id="b0T-PH-dGE"/>
                     </connections>
@@ -366,6 +367,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90980398650000005" green="0.90196084980000002" blue="0.89411771299999998" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a ~3 minute video that will visually describe how the Nutanix Virtual Computing Platform works." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drw-pO-YPt">
+                                <rect key="frame" x="121" y="139" width="783" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -378,7 +386,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Adr-hO-sal" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1879" y="1849"/>
+            <point key="canvasLocation" x="2082" y="1814"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r7l-gg-dq7">
