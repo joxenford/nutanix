@@ -1,8 +1,11 @@
 #import "VideoMasterViewController.h"
 #import "XMLFeedItem.h"
 #import "NewsAndEventsCell.h"
+#import "GData.h"
+#import "GDataYouTube.h"
+#import "GDataServiceGoogleYouTube.h"
 
-#define kFeedURL @"http://www.nutanix.com/feed/"
+#define kFeedURL @"http://gdata.youtube.com/feeds/api/users/nutanix/uploads"
 
 @interface VideoMasterViewController () <NSXMLParserDelegate> {
     NSMutableArray *_objects;
@@ -37,10 +40,11 @@
     regularFont = [UIFont fontWithName:@"Lato-Regular" size:15];
 	// Do any additional setup after loading the view, typically from a nib.
     // self.navigationItem.leftBarButtonItem = self.editButtonItem;
-    
     //   UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     //   self.navigationItem.rightBarButtonItem = addButton;
+    
     self.detailViewController = (VideoDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    GDataServiceGoogleYouTube* service = [self youTubeService];
     [self parseXML];
 }
 
@@ -62,7 +66,7 @@
 {
     if (parser == rssParser) {
         element = elementName;
-        if ([element isEqualToString:@"item"]) {
+        if ([element isEqualToString:@"entry"]) {
             title   = [[NSMutableString alloc] init];
             date    = [[NSMutableString alloc] init];
             link    = [[NSMutableString alloc] init];
@@ -154,6 +158,22 @@
         detailViewController.content = [newsItem content];
         
     }
+}
+
+- (GDataServiceGoogleYouTube *)youTubeService
+{
+    static GDataServiceGoogleYouTube* _service = nil;
+    if (!_service)
+    {
+        _service = [[GDataServiceGoogleYouTube alloc] init];
+      //  [_service setUserAgent:@"AppWhirl-UserApp-1.0"];
+        [_service setServiceShouldFollowNextLinks:NO];
+    }
+    // fetch unauthenticated
+    [_service setUserCredentialsWithUsername:nil
+                                    password:nil];
+    return _service;
+    
 }
 
 

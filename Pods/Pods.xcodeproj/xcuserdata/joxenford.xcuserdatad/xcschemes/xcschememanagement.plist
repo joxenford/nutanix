@@ -9,7 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-GData.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GTMHTTPFetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-NUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SBJson.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-gtm-oauth2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,27 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C530A4336A9546B482CD10F8</key>
+		<key>417EDEAFBC304BFC986DCCCA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D3A2CF7DEE624ED485FFE7D5</key>
+		<key>64B7297221D14301AE4C8B7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E426C98BD44D40A3A0A31C4E</key>
+		<key>7F9E7B8EBC854B268052A6DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E689DBC9261A455299FA9FE5</key>
+		<key>95E317BA29B54A02A375EC14</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FA05868B28574A3E8EAE5352</key>
+		<key>B72D7B924BBF4B3B97B1D9A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBB564974909416F872081D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8C87A6FFB404FEE9EF2315E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

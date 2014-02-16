@@ -29,6 +29,8 @@ BarButton {
     text-shadow-color: clear;
 }
 Button {
+    exclude-views: UIWebView;
+    exclude-subviews: UIWebView;
     background-color-top: @nutanixBlue;
     background-color-bottom: @nutanixBlue;
     border-color: @nutanixBlue;
