@@ -139,7 +139,7 @@
 /* Begin PBXFileReference section */
 		441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		441601E1189E73B20065B4F3 /* table_header_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_header_1.png; sourceTree = "<group>"; };
+		441601E1189E73B20065B4F3 /* table_header_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_header_1.png; path = ../TestMachine/table_header_1.png; sourceTree = "<group>"; };
 		44748625189E7D9100FA06CF /* DefaultTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DefaultTheme.plist; path = ../DefaultTheme.plist; sourceTree = "<group>"; };
 		44748626189E7D9100FA06CF /* MainTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTheme.h; path = ../MainTheme.h; sourceTree = "<group>"; };
 		44748627189E7D9100FA06CF /* MainTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTheme.m; path = ../MainTheme.m; sourceTree = "<group>"; };
@@ -300,6 +300,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		448411FD18BB9F910065D5C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */,
+				B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */,
+				B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */,
+				B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */,
+				44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */,
+				44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */,
+				44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */,
+				44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */,
+				4474865118A0655B00FA06CF /* SectionOneViewController.h */,
+				4474865218A0655B00FA06CF /* SectionOneViewController.m */,
+				4474864C18A02C1900FA06CF /* IntroViewController.h */,
+				4474864D18A02C1900FA06CF /* IntroViewController.m */,
+				44D769A6189484410060617F /* MasterViewController.h */,
+				44D769A7189484410060617F /* MasterViewController.m */,
+				44D769A9189484410060617F /* DetailViewController.h */,
+				44D769AA189484410060617F /* DetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		448411FE18BB9FB60065D5C3 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				44D769C918952C490060617F /* NewsAndEventsCell.h */,
+				44D769CA18952C490060617F /* NewsAndEventsCell.m */,
+				44D769CB18952C490060617F /* XMLFeedItem.h */,
+				44D769CC18952C490060617F /* XMLFeedItem.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
@@ -337,35 +371,16 @@
 		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
-				B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */,
-				B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */,
-				B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */,
-				B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */,
-				44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */,
-				44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */,
-				44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */,
-				44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */,
-				4474865118A0655B00FA06CF /* SectionOneViewController.h */,
-				4474865218A0655B00FA06CF /* SectionOneViewController.m */,
-				4474864C18A02C1900FA06CF /* IntroViewController.h */,
-				4474864D18A02C1900FA06CF /* IntroViewController.m */,
+				448411FE18BB9FB60065D5C3 /* Custom */,
+				448411FD18BB9F910065D5C3 /* ViewControllers */,
 				44748625189E7D9100FA06CF /* DefaultTheme.plist */,
 				44748626189E7D9100FA06CF /* MainTheme.h */,
 				44748627189E7D9100FA06CF /* MainTheme.m */,
 				44748628189E7D9100FA06CF /* Themer.h */,
 				44748629189E7D9100FA06CF /* Themer.m */,
-				441601E1189E73B20065B4F3 /* table_header_1.png */,
 				44D769A0189484410060617F /* AppDelegate.h */,
 				44D769A1189484410060617F /* AppDelegate.m */,
 				44D769A3189484410060617F /* Main.storyboard */,
-				44D769A6189484410060617F /* MasterViewController.h */,
-				44D769A7189484410060617F /* MasterViewController.m */,
-				44D769C918952C490060617F /* NewsAndEventsCell.h */,
-				44D769CA18952C490060617F /* NewsAndEventsCell.m */,
-				44D769CB18952C490060617F /* XMLFeedItem.h */,
-				44D769CC18952C490060617F /* XMLFeedItem.m */,
-				44D769A9189484410060617F /* DetailViewController.h */,
-				44D769AA189484410060617F /* DetailViewController.m */,
 				44D769AC189484410060617F /* Images.xcassets */,
 				44D76998189484410060617F /* Supporting Files */,
 			);
@@ -421,6 +436,7 @@
 		B8034E2718BAEF4A00A56CE9 /* nutanixWebGUI */ = {
 			isa = PBXGroup;
 			children = (
+				441601E1189E73B20065B4F3 /* table_header_1.png */,
 				B8034E2818BAEF4A00A56CE9 /* addContainer.html */,
 				B8034E2918BAEF4A00A56CE9 /* addContainerAdvanced.html */,
 				B8034E2A18BAEF4A00A56CE9 /* alertsPage.html */,
