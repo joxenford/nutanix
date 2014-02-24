@@ -307,14 +307,14 @@
                             <constraint firstItem="bo5-tP-hJE" firstAttribute="top" secondItem="uYi-g0-LQs" secondAttribute="bottom" constant="26" id="DmD-7f-tgH"/>
                             <constraint firstItem="87w-Nv-s0Z" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="-15" id="JIU-Wc-BBr"/>
                             <constraint firstItem="87w-Nv-s0Z" firstAttribute="leading" secondItem="zBc-Id-WPn" secondAttribute="leading" id="LE2-GM-Soh"/>
-                            <constraint firstAttribute="centerX" secondItem="0fm-nK-gZw" secondAttribute="centerX" constant="-0.5" id="NRi-Qg-KiT"/>
-                            <constraint firstItem="0fm-nK-gZw" firstAttribute="top" secondItem="zBc-Id-WPn" secondAttribute="bottom" constant="104" id="PwB-cb-bF6"/>
+                            <constraint firstAttribute="centerX" secondItem="0fm-nK-gZw" secondAttribute="centerX" constant="-34.5" id="NRi-Qg-KiT"/>
+                            <constraint firstItem="0fm-nK-gZw" firstAttribute="top" secondItem="zBc-Id-WPn" secondAttribute="bottom" constant="54" id="PwB-cb-bF6"/>
                             <constraint firstAttribute="trailing" secondItem="Q54-Qv-kMn" secondAttribute="trailing" constant="38" id="T8G-Bp-AO8"/>
                             <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="87w-Nv-s0Z" secondAttribute="leading" id="bEK-47-QmB"/>
                             <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="Q54-Qv-kMn" secondAttribute="bottom" constant="20" symbolic="YES" id="f53-fp-4xx"/>
                             <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="20" id="kHR-Rh-pxn"/>
                             <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="597" id="ryn-uE-zwD"/>
-                            <constraint firstAttribute="centerY" secondItem="0fm-nK-gZw" secondAttribute="centerY" constant="-164" id="sva-AC-qgE"/>
+                            <constraint firstAttribute="centerY" secondItem="0fm-nK-gZw" secondAttribute="centerY" constant="-210" id="sva-AC-qgE"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -617,8 +617,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="fvD-KZ-2CG">
-                                <rect key="frame" x="20" y="440" width="975" height="92"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="fvD-KZ-2CG">
+                                <rect key="frame" x="20" y="440" width="975" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The modular building-block design allows your organization to start with small deployments and grow incrementally into very large cluster installations. With one appliance, you can move from a small operation to handling large-scale server virtualization deployments, virtual desktop initiatives, test and development applications, big data (e.g. Splunk, Hadoop) projects, and more.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
