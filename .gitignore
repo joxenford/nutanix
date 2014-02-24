@@ -1,0 +1,4 @@
+.DS_Store
+*.swp
+Frameworks/GitKit/libgit2.a
+GreenMachine.xcworkspace/xcuserdata/joxenford.xcuserdatad/UserInterfaceState.xcuserstate
