@@ -389,10 +389,10 @@
             </objects>
             <point key="canvasLocation" x="2018" y="1849"/>
         </scene>
-        <!--View Controller - Interactive Web Gui View Controller-->
+        <!--Interactive Web Gui View Controller - Interactive Web Gui View Controller-->
         <scene sceneID="orJ-Dv-nQK">
             <objects>
-                <viewController title="Interactive Web Gui View Controller" id="136-qD-4dp" sceneMemberID="viewController">
+                <viewController title="Interactive Web Gui View Controller" id="136-qD-4dp" customClass="InteractiveWebGuiViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="49l-ie-dCD"/>
                         <viewControllerLayoutGuide type="bottom" id="L2q-bC-oTC"/>
@@ -401,8 +401,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ida-Fh-Rjd">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ida-Fh-Rjd">
+                                <rect key="frame" x="13" y="0.0" width="996" height="768"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -412,6 +412,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="8qG-3r-1Q6"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="webGuiView" destination="ida-Fh-Rjd" id="Ejo-8d-A5l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kOB-Fl-ls2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
