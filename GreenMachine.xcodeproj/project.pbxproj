@@ -10,7 +10,6 @@
 		441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */; };
 		441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */; };
 		441601E4189E73B20065B4F3 /* table_header_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 441601E1189E73B20065B4F3 /* table_header_1.png */; };
-		44748624189E7BF900FA06CF /* uiss.json in Resources */ = {isa = PBXBuildFile; fileRef = 44748623189E7BF900FA06CF /* uiss.json */; };
 		4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44748625189E7D9100FA06CF /* DefaultTheme.plist */; };
 		4474862B189E7D9100FA06CF /* MainTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748627189E7D9100FA06CF /* MainTheme.m */; };
 		4474862C189E7D9100FA06CF /* Themer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748629189E7D9100FA06CF /* Themer.m */; };
@@ -65,7 +64,6 @@
 		441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		441601E1189E73B20065B4F3 /* table_header_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_header_1.png; sourceTree = "<group>"; };
-		44748623189E7BF900FA06CF /* uiss.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uiss.json; sourceTree = "<group>"; };
 		44748625189E7D9100FA06CF /* DefaultTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DefaultTheme.plist; path = ../DefaultTheme.plist; sourceTree = "<group>"; };
 		44748626189E7D9100FA06CF /* MainTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTheme.h; path = ../MainTheme.h; sourceTree = "<group>"; };
 		44748627189E7D9100FA06CF /* MainTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTheme.m; path = ../MainTheme.m; sourceTree = "<group>"; };
@@ -199,7 +197,6 @@
 				44748627189E7D9100FA06CF /* MainTheme.m */,
 				44748628189E7D9100FA06CF /* Themer.h */,
 				44748629189E7D9100FA06CF /* Themer.m */,
-				44748623189E7BF900FA06CF /* uiss.json */,
 				441601E1189E73B20065B4F3 /* table_header_1.png */,
 				44D769A0189484410060617F /* AppDelegate.h */,
 				44D769A1189484410060617F /* AppDelegate.m */,
@@ -348,7 +345,6 @@
 				44EC831C18A468C80036D1B7 /* Lato-Regular.ttf in Resources */,
 				44EC831818A468C80036D1B7 /* Lato-HairlineItalic.ttf in Resources */,
 				44D7699C189484410060617F /* InfoPlist.strings in Resources */,
-				44748624189E7BF900FA06CF /* uiss.json in Resources */,
 				44EC831418A468C80036D1B7 /* Lato-BlackItalic.ttf in Resources */,
 				44EC831B18A468C80036D1B7 /* Lato-LightItalic.ttf in Resources */,
 				4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */,

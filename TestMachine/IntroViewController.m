@@ -17,7 +17,7 @@
     [super viewDidLoad];
     [self fadeIn:_nutanixIsASoftwareLabel delay:1];
     [self fadeIn:_nutanixVirtualComputingLabel delay:5];
-    [self fadeIn:_gladYouAskedLabel delay:10];
+    [self fadeIn:_gladYouAskedLabel delay:9];
     [self fadeIn:_nextButton delay:12];
 }
 
