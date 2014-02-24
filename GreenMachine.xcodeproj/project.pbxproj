@@ -18,7 +18,6 @@
 		4474865518A070DB00FA06CF /* youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = 4474865418A070DB00FA06CF /* youtube.html */; };
 		4474865F18A1DD4900FA06CF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474865E18A1DD4900FA06CF /* CoreImage.framework */; };
 		4474866118A1DD5100FA06CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474866018A1DD5100FA06CF /* QuartzCore.framework */; };
-		4484132C18BBAD260065D5C3 /* nutanixWebGUI in Resources */ = {isa = PBXBuildFile; fileRef = 4484132B18BBAD260065D5C3 /* nutanixWebGUI */; };
 		44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */; };
 		44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
@@ -80,7 +79,6 @@
 		4474865418A070DB00FA06CF /* youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = youtube.html; sourceTree = "<group>"; };
 		4474865E18A1DD4900FA06CF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		4474866018A1DD5100FA06CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4484132B18BBAD260065D5C3 /* nutanixWebGUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nutanixWebGUI; sourceTree = "<group>"; };
 		44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoMasterViewController.h; sourceTree = "<group>"; };
 		44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoMasterViewController.m; sourceTree = "<group>"; };
 		44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
-				4484132B18BBAD260065D5C3 /* nutanixWebGUI */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -390,7 +387,6 @@
 				44D769A5189484410060617F /* Main.storyboard in Resources */,
 				44EC831918A468C80036D1B7 /* Lato-Italic.ttf in Resources */,
 				44EC831618A468C80036D1B7 /* Lato-BoldItalic.ttf in Resources */,
-				4484132C18BBAD260065D5C3 /* nutanixWebGUI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
