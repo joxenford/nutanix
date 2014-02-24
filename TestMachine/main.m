@@ -14,7 +14,8 @@
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-         [NUISettings init];
+        [NUISettings init];
+        [NUISettings setGlobalExclusions:@[@"UIWebView"]];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
