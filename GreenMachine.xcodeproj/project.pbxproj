@@ -20,6 +20,7 @@
 		4474866118A1DD5100FA06CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474866018A1DD5100FA06CF /* QuartzCore.framework */; };
 		44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */; };
 		44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */; };
+		44C1339018BBC46C00D64DA5 /* SectionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -83,6 +84,8 @@
 		44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoMasterViewController.m; sourceTree = "<group>"; };
 		44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
 		44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		44C1338E18BBC46C00D64DA5 /* SectionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionThreeViewController.h; path = TestMachine/SectionThreeViewController.h; sourceTree = "<group>"; };
+		44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionThreeViewController.m; path = TestMachine/SectionThreeViewController.m; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -191,6 +194,8 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
+				44C1338E18BBC46C00D64DA5 /* SectionThreeViewController.h */,
+				44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -442,6 +447,7 @@
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
 				B8034EBD18BAF05A00A56CE9 /* WebGuiViewController.m in Sources */,
 				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
+				44C1339018BBC46C00D64DA5 /* SectionThreeViewController.m in Sources */,
 				44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */,
 				44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */,
 				4474862B189E7D9100FA06CF /* MainTheme.m in Sources */,

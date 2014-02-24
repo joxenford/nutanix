@@ -435,10 +435,10 @@
             </objects>
             <point key="canvasLocation" x="752" y="-1072"/>
         </scene>
-        <!--View Controller - SectionThreeViewController-->
+        <!--Section Three View Controller - SectionThreeViewController-->
         <scene sceneID="Q4J-Xe-r5A">
             <objects>
-                <viewController title="SectionThreeViewController" id="Tyk-Mk-Xhe" sceneMemberID="viewController">
+                <viewController title="SectionThreeViewController" id="Tyk-Mk-Xhe" customClass="SectionThreeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="74K-88-n4P"/>
                         <viewControllerLayoutGuide type="bottom" id="KER-ej-han"/>
@@ -471,38 +471,112 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01_Converged_Inactive" translatesAutoresizingMaskIntoConstraints="NO" id="z67-jq-zVW">
-                                <rect key="frame" x="7" y="234" width="242" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02_ScaleOut_Inactive" translatesAutoresizingMaskIntoConstraints="NO" id="Oum-A1-RdF">
-                                <rect key="frame" x="249" y="234" width="161" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03_SoftwareDefined_Inactive" translatesAutoresizingMaskIntoConstraints="NO" id="sbB-Ze-Ddk">
-                                <rect key="frame" x="410" y="234" width="207" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="04_Flash_Inactive" translatesAutoresizingMaskIntoConstraints="NO" id="JlJ-nn-67u">
-                                <rect key="frame" x="617" y="234" width="178" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="05_Cloud_Inactive" translatesAutoresizingMaskIntoConstraints="NO" id="jXa-u1-bCF">
-                                <rect key="frame" x="795" y="234" width="219" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rB-lg-Cf2">
-                                <rect key="frame" x="20" y="433" width="42" height="21"/>
+                                <rect key="frame" x="20" y="464" width="57" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UU-kf-PlN" userLabel="Button View">
+                                <rect key="frame" x="-14" y="235" width="1058" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dif-6j-jBG">
+                                        <rect key="frame" x="20" y="16" width="242" height="191"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="01_Converged_Inactive">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="01_Converged_Active" backgroundImage="01_Converged_Active"/>
+                                        <state key="highlighted" image="01_Converged_Active" backgroundImage="01_Converged_Active"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="noStyle"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="Tyk-Mk-Xhe" eventType="touchUpInside" id="cf1-Rv-lvH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITA-Vd-Gh5">
+                                        <rect key="frame" x="262" y="16" width="161" height="191"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="02_ScaleOut_Inactive">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="02_ScaleOut_Active" backgroundImage="02_ScaleOut_Active"/>
+                                        <state key="highlighted" image="02_ScaleOut_Active" backgroundImage="02_ScaleOut_Active"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="noStyle"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="Tyk-Mk-Xhe" eventType="touchUpInside" id="4HY-gC-wDC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdL-25-wfW">
+                                        <rect key="frame" x="423" y="16" width="207" height="191"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="03_SoftwareDefined_Inactive">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="03_SoftwareDefined_Active" backgroundImage="03_SoftwareDefined_Active"/>
+                                        <state key="highlighted" image="03_SoftwareDefined_Active" backgroundImage="03_SoftwareDefined_Active"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="noStyle"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="Tyk-Mk-Xhe" eventType="touchUpInside" id="vcO-M2-sDr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44O-V7-oyU">
+                                        <rect key="frame" x="630" y="16" width="178" height="191"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="04_Flash_Inactive">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="04_Flash_Active" backgroundImage="04_Flash_Active"/>
+                                        <state key="highlighted" image="04_Flash_Active" backgroundImage="04_Flash_Active"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="noStyle"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="Tyk-Mk-Xhe" eventType="touchUpInside" id="6bd-Bw-SYT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKG-y4-O6m">
+                                        <rect key="frame" x="796" y="16" width="242" height="191"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="05_Cloud_Inactive">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="05_Cloud_Active" backgroundImage="05_Cloud_Active"/>
+                                        <state key="highlighted" image="05_Cloud_Active" backgroundImage="05_Cloud_Active"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="noStyle"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="Tyk-Mk-Xhe" eventType="touchUpInside" id="Nfs-FR-myl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="zdt-j7-0hd"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="convergedButton" destination="dif-6j-jBG" id="d33-HB-8Bw"/>
+                        <outlet property="hybridButton" destination="BKG-y4-O6m" id="QyA-tb-aK6"/>
+                        <outlet property="scaleOutButton" destination="ITA-Vd-Gh5" id="CDL-WV-bTf"/>
+                        <outlet property="serverAttachedFlashButton" destination="44O-V7-oyU" id="doV-Tc-6sj"/>
+                        <outlet property="softwareDefinedButton" destination="gdL-25-wfW" id="P95-yb-g4g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4a-cF-XLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -751,10 +825,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="01_Converged_Active" width="243" height="191"/>
         <image name="01_Converged_Inactive" width="242" height="191"/>
+        <image name="02_ScaleOut_Active" width="162" height="191"/>
         <image name="02_ScaleOut_Inactive" width="161" height="191"/>
+        <image name="03_SoftwareDefined_Active" width="208" height="191"/>
         <image name="03_SoftwareDefined_Inactive" width="207" height="191"/>
+        <image name="04_Flash_Active" width="177" height="191"/>
         <image name="04_Flash_Inactive" width="178" height="191"/>
+        <image name="05_Cloud_Active" width="219" height="191"/>
         <image name="05_Cloud_Inactive" width="219" height="191"/>
         <image name="table_header_1" width="320" height="88"/>
     </resources>
