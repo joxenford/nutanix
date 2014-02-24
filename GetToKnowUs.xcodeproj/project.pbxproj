@@ -86,14 +86,14 @@
 		44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
 		44C1338E18BBC46C00D64DA5 /* SectionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionThreeViewController.h; path = TestMachine/SectionThreeViewController.h; sourceTree = "<group>"; };
 		44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionThreeViewController.m; path = TestMachine/SectionThreeViewController.m; sourceTree = "<group>"; };
-		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D7698E189484410060617F /* GetToKnowUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetToKnowUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		44D76995189484410060617F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		44D76999189484410060617F /* GreenMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreenMachine-Info.plist"; sourceTree = "<group>"; };
+		44D76999189484410060617F /* GetToKnowUs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetToKnowUs-Info.plist"; sourceTree = "<group>"; };
 		44D7699B189484410060617F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44D7699D189484410060617F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44D7699F189484410060617F /* GreenMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreenMachine-Prefix.pch"; sourceTree = "<group>"; };
+		44D7699F189484410060617F /* GetToKnowUs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetToKnowUs-Prefix.pch"; sourceTree = "<group>"; };
 		44D769A0189484410060617F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44D769A1189484410060617F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44D769A4189484410060617F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,9 +102,9 @@
 		44D769A9189484410060617F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		44D769AA189484410060617F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		44D769AC189484410060617F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		44D769B2189484410060617F /* GreenMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D769B2189484410060617F /* GetToKnowUsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetToKnowUsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D769B3189484410060617F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		44D769BB189484410060617F /* GreenMachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreenMachineTests-Info.plist"; sourceTree = "<group>"; };
+		44D769BB189484410060617F /* GetToKnowUsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetToKnowUsTests-Info.plist"; sourceTree = "<group>"; };
 		44D769BD189484410060617F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44D769BF189484410060617F /* TestMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMachineTests.m; sourceTree = "<group>"; };
 		44D769C918952C490060617F /* NewsAndEventsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsAndEventsCell.h; sourceTree = "<group>"; };
@@ -207,8 +207,8 @@
 		44D7698F189484410060617F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44D7698E189484410060617F /* GreenMachine.app */,
-				44D769B2189484410060617F /* GreenMachineTests.xctest */,
+				44D7698E189484410060617F /* GetToKnowUs.app */,
+				44D769B2189484410060617F /* GetToKnowUsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,10 +265,10 @@
 				44EC831218A468C80036D1B7 /* Lato-Regular.ttf */,
 				441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */,
 				441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */,
-				44D76999189484410060617F /* GreenMachine-Info.plist */,
+				44D76999189484410060617F /* GetToKnowUs-Info.plist */,
 				44D7699A189484410060617F /* InfoPlist.strings */,
 				44D7699D189484410060617F /* main.m */,
-				44D7699F189484410060617F /* GreenMachine-Prefix.pch */,
+				44D7699F189484410060617F /* GetToKnowUs-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 		44D769BA189484410060617F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				44D769BB189484410060617F /* GreenMachineTests-Info.plist */,
+				44D769BB189484410060617F /* GetToKnowUsTests-Info.plist */,
 				44D769BC189484410060617F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -295,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44D7698D189484410060617F /* GreenMachine */ = {
+		44D7698D189484410060617F /* GetToKnowUs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachine" */;
+			buildConfigurationList = 44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "GetToKnowUs" */;
 			buildPhases = (
 				48A86217F19C41F38F9FBE59 /* Check Pods Manifest.lock */,
 				44D7698A189484410060617F /* Sources */,
@@ -309,14 +309,14 @@
 			);
 			dependencies = (
 			);
-			name = GreenMachine;
+			name = GetToKnowUs;
 			productName = TestMachine;
-			productReference = 44D7698E189484410060617F /* GreenMachine.app */;
+			productReference = 44D7698E189484410060617F /* GetToKnowUs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44D769B1189484410060617F /* GreenMachineTests */ = {
+		44D769B1189484410060617F /* GetToKnowUsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachineTests" */;
+			buildConfigurationList = 44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "GetToKnowUsTests" */;
 			buildPhases = (
 				44D769AE189484410060617F /* Sources */,
 				44D769AF189484410060617F /* Frameworks */,
@@ -327,9 +327,9 @@
 			dependencies = (
 				44D769B8189484410060617F /* PBXTargetDependency */,
 			);
-			name = GreenMachineTests;
+			name = GetToKnowUsTests;
 			productName = TestMachineTests;
-			productReference = 44D769B2189484410060617F /* GreenMachineTests.xctest */;
+			productReference = 44D769B2189484410060617F /* GetToKnowUsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -349,7 +349,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44D76989189484410060617F /* Build configuration list for PBXProject "GreenMachine" */;
+			buildConfigurationList = 44D76989189484410060617F /* Build configuration list for PBXProject "GetToKnowUs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -362,8 +362,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44D7698D189484410060617F /* GreenMachine */,
-				44D769B1189484410060617F /* GreenMachineTests */,
+				44D7698D189484410060617F /* GetToKnowUs */,
+				44D769B1189484410060617F /* GetToKnowUsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -474,7 +474,7 @@
 /* Begin PBXTargetDependency section */
 		44D769B8189484410060617F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44D7698D189484410060617F /* GreenMachine */;
+			target = 44D7698D189484410060617F /* GetToKnowUs */;
 			targetProxy = 44D769B7189484410060617F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -590,9 +590,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestMachine/GreenMachine-Prefix.pch";
-				INFOPLIST_FILE = "TestMachine/GreenMachine-Info.plist";
-				PRODUCT_NAME = GreenMachine;
+				GCC_PREFIX_HEADER = "TestMachine/GetToKnowUs-Prefix.pch";
+				INFOPLIST_FILE = "TestMachine/GetToKnowUs-Info.plist";
+				PRODUCT_NAME = GetToKnowUs;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -607,9 +607,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestMachine/GreenMachine-Prefix.pch";
-				INFOPLIST_FILE = "TestMachine/GreenMachine-Info.plist";
-				PRODUCT_NAME = GreenMachine;
+				GCC_PREFIX_HEADER = "TestMachine/GetToKnowUs-Prefix.pch";
+				INFOPLIST_FILE = "TestMachine/GetToKnowUs-Info.plist";
+				PRODUCT_NAME = GetToKnowUs;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -631,8 +631,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TestMachineTests/GreenMachineTests-Info.plist";
-				PRODUCT_NAME = GreenMachineTests;
+				INFOPLIST_FILE = "TestMachineTests/GetToKnowUsTests-Info.plist";
+				PRODUCT_NAME = GetToKnowUsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -650,8 +650,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMachine/TestMachine-Prefix.pch";
-				INFOPLIST_FILE = "TestMachineTests/GreenMachineTests-Info.plist";
-				PRODUCT_NAME = GreenMachineTests;
+				INFOPLIST_FILE = "TestMachineTests/GetToKnowUsTests-Info.plist";
+				PRODUCT_NAME = GetToKnowUsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -660,7 +660,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44D76989189484410060617F /* Build configuration list for PBXProject "GreenMachine" */ = {
+		44D76989189484410060617F /* Build configuration list for PBXProject "GetToKnowUs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D769C1189484410060617F /* Debug */,
@@ -669,7 +669,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachine" */ = {
+		44D769C3189484410060617F /* Build configuration list for PBXNativeTarget "GetToKnowUs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D769C4189484410060617F /* Debug */,
@@ -678,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "GreenMachineTests" */ = {
+		44D769C6189484410060617F /* Build configuration list for PBXNativeTarget "GetToKnowUsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D769C7189484410060617F /* Debug */,

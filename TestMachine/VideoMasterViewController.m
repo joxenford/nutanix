@@ -1,9 +1,8 @@
 #import "VideoMasterViewController.h"
 #import "XMLFeedItem.h"
 #import "NewsAndEventsCell.h"
-#import "GData.h"
-#import "GDataYouTube.h"
-#import "GDataServiceGoogleYouTube.h"
+
+
 
 #define kFeedURL @"http://gdata.youtube.com/feeds/api/users/nutanix/uploads"
 
@@ -44,7 +43,7 @@
     //   self.navigationItem.rightBarButtonItem = addButton;
     
     self.detailViewController = (VideoDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    GDataServiceGoogleYouTube* service = [self youTubeService];
+
     [self parseXML];
 }
 
@@ -160,21 +159,7 @@
     }
 }
 
-- (GDataServiceGoogleYouTube *)youTubeService
-{
-    static GDataServiceGoogleYouTube* _service = nil;
-    if (!_service)
-    {
-        _service = [[GDataServiceGoogleYouTube alloc] init];
-      //  [_service setUserAgent:@"AppWhirl-UserApp-1.0"];
-        [_service setServiceShouldFollowNextLinks:NO];
-    }
-    // fetch unauthenticated
-    [_service setUserCredentialsWithUsername:nil
-                                    password:nil];
-    return _service;
-    
-}
+
 
 
 
