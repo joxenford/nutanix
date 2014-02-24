@@ -48,6 +48,82 @@
 		44EC831B18A468C80036D1B7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EC831118A468C80036D1B7 /* Lato-LightItalic.ttf */; };
 		44EC831C18A468C80036D1B7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EC831218A468C80036D1B7 /* Lato-Regular.ttf */; };
 		900149F030184CB6A9552289 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D27575FFC9492DB01E3C50 /* libPods.a */; };
+		B8034E2618BAEEEF00A56CE9 /* webGUI-youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */; };
+		B8034E7218BAEF4B00A56CE9 /* addContainer.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2818BAEF4A00A56CE9 /* addContainer.html */; };
+		B8034E7318BAEF4B00A56CE9 /* addContainerAdvanced.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2918BAEF4A00A56CE9 /* addContainerAdvanced.html */; };
+		B8034E7418BAEF4B00A56CE9 /* alertsPage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2A18BAEF4A00A56CE9 /* alertsPage.html */; };
+		B8034E7518BAEF4B00A56CE9 /* analysisPage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2B18BAEF4A00A56CE9 /* analysisPage.html */; };
+		B8034E7618BAEF4B00A56CE9 /* behindTheScenes.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2C18BAEF4A00A56CE9 /* behindTheScenes.html */; };
+		B8034E7718BAEF4B00A56CE9 /* dashboard.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2D18BAEF4A00A56CE9 /* dashboard.html */; };
+		B8034E7818BAEF4B00A56CE9 /* drPage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2E18BAEF4A00A56CE9 /* drPage.html */; };
+		B8034E7918BAEF4B00A56CE9 /* gearIconMenu.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2F18BAEF4A00A56CE9 /* gearIconMenu.html */; };
+		B8034E7A18BAEF4B00A56CE9 /* hardwareDiagramPage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3018BAEF4A00A56CE9 /* hardwareDiagramPage.html */; };
+		B8034E7B18BAEF4B00A56CE9 /* hardwarePage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3118BAEF4A00A56CE9 /* hardwarePage.html */; };
+		B8034E7C18BAEF4B00A56CE9 /* hardwareTablePage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3218BAEF4A00A56CE9 /* hardwareTablePage.html */; };
+		B8034E7D18BAEF4B00A56CE9 /* hardwareTablePage2.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3318BAEF4A00A56CE9 /* hardwareTablePage2.html */; };
+		B8034E7E18BAEF4B00A56CE9 /* N-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3518BAEF4A00A56CE9 /* N-logo.png */; };
+		B8034E7F18BAEF4B00A56CE9 /* nutanix-name-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3618BAEF4A00A56CE9 /* nutanix-name-logo.jpg */; };
+		B8034E8018BAEF4B00A56CE9 /* nutanix-name-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3718BAEF4A00A56CE9 /* nutanix-name-logo.png */; };
+		B8034E8118BAEF4B00A56CE9 /* PRISM_Alerts-AlertPage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3818BAEF4A00A56CE9 /* PRISM_Alerts-AlertPage.png */; };
+		B8034E8218BAEF4B00A56CE9 /* PRISM_Alerts-EventPage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3918BAEF4A00A56CE9 /* PRISM_Alerts-EventPage.png */; };
+		B8034E8318BAEF4B00A56CE9 /* PRISM_AnalysisPage-BasicView.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3A18BAEF4A00A56CE9 /* PRISM_AnalysisPage-BasicView.png */; };
+		B8034E8418BAEF4B00A56CE9 /* PRISM_Dashboard-BlueCircle-TasksDropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3B18BAEF4A00A56CE9 /* PRISM_Dashboard-BlueCircle-TasksDropdown.png */; };
+		B8034E8518BAEF4B00A56CE9 /* PRISM_Dashboard-GearIcon-MenuList.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3C18BAEF4A00A56CE9 /* PRISM_Dashboard-GearIcon-MenuList.png */; };
+		B8034E8618BAEF4B00A56CE9 /* PRISM_Dashboard-GrayCircle-InfoDropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3D18BAEF4A00A56CE9 /* PRISM_Dashboard-GrayCircle-InfoDropdown.png */; };
+		B8034E8718BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Alerts.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3E18BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Alerts.png */; };
+		B8034E8818BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Analysis.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E3F18BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Analysis.png */; };
+		B8034E8918BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4018BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Dropdown.png */; };
+		B8034E8A18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-DRpage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4118BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-DRpage.png */; };
+		B8034E8B18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-HardwarePage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4218BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-HardwarePage.png */; };
+		B8034E8C18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Hover.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4318BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Hover.png */; };
+		B8034E8D18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-StoragePage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4418BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-StoragePage.png */; };
+		B8034E8E18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-VMpage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4518BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-VMpage.png */; };
+		B8034E8F18BAEF4B00A56CE9 /* PRISM_Dashboard-RedCircle-AlertsDropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4618BAEF4A00A56CE9 /* PRISM_Dashboard-RedCircle-AlertsDropdown.png */; };
+		B8034E9018BAEF4B00A56CE9 /* PRISM_Dashboard-UserIcon-MenuList.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4718BAEF4A00A56CE9 /* PRISM_Dashboard-UserIcon-MenuList.png */; };
+		B8034E9118BAEF4B00A56CE9 /* PRISM_Dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4818BAEF4A00A56CE9 /* PRISM_Dashboard.png */; };
+		B8034E9218BAEF4B00A56CE9 /* PRISM_DRpage-Overview.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4918BAEF4A00A56CE9 /* PRISM_DRpage-Overview.png */; };
+		B8034E9318BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation-ButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4A18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation-ButtonHighlight.png */; };
+		B8034E9418BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation01-Name.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4B18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation01-Name.png */; };
+		B8034E9518BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation02-VMselection.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4C18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation02-VMselection.png */; };
+		B8034E9618BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation03-Schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4D18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation03-Schedule.png */; };
+		B8034E9718BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation04-CompletedScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4E18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation04-CompletedScreen.png */; };
+		B8034E9818BAEF4B00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-AdvancedPage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E4F18BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-AdvancedPage.png */; };
+		B8034E9918BAEF4B00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-BasicPage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5018BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-BasicPage.png */; };
+		B8034E9A18BAEF4B00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-ButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5118BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-ButtonHighlight.png */; };
+		B8034E9B18BAEF4B00A56CE9 /* PRISM_DRpage-Table01-RemoteSite.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5218BAEF4A00A56CE9 /* PRISM_DRpage-Table01-RemoteSite.png */; };
+		B8034E9C18BAEF4B00A56CE9 /* PRISM_DRpage-Table02-ProtectionDomain.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5318BAEF4A00A56CE9 /* PRISM_DRpage-Table02-ProtectionDomain.png */; };
+		B8034E9D18BAEF4B00A56CE9 /* PRISM_HardwarePage-Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5418BAEF4A00A56CE9 /* PRISM_HardwarePage-Diagram.png */; };
+		B8034E9E18BAEF4B00A56CE9 /* PRISM_HardwarePage-ExpandCluster-ButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5518BAEF4A00A56CE9 /* PRISM_HardwarePage-ExpandCluster-ButtonHighlight.png */; };
+		B8034E9F18BAEF4B00A56CE9 /* PRISM_HardwarePage-Overview.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5618BAEF4A00A56CE9 /* PRISM_HardwarePage-Overview.png */; };
+		B8034EA018BAEF4B00A56CE9 /* PRISM_HardwarePage-Table01-Host.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5718BAEF4A00A56CE9 /* PRISM_HardwarePage-Table01-Host.png */; };
+		B8034EA118BAEF4B00A56CE9 /* PRISM_HardwarePage-Table02-Disk.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5818BAEF4A00A56CE9 /* PRISM_HardwarePage-Table02-Disk.png */; };
+		B8034EA218BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer01-ButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5918BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer01-ButtonHighlight.png */; };
+		B8034EA318BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5A18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.png */; };
+		B8034EA418BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.pxm in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5B18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.pxm */; };
+		B8034EA518BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5C18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.png */; };
+		B8034EA618BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.pxm in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5D18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.pxm */; };
+		B8034EA718BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram01-Basic.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5E18BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram01-Basic.png */; };
+		B8034EA818BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram02-ClusterStorage-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E5F18BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram02-ClusterStorage-hover.png */; };
+		B8034EA918BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram03-StoragePool.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6018BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram03-StoragePool.png */; };
+		B8034EAA18BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram04-StoragePool-Hover.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6118BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram04-StoragePool-Hover.png */; };
+		B8034EAB18BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram05-Container.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6218BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram05-Container.png */; };
+		B8034EAC18BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram06-Container-Logical.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6318BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram06-Container-Logical.png */; };
+		B8034EAD18BAEF4B00A56CE9 /* PRISM_StoragePage-Overview.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6418BAEF4A00A56CE9 /* PRISM_StoragePage-Overview.png */; };
+		B8034EAE18BAEF4B00A56CE9 /* PRISM_StoragePage-Table01-SP.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6518BAEF4A00A56CE9 /* PRISM_StoragePage-Table01-SP.png */; };
+		B8034EAF18BAEF4B00A56CE9 /* PRISM_StoragePage-Table02-Container.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6618BAEF4A00A56CE9 /* PRISM_StoragePage-Table02-Container.png */; };
+		B8034EB018BAEF4B00A56CE9 /* PRISM_VMpage-Overview.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6718BAEF4A00A56CE9 /* PRISM_VMpage-Overview.png */; };
+		B8034EB118BAEF4B00A56CE9 /* PRISM_VMpage-Table.png in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6818BAEF4A00A56CE9 /* PRISM_VMpage-Table.png */; };
+		B8034EB218BAEF4B00A56CE9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6918BAEF4A00A56CE9 /* index.html */; };
+		B8034EB318BAEF4B00A56CE9 /* leftMenu.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6A18BAEF4B00A56CE9 /* leftMenu.html */; };
+		B8034EB418BAEF4B00A56CE9 /* storageDiagramView.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6B18BAEF4B00A56CE9 /* storageDiagramView.html */; };
+		B8034EB518BAEF4B00A56CE9 /* storagePage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6C18BAEF4B00A56CE9 /* storagePage.html */; };
+		B8034EB618BAEF4B00A56CE9 /* storageTableContainer.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6D18BAEF4B00A56CE9 /* storageTableContainer.html */; };
+		B8034EB718BAEF4B00A56CE9 /* storageTableView.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6E18BAEF4B00A56CE9 /* storageTableView.html */; };
+		B8034EB818BAEF4B00A56CE9 /* userIconMenu.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E6F18BAEF4B00A56CE9 /* userIconMenu.html */; };
+		B8034EB918BAEF4B00A56CE9 /* VMpage.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E7018BAEF4B00A56CE9 /* VMpage.html */; };
+		B8034EBA18BAEF4B00A56CE9 /* vmTableView.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E7118BAEF4B00A56CE9 /* vmTableView.html */; };
+		B8034EBD18BAF05A00A56CE9 /* WebGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */; };
+		B8034EC018BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +191,84 @@
 		44EC831018A468C80036D1B7 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		44EC831118A468C80036D1B7 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		44EC831218A468C80036D1B7 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "webGUI-youtube.html"; sourceTree = "<group>"; };
+		B8034E2818BAEF4A00A56CE9 /* addContainer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = addContainer.html; sourceTree = "<group>"; };
+		B8034E2918BAEF4A00A56CE9 /* addContainerAdvanced.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = addContainerAdvanced.html; sourceTree = "<group>"; };
+		B8034E2A18BAEF4A00A56CE9 /* alertsPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = alertsPage.html; sourceTree = "<group>"; };
+		B8034E2B18BAEF4A00A56CE9 /* analysisPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = analysisPage.html; sourceTree = "<group>"; };
+		B8034E2C18BAEF4A00A56CE9 /* behindTheScenes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = behindTheScenes.html; sourceTree = "<group>"; };
+		B8034E2D18BAEF4A00A56CE9 /* dashboard.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dashboard.html; sourceTree = "<group>"; };
+		B8034E2E18BAEF4A00A56CE9 /* drPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = drPage.html; sourceTree = "<group>"; };
+		B8034E2F18BAEF4A00A56CE9 /* gearIconMenu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gearIconMenu.html; sourceTree = "<group>"; };
+		B8034E3018BAEF4A00A56CE9 /* hardwareDiagramPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hardwareDiagramPage.html; sourceTree = "<group>"; };
+		B8034E3118BAEF4A00A56CE9 /* hardwarePage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hardwarePage.html; sourceTree = "<group>"; };
+		B8034E3218BAEF4A00A56CE9 /* hardwareTablePage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hardwareTablePage.html; sourceTree = "<group>"; };
+		B8034E3318BAEF4A00A56CE9 /* hardwareTablePage2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hardwareTablePage2.html; sourceTree = "<group>"; };
+		B8034E3518BAEF4A00A56CE9 /* N-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "N-logo.png"; sourceTree = "<group>"; };
+		B8034E3618BAEF4A00A56CE9 /* nutanix-name-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nutanix-name-logo.jpg"; sourceTree = "<group>"; };
+		B8034E3718BAEF4A00A56CE9 /* nutanix-name-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nutanix-name-logo.png"; sourceTree = "<group>"; };
+		B8034E3818BAEF4A00A56CE9 /* PRISM_Alerts-AlertPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Alerts-AlertPage.png"; sourceTree = "<group>"; };
+		B8034E3918BAEF4A00A56CE9 /* PRISM_Alerts-EventPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Alerts-EventPage.png"; sourceTree = "<group>"; };
+		B8034E3A18BAEF4A00A56CE9 /* PRISM_AnalysisPage-BasicView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_AnalysisPage-BasicView.png"; sourceTree = "<group>"; };
+		B8034E3B18BAEF4A00A56CE9 /* PRISM_Dashboard-BlueCircle-TasksDropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-BlueCircle-TasksDropdown.png"; sourceTree = "<group>"; };
+		B8034E3C18BAEF4A00A56CE9 /* PRISM_Dashboard-GearIcon-MenuList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-GearIcon-MenuList.png"; sourceTree = "<group>"; };
+		B8034E3D18BAEF4A00A56CE9 /* PRISM_Dashboard-GrayCircle-InfoDropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-GrayCircle-InfoDropdown.png"; sourceTree = "<group>"; };
+		B8034E3E18BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Alerts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-Alerts.png"; sourceTree = "<group>"; };
+		B8034E3F18BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Analysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-Analysis.png"; sourceTree = "<group>"; };
+		B8034E4018BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-Dropdown.png"; sourceTree = "<group>"; };
+		B8034E4118BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-DRpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-DRpage.png"; sourceTree = "<group>"; };
+		B8034E4218BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-HardwarePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-HardwarePage.png"; sourceTree = "<group>"; };
+		B8034E4318BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-Hover.png"; sourceTree = "<group>"; };
+		B8034E4418BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-StoragePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-StoragePage.png"; sourceTree = "<group>"; };
+		B8034E4518BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-VMpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-Menu-VMpage.png"; sourceTree = "<group>"; };
+		B8034E4618BAEF4A00A56CE9 /* PRISM_Dashboard-RedCircle-AlertsDropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-RedCircle-AlertsDropdown.png"; sourceTree = "<group>"; };
+		B8034E4718BAEF4A00A56CE9 /* PRISM_Dashboard-UserIcon-MenuList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_Dashboard-UserIcon-MenuList.png"; sourceTree = "<group>"; };
+		B8034E4818BAEF4A00A56CE9 /* PRISM_Dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRISM_Dashboard.png; sourceTree = "<group>"; };
+		B8034E4918BAEF4A00A56CE9 /* PRISM_DRpage-Overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-Overview.png"; sourceTree = "<group>"; };
+		B8034E4A18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation-ButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-ProtectionDomainCreation-ButtonHighlight.png"; sourceTree = "<group>"; };
+		B8034E4B18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation01-Name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-ProtectionDomainCreation01-Name.png"; sourceTree = "<group>"; };
+		B8034E4C18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation02-VMselection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-ProtectionDomainCreation02-VMselection.png"; sourceTree = "<group>"; };
+		B8034E4D18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation03-Schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-ProtectionDomainCreation03-Schedule.png"; sourceTree = "<group>"; };
+		B8034E4E18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation04-CompletedScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-ProtectionDomainCreation04-CompletedScreen.png"; sourceTree = "<group>"; };
+		B8034E4F18BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-AdvancedPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-RemoteSiteCreation-AdvancedPage.png"; sourceTree = "<group>"; };
+		B8034E5018BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-BasicPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-RemoteSiteCreation-BasicPage.png"; sourceTree = "<group>"; };
+		B8034E5118BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-ButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-RemoteSiteCreation-ButtonHighlight.png"; sourceTree = "<group>"; };
+		B8034E5218BAEF4A00A56CE9 /* PRISM_DRpage-Table01-RemoteSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-Table01-RemoteSite.png"; sourceTree = "<group>"; };
+		B8034E5318BAEF4A00A56CE9 /* PRISM_DRpage-Table02-ProtectionDomain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_DRpage-Table02-ProtectionDomain.png"; sourceTree = "<group>"; };
+		B8034E5418BAEF4A00A56CE9 /* PRISM_HardwarePage-Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_HardwarePage-Diagram.png"; sourceTree = "<group>"; };
+		B8034E5518BAEF4A00A56CE9 /* PRISM_HardwarePage-ExpandCluster-ButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_HardwarePage-ExpandCluster-ButtonHighlight.png"; sourceTree = "<group>"; };
+		B8034E5618BAEF4A00A56CE9 /* PRISM_HardwarePage-Overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_HardwarePage-Overview.png"; sourceTree = "<group>"; };
+		B8034E5718BAEF4A00A56CE9 /* PRISM_HardwarePage-Table01-Host.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_HardwarePage-Table01-Host.png"; sourceTree = "<group>"; };
+		B8034E5818BAEF4A00A56CE9 /* PRISM_HardwarePage-Table02-Disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_HardwarePage-Table02-Disk.png"; sourceTree = "<group>"; };
+		B8034E5918BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer01-ButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-AddContainer01-ButtonHighlight.png"; sourceTree = "<group>"; };
+		B8034E5A18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-AddContainer02-CreationPage-Basic.png"; sourceTree = "<group>"; };
+		B8034E5B18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PRISM_StoragePage-AddContainer02-CreationPage-Basic.pxm"; sourceTree = "<group>"; };
+		B8034E5C18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.png"; sourceTree = "<group>"; };
+		B8034E5D18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.pxm"; sourceTree = "<group>"; };
+		B8034E5E18BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram01-Basic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Diagram01-Basic.png"; sourceTree = "<group>"; };
+		B8034E5F18BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram02-ClusterStorage-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Diagram02-ClusterStorage-hover.png"; sourceTree = "<group>"; };
+		B8034E6018BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram03-StoragePool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Diagram03-StoragePool.png"; sourceTree = "<group>"; };
+		B8034E6118BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram04-StoragePool-Hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Diagram04-StoragePool-Hover.png"; sourceTree = "<group>"; };
+		B8034E6218BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram05-Container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Diagram05-Container.png"; sourceTree = "<group>"; };
+		B8034E6318BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram06-Container-Logical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Diagram06-Container-Logical.png"; sourceTree = "<group>"; };
+		B8034E6418BAEF4A00A56CE9 /* PRISM_StoragePage-Overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Overview.png"; sourceTree = "<group>"; };
+		B8034E6518BAEF4A00A56CE9 /* PRISM_StoragePage-Table01-SP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Table01-SP.png"; sourceTree = "<group>"; };
+		B8034E6618BAEF4A00A56CE9 /* PRISM_StoragePage-Table02-Container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_StoragePage-Table02-Container.png"; sourceTree = "<group>"; };
+		B8034E6718BAEF4A00A56CE9 /* PRISM_VMpage-Overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_VMpage-Overview.png"; sourceTree = "<group>"; };
+		B8034E6818BAEF4A00A56CE9 /* PRISM_VMpage-Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRISM_VMpage-Table.png"; sourceTree = "<group>"; };
+		B8034E6918BAEF4A00A56CE9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B8034E6A18BAEF4B00A56CE9 /* leftMenu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = leftMenu.html; sourceTree = "<group>"; };
+		B8034E6B18BAEF4B00A56CE9 /* storageDiagramView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = storageDiagramView.html; sourceTree = "<group>"; };
+		B8034E6C18BAEF4B00A56CE9 /* storagePage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = storagePage.html; sourceTree = "<group>"; };
+		B8034E6D18BAEF4B00A56CE9 /* storageTableContainer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = storageTableContainer.html; sourceTree = "<group>"; };
+		B8034E6E18BAEF4B00A56CE9 /* storageTableView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = storageTableView.html; sourceTree = "<group>"; };
+		B8034E6F18BAEF4B00A56CE9 /* userIconMenu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = userIconMenu.html; sourceTree = "<group>"; };
+		B8034E7018BAEF4B00A56CE9 /* VMpage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VMpage.html; sourceTree = "<group>"; };
+		B8034E7118BAEF4B00A56CE9 /* vmTableView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vmTableView.html; sourceTree = "<group>"; };
+		B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGuiViewController.h; sourceTree = "<group>"; };
+		B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGuiViewController.m; sourceTree = "<group>"; };
+		B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveWebGuiViewController.h; sourceTree = "<group>"; };
+		B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveWebGuiViewController.m; sourceTree = "<group>"; };
 		CF93CE48740A4AA3A2AE3F06 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E1D27575FFC9492DB01E3C50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,10 +303,16 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
+				B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */,
+				B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */,
+				B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */,
+				B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */,
 				44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */,
 				44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */,
 				44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */,
 				44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */,
+				B8034E2718BAEF4A00A56CE9 /* nutanixWebGUI */,
+				B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */,
 				4474865418A070DB00FA06CF /* youtube.html */,
 				4474865118A0655B00FA06CF /* SectionOneViewController.h */,
 				4474865218A0655B00FA06CF /* SectionOneViewController.m */,
@@ -258,6 +418,94 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8034E2718BAEF4A00A56CE9 /* nutanixWebGUI */ = {
+			isa = PBXGroup;
+			children = (
+				B8034E2818BAEF4A00A56CE9 /* addContainer.html */,
+				B8034E2918BAEF4A00A56CE9 /* addContainerAdvanced.html */,
+				B8034E2A18BAEF4A00A56CE9 /* alertsPage.html */,
+				B8034E2B18BAEF4A00A56CE9 /* analysisPage.html */,
+				B8034E2C18BAEF4A00A56CE9 /* behindTheScenes.html */,
+				B8034E2D18BAEF4A00A56CE9 /* dashboard.html */,
+				B8034E2E18BAEF4A00A56CE9 /* drPage.html */,
+				B8034E2F18BAEF4A00A56CE9 /* gearIconMenu.html */,
+				B8034E3018BAEF4A00A56CE9 /* hardwareDiagramPage.html */,
+				B8034E3118BAEF4A00A56CE9 /* hardwarePage.html */,
+				B8034E3218BAEF4A00A56CE9 /* hardwareTablePage.html */,
+				B8034E3318BAEF4A00A56CE9 /* hardwareTablePage2.html */,
+				B8034E3418BAEF4A00A56CE9 /* images */,
+				B8034E6918BAEF4A00A56CE9 /* index.html */,
+				B8034E6A18BAEF4B00A56CE9 /* leftMenu.html */,
+				B8034E6B18BAEF4B00A56CE9 /* storageDiagramView.html */,
+				B8034E6C18BAEF4B00A56CE9 /* storagePage.html */,
+				B8034E6D18BAEF4B00A56CE9 /* storageTableContainer.html */,
+				B8034E6E18BAEF4B00A56CE9 /* storageTableView.html */,
+				B8034E6F18BAEF4B00A56CE9 /* userIconMenu.html */,
+				B8034E7018BAEF4B00A56CE9 /* VMpage.html */,
+				B8034E7118BAEF4B00A56CE9 /* vmTableView.html */,
+			);
+			path = nutanixWebGUI;
+			sourceTree = "<group>";
+		};
+		B8034E3418BAEF4A00A56CE9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B8034E3518BAEF4A00A56CE9 /* N-logo.png */,
+				B8034E3618BAEF4A00A56CE9 /* nutanix-name-logo.jpg */,
+				B8034E3718BAEF4A00A56CE9 /* nutanix-name-logo.png */,
+				B8034E3818BAEF4A00A56CE9 /* PRISM_Alerts-AlertPage.png */,
+				B8034E3918BAEF4A00A56CE9 /* PRISM_Alerts-EventPage.png */,
+				B8034E3A18BAEF4A00A56CE9 /* PRISM_AnalysisPage-BasicView.png */,
+				B8034E3B18BAEF4A00A56CE9 /* PRISM_Dashboard-BlueCircle-TasksDropdown.png */,
+				B8034E3C18BAEF4A00A56CE9 /* PRISM_Dashboard-GearIcon-MenuList.png */,
+				B8034E3D18BAEF4A00A56CE9 /* PRISM_Dashboard-GrayCircle-InfoDropdown.png */,
+				B8034E3E18BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Alerts.png */,
+				B8034E3F18BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Analysis.png */,
+				B8034E4018BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Dropdown.png */,
+				B8034E4118BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-DRpage.png */,
+				B8034E4218BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-HardwarePage.png */,
+				B8034E4318BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-Hover.png */,
+				B8034E4418BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-StoragePage.png */,
+				B8034E4518BAEF4A00A56CE9 /* PRISM_Dashboard-Menu-VMpage.png */,
+				B8034E4618BAEF4A00A56CE9 /* PRISM_Dashboard-RedCircle-AlertsDropdown.png */,
+				B8034E4718BAEF4A00A56CE9 /* PRISM_Dashboard-UserIcon-MenuList.png */,
+				B8034E4818BAEF4A00A56CE9 /* PRISM_Dashboard.png */,
+				B8034E4918BAEF4A00A56CE9 /* PRISM_DRpage-Overview.png */,
+				B8034E4A18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation-ButtonHighlight.png */,
+				B8034E4B18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation01-Name.png */,
+				B8034E4C18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation02-VMselection.png */,
+				B8034E4D18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation03-Schedule.png */,
+				B8034E4E18BAEF4A00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation04-CompletedScreen.png */,
+				B8034E4F18BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-AdvancedPage.png */,
+				B8034E5018BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-BasicPage.png */,
+				B8034E5118BAEF4A00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-ButtonHighlight.png */,
+				B8034E5218BAEF4A00A56CE9 /* PRISM_DRpage-Table01-RemoteSite.png */,
+				B8034E5318BAEF4A00A56CE9 /* PRISM_DRpage-Table02-ProtectionDomain.png */,
+				B8034E5418BAEF4A00A56CE9 /* PRISM_HardwarePage-Diagram.png */,
+				B8034E5518BAEF4A00A56CE9 /* PRISM_HardwarePage-ExpandCluster-ButtonHighlight.png */,
+				B8034E5618BAEF4A00A56CE9 /* PRISM_HardwarePage-Overview.png */,
+				B8034E5718BAEF4A00A56CE9 /* PRISM_HardwarePage-Table01-Host.png */,
+				B8034E5818BAEF4A00A56CE9 /* PRISM_HardwarePage-Table02-Disk.png */,
+				B8034E5918BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer01-ButtonHighlight.png */,
+				B8034E5A18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.png */,
+				B8034E5B18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.pxm */,
+				B8034E5C18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.png */,
+				B8034E5D18BAEF4A00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.pxm */,
+				B8034E5E18BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram01-Basic.png */,
+				B8034E5F18BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram02-ClusterStorage-hover.png */,
+				B8034E6018BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram03-StoragePool.png */,
+				B8034E6118BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram04-StoragePool-Hover.png */,
+				B8034E6218BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram05-Container.png */,
+				B8034E6318BAEF4A00A56CE9 /* PRISM_StoragePage-Diagram06-Container-Logical.png */,
+				B8034E6418BAEF4A00A56CE9 /* PRISM_StoragePage-Overview.png */,
+				B8034E6518BAEF4A00A56CE9 /* PRISM_StoragePage-Table01-SP.png */,
+				B8034E6618BAEF4A00A56CE9 /* PRISM_StoragePage-Table02-Container.png */,
+				B8034E6718BAEF4A00A56CE9 /* PRISM_VMpage-Overview.png */,
+				B8034E6818BAEF4A00A56CE9 /* PRISM_VMpage-Table.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -339,23 +587,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8034EAD18BAEF4B00A56CE9 /* PRISM_StoragePage-Overview.png in Resources */,
+				B8034EBA18BAEF4B00A56CE9 /* vmTableView.html in Resources */,
+				B8034E8618BAEF4B00A56CE9 /* PRISM_Dashboard-GrayCircle-InfoDropdown.png in Resources */,
+				B8034E9218BAEF4B00A56CE9 /* PRISM_DRpage-Overview.png in Resources */,
+				B8034EA218BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer01-ButtonHighlight.png in Resources */,
+				B8034EAA18BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram04-StoragePool-Hover.png in Resources */,
+				B8034E7418BAEF4B00A56CE9 /* alertsPage.html in Resources */,
+				B8034E9A18BAEF4B00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-ButtonHighlight.png in Resources */,
+				B8034E8C18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Hover.png in Resources */,
+				B8034EA518BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.png in Resources */,
+				B8034E9018BAEF4B00A56CE9 /* PRISM_Dashboard-UserIcon-MenuList.png in Resources */,
+				B8034E7F18BAEF4B00A56CE9 /* nutanix-name-logo.jpg in Resources */,
 				44EC831A18A468C80036D1B7 /* Lato-Light.ttf in Resources */,
 				441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */,
+				B8034E9D18BAEF4B00A56CE9 /* PRISM_HardwarePage-Diagram.png in Resources */,
+				B8034E7A18BAEF4B00A56CE9 /* hardwareDiagramPage.html in Resources */,
+				B8034EAC18BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram06-Container-Logical.png in Resources */,
+				B8034E9318BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation-ButtonHighlight.png in Resources */,
+				B8034EA618BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer03-CreationPage-AdvancedOptions.pxm in Resources */,
+				B8034E9618BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation03-Schedule.png in Resources */,
+				B8034E7D18BAEF4B00A56CE9 /* hardwareTablePage2.html in Resources */,
+				B8034EB518BAEF4B00A56CE9 /* storagePage.html in Resources */,
 				44D769AD189484410060617F /* Images.xcassets in Resources */,
+				B8034EB218BAEF4B00A56CE9 /* index.html in Resources */,
+				B8034EA818BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram02-ClusterStorage-hover.png in Resources */,
+				B8034E9B18BAEF4B00A56CE9 /* PRISM_DRpage-Table01-RemoteSite.png in Resources */,
+				B8034EA318BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.png in Resources */,
+				B8034EAB18BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram05-Container.png in Resources */,
+				B8034E9F18BAEF4B00A56CE9 /* PRISM_HardwarePage-Overview.png in Resources */,
+				B8034EB018BAEF4B00A56CE9 /* PRISM_VMpage-Overview.png in Resources */,
 				44EC831C18A468C80036D1B7 /* Lato-Regular.ttf in Resources */,
+				B8034EB418BAEF4B00A56CE9 /* storageDiagramView.html in Resources */,
+				B8034EAF18BAEF4B00A56CE9 /* PRISM_StoragePage-Table02-Container.png in Resources */,
+				B8034E7818BAEF4B00A56CE9 /* drPage.html in Resources */,
 				44EC831818A468C80036D1B7 /* Lato-HairlineItalic.ttf in Resources */,
+				B8034EA018BAEF4B00A56CE9 /* PRISM_HardwarePage-Table01-Host.png in Resources */,
+				B8034E8918BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Dropdown.png in Resources */,
+				B8034E9118BAEF4B00A56CE9 /* PRISM_Dashboard.png in Resources */,
+				B8034E7E18BAEF4B00A56CE9 /* N-logo.png in Resources */,
+				B8034E9718BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation04-CompletedScreen.png in Resources */,
+				B8034E8018BAEF4B00A56CE9 /* nutanix-name-logo.png in Resources */,
+				B8034E8A18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-DRpage.png in Resources */,
+				B8034E9418BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation01-Name.png in Resources */,
+				B8034E9818BAEF4B00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-AdvancedPage.png in Resources */,
+				B8034E9518BAEF4B00A56CE9 /* PRISM_DRpage-ProtectionDomainCreation02-VMselection.png in Resources */,
+				B8034E7B18BAEF4B00A56CE9 /* hardwarePage.html in Resources */,
 				44D7699C189484410060617F /* InfoPlist.strings in Resources */,
+				B8034E8F18BAEF4B00A56CE9 /* PRISM_Dashboard-RedCircle-AlertsDropdown.png in Resources */,
+				B8034EAE18BAEF4B00A56CE9 /* PRISM_StoragePage-Table01-SP.png in Resources */,
 				44EC831418A468C80036D1B7 /* Lato-BlackItalic.ttf in Resources */,
+				B8034E8E18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-VMpage.png in Resources */,
+				B8034E7318BAEF4B00A56CE9 /* addContainerAdvanced.html in Resources */,
+				B8034E8818BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Analysis.png in Resources */,
 				44EC831B18A468C80036D1B7 /* Lato-LightItalic.ttf in Resources */,
+				B8034E7218BAEF4B00A56CE9 /* addContainer.html in Resources */,
+				B8034EB718BAEF4B00A56CE9 /* storageTableView.html in Resources */,
+				B8034E8418BAEF4B00A56CE9 /* PRISM_Dashboard-BlueCircle-TasksDropdown.png in Resources */,
+				B8034E7C18BAEF4B00A56CE9 /* hardwareTablePage.html in Resources */,
+				B8034EB318BAEF4B00A56CE9 /* leftMenu.html in Resources */,
+				B8034E7618BAEF4B00A56CE9 /* behindTheScenes.html in Resources */,
 				4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */,
+				B8034E7518BAEF4B00A56CE9 /* analysisPage.html in Resources */,
+				B8034EA718BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram01-Basic.png in Resources */,
 				441601E4189E73B20065B4F3 /* table_header_1.png in Resources */,
+				B8034E2618BAEEEF00A56CE9 /* webGUI-youtube.html in Resources */,
+				B8034E9E18BAEF4B00A56CE9 /* PRISM_HardwarePage-ExpandCluster-ButtonHighlight.png in Resources */,
 				44EC831518A468C80036D1B7 /* Lato-Bold.ttf in Resources */,
+				B8034E9C18BAEF4B00A56CE9 /* PRISM_DRpage-Table02-ProtectionDomain.png in Resources */,
+				B8034E7918BAEF4B00A56CE9 /* gearIconMenu.html in Resources */,
+				B8034E8218BAEF4B00A56CE9 /* PRISM_Alerts-EventPage.png in Resources */,
+				B8034EA918BAEF4B00A56CE9 /* PRISM_StoragePage-Diagram03-StoragePool.png in Resources */,
+				B8034EB618BAEF4B00A56CE9 /* storageTableContainer.html in Resources */,
+				B8034EB118BAEF4B00A56CE9 /* PRISM_VMpage-Table.png in Resources */,
+				B8034EA418BAEF4B00A56CE9 /* PRISM_StoragePage-AddContainer02-CreationPage-Basic.pxm in Resources */,
 				44EC831718A468C80036D1B7 /* Lato-Hairline.ttf in Resources */,
 				441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */,
 				4474865518A070DB00FA06CF /* youtube.html in Resources */,
 				44EC831318A468C80036D1B7 /* Lato-Black.ttf in Resources */,
+				B8034EA118BAEF4B00A56CE9 /* PRISM_HardwarePage-Table02-Disk.png in Resources */,
+				B8034E8518BAEF4B00A56CE9 /* PRISM_Dashboard-GearIcon-MenuList.png in Resources */,
+				B8034E8118BAEF4B00A56CE9 /* PRISM_Alerts-AlertPage.png in Resources */,
+				B8034EB918BAEF4B00A56CE9 /* VMpage.html in Resources */,
+				B8034E8318BAEF4B00A56CE9 /* PRISM_AnalysisPage-BasicView.png in Resources */,
 				44D769A5189484410060617F /* Main.storyboard in Resources */,
+				B8034E7718BAEF4B00A56CE9 /* dashboard.html in Resources */,
+				B8034E8D18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-StoragePage.png in Resources */,
+				B8034E9918BAEF4B00A56CE9 /* PRISM_DRpage-RemoteSiteCreation-BasicPage.png in Resources */,
+				B8034E8B18BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-HardwarePage.png in Resources */,
 				44EC831918A468C80036D1B7 /* Lato-Italic.ttf in Resources */,
+				B8034EB818BAEF4B00A56CE9 /* userIconMenu.html in Resources */,
+				B8034E8718BAEF4B00A56CE9 /* PRISM_Dashboard-Menu-Alerts.png in Resources */,
 				44EC831618A468C80036D1B7 /* Lato-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +732,7 @@
 			files = (
 				4474862C189E7D9100FA06CF /* Themer.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
+				B8034EBD18BAF05A00A56CE9 /* WebGuiViewController.m in Sources */,
 				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
 				44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */,
 				44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */,
@@ -419,6 +742,7 @@
 				44D769A8189484410060617F /* MasterViewController.m in Sources */,
 				44D7699E189484410060617F /* main.m in Sources */,
 				44D769CE18952C490060617F /* XMLFeedItem.m in Sources */,
+				B8034EC018BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m in Sources */,
 				44D769AB189484410060617F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
