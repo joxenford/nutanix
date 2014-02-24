@@ -15,10 +15,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self fadeIn:_nutanixIsASoftwareLabel delay:1];
-    [self fadeIn:_nutanixVirtualComputingLabel delay:5];
-    [self fadeIn:_gladYouAskedLabel delay:9];
-    [self fadeIn:_nextButton delay:12];
+//    [self fadeIn:_nutanixIsASoftwareLabel delay:1];
+//    [self fadeIn:_nutanixVirtualComputingLabel delay:5];
+//    [self fadeIn:_gladYouAskedLabel delay:9];
+//    [self fadeIn:_nextButton delay:12];
 }
 
 - (void) fadeIn:(UIView*)view delay:(float) delay;
