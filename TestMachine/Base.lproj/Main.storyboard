@@ -506,10 +506,10 @@
             </objects>
             <point key="canvasLocation" x="4299" y="1849"/>
         </scene>
-        <!--View Controller - Web Gui View Controller-->
+        <!--Web Gui View Controller - Web Gui View Controller-->
         <scene sceneID="3HM-oo-s2H">
             <objects>
-                <viewController title="Web Gui View Controller" id="YIT-0o-S9T" sceneMemberID="viewController">
+                <viewController title="Web Gui View Controller" id="YIT-0o-S9T" customClass="WebGuiViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wkT-2S-qrq"/>
                         <viewControllerLayoutGuide type="bottom" id="3Ee-Vf-bB3"/>
@@ -552,6 +552,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="jRt-xi-uaf"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="webGuiWebView" destination="Dr8-6V-NH2" id="lfs-jw-JoD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NB9-8b-YsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

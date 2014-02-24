@@ -2,7 +2,7 @@
 
 @interface WebGuiViewController ()
 
-@property (weak, nonatomic) IBOutlet UIWebView *webGuiView;
+@property (weak, nonatomic) IBOutlet UIWebView* webGuiWebView;
 
 @end
 
@@ -14,7 +14,7 @@
 	
     NSString* htmlFile = [[NSBundle mainBundle] pathForResource:@"webGUI-youtube" ofType:@"html"];
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
-    [_webGuiView loadHTMLString:htmlString baseURL:nil];
+    [_webGuiWebView loadHTMLString:htmlString baseURL:nil];
     
 }
 

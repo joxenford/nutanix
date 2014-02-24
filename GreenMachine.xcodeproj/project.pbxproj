@@ -145,17 +145,17 @@
 		44748627189E7D9100FA06CF /* MainTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTheme.m; path = ../MainTheme.m; sourceTree = "<group>"; };
 		44748628189E7D9100FA06CF /* Themer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Themer.h; path = ../Themer.h; sourceTree = "<group>"; };
 		44748629189E7D9100FA06CF /* Themer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Themer.m; path = ../Themer.m; sourceTree = "<group>"; };
-		4474864C18A02C1900FA06CF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = TestMachine/IntroViewController.h; sourceTree = "<group>"; };
-		4474864D18A02C1900FA06CF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = TestMachine/IntroViewController.m; sourceTree = "<group>"; };
-		4474865118A0655B00FA06CF /* SectionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionOneViewController.h; path = TestMachine/SectionOneViewController.h; sourceTree = "<group>"; };
-		4474865218A0655B00FA06CF /* SectionOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionOneViewController.m; path = TestMachine/SectionOneViewController.m; sourceTree = "<group>"; };
-		4474865418A070DB00FA06CF /* youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = youtube.html; path = TestMachine/youtube.html; sourceTree = "<group>"; };
+		4474864C18A02C1900FA06CF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		4474864D18A02C1900FA06CF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		4474865118A0655B00FA06CF /* SectionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionOneViewController.h; sourceTree = "<group>"; };
+		4474865218A0655B00FA06CF /* SectionOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionOneViewController.m; sourceTree = "<group>"; };
+		4474865418A070DB00FA06CF /* youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = youtube.html; sourceTree = "<group>"; };
 		4474865E18A1DD4900FA06CF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		4474866018A1DD5100FA06CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoMasterViewController.h; path = TestMachine/VideoMasterViewController.h; sourceTree = "<group>"; };
-		44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoMasterViewController.m; path = TestMachine/VideoMasterViewController.m; sourceTree = "<group>"; };
-		44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoDetailViewController.h; path = TestMachine/VideoDetailViewController.h; sourceTree = "<group>"; };
-		44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoDetailViewController.m; path = TestMachine/VideoDetailViewController.m; sourceTree = "<group>"; };
+		44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoMasterViewController.h; sourceTree = "<group>"; };
+		44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoMasterViewController.m; sourceTree = "<group>"; };
+		44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GreenMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -191,7 +191,7 @@
 		44EC831018A468C80036D1B7 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		44EC831118A468C80036D1B7 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		44EC831218A468C80036D1B7 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
-		B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "webGUI-youtube.html"; sourceTree = "<group>"; };
+		B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "webGUI-youtube.html"; path = "../webGUI-youtube.html"; sourceTree = "<group>"; };
 		B8034E2818BAEF4A00A56CE9 /* addContainer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = addContainer.html; sourceTree = "<group>"; };
 		B8034E2918BAEF4A00A56CE9 /* addContainerAdvanced.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = addContainerAdvanced.html; sourceTree = "<group>"; };
 		B8034E2A18BAEF4A00A56CE9 /* alertsPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = alertsPage.html; sourceTree = "<group>"; };
@@ -265,10 +265,10 @@
 		B8034E6F18BAEF4B00A56CE9 /* userIconMenu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = userIconMenu.html; sourceTree = "<group>"; };
 		B8034E7018BAEF4B00A56CE9 /* VMpage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VMpage.html; sourceTree = "<group>"; };
 		B8034E7118BAEF4B00A56CE9 /* vmTableView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vmTableView.html; sourceTree = "<group>"; };
-		B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGuiViewController.h; sourceTree = "<group>"; };
-		B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGuiViewController.m; sourceTree = "<group>"; };
-		B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveWebGuiViewController.h; sourceTree = "<group>"; };
-		B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveWebGuiViewController.m; sourceTree = "<group>"; };
+		B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebGuiViewController.h; path = ../WebGuiViewController.h; sourceTree = "<group>"; };
+		B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebGuiViewController.m; path = ../WebGuiViewController.m; sourceTree = "<group>"; };
+		B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InteractiveWebGuiViewController.h; path = ../InteractiveWebGuiViewController.h; sourceTree = "<group>"; };
+		B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InteractiveWebGuiViewController.m; path = ../InteractiveWebGuiViewController.m; sourceTree = "<group>"; };
 		CF93CE48740A4AA3A2AE3F06 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E1D27575FFC9492DB01E3C50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -303,21 +303,6 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
-				B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */,
-				B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */,
-				B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */,
-				B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */,
-				44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */,
-				44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */,
-				44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */,
-				44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */,
-				B8034E2718BAEF4A00A56CE9 /* nutanixWebGUI */,
-				B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */,
-				4474865418A070DB00FA06CF /* youtube.html */,
-				4474865118A0655B00FA06CF /* SectionOneViewController.h */,
-				4474865218A0655B00FA06CF /* SectionOneViewController.m */,
-				4474864C18A02C1900FA06CF /* IntroViewController.h */,
-				4474864D18A02C1900FA06CF /* IntroViewController.m */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -352,6 +337,18 @@
 		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
+				B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */,
+				B8034EBF18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m */,
+				B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */,
+				B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */,
+				44870E2318A7DCD000B5F9F4 /* VideoDetailViewController.h */,
+				44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */,
+				44870E2018A7DC2500B5F9F4 /* VideoMasterViewController.h */,
+				44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */,
+				4474865118A0655B00FA06CF /* SectionOneViewController.h */,
+				4474865218A0655B00FA06CF /* SectionOneViewController.m */,
+				4474864C18A02C1900FA06CF /* IntroViewController.h */,
+				4474864D18A02C1900FA06CF /* IntroViewController.m */,
 				44748625189E7D9100FA06CF /* DefaultTheme.plist */,
 				44748626189E7D9100FA06CF /* MainTheme.h */,
 				44748627189E7D9100FA06CF /* MainTheme.m */,
@@ -379,6 +376,9 @@
 		44D76998189484410060617F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8034E2718BAEF4A00A56CE9 /* nutanixWebGUI */,
+				B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */,
+				4474865418A070DB00FA06CF /* youtube.html */,
 				44EC830918A468C80036D1B7 /* Lato-Black.ttf */,
 				44EC830A18A468C80036D1B7 /* Lato-BlackItalic.ttf */,
 				44EC830B18A468C80036D1B7 /* Lato-Bold.ttf */,
@@ -444,7 +444,8 @@
 				B8034E7018BAEF4B00A56CE9 /* VMpage.html */,
 				B8034E7118BAEF4B00A56CE9 /* vmTableView.html */,
 			);
-			path = nutanixWebGUI;
+			name = nutanixWebGUI;
+			path = ../nutanixWebGUI;
 			sourceTree = "<group>";
 		};
 		B8034E3418BAEF4A00A56CE9 /* images */ = {
