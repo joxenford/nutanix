@@ -50,7 +50,6 @@ install_resource "NUI/NUI/Themes/Round.NUI.nss"
 install_resource "NUI/NUI/Themes/Route.NUI.nss"
 install_resource "NUI/NUI/Themes/SkyBlue.NUI.nss"
 install_resource "NUI/NUI/Themes/Switchboard.NUI.nss"
-install_resource "gtm-oauth2/Source/Touch/GTMOAuth2ViewTouch.xib"
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then
