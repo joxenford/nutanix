@@ -729,11 +729,11 @@
             </objects>
             <point key="canvasLocation" x="791" y="927"/>
         </scene>
-        <!--Navigation Controller - WebGUI-->
+        <!--Navigation Controller - Web Console-->
         <scene sceneID="JCD-vj-MUJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iki-7w-O4F" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="WebGUI" id="if9-Fs-k5r"/>
+                    <tabBarItem key="tabBarItem" title="Web Console" id="if9-Fs-k5r"/>
                     <toolbarItems/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XJ9-YJ-1lU">
