@@ -861,10 +861,6 @@
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="label_1" destination="A5W-gO-2cn" id="dvx-i9-3dX"/>
-                        <outlet property="label_2" destination="MfS-Q7-Iea" id="HMp-tL-Yey"/>
-                        <outlet property="label_3" destination="R0B-C5-wf6" id="b28-5f-8bt"/>
-                        <outlet property="label_4" destination="fvD-KZ-2CG" id="yyJ-Nc-gFj"/>
                         <outletCollection property="bulletPoints" destination="i4A-sG-m9b" id="5m1-Ve-Ga1"/>
                         <outletCollection property="bulletPoints" destination="iFh-FQ-8Kb" id="U7D-Gp-3tB"/>
                         <outletCollection property="bulletPoints" destination="jsl-mY-aun" id="Ofd-z0-iJe"/>
@@ -872,6 +868,8 @@
                         <outletCollection property="bulletPoints" destination="Rea-cD-Ggz" id="qj7-k1-epP"/>
                         <outletCollection property="bulletPoints" destination="Xez-EU-3dN" id="W6T-9b-4jQ"/>
                         <outletCollection property="bulletPoints" destination="l0J-oP-B0s" id="yyj-gj-4PG"/>
+                        <outletCollection property="labelArray_1" destination="A5W-gO-2cn" id="6wa-8v-ZdV"/>
+                        <outletCollection property="labelArray_1" destination="MfS-Q7-Iea" id="lMc-Rh-Q3J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3p-Xx-rKi" userLabel="First Responder" sceneMemberID="firstResponder"/>

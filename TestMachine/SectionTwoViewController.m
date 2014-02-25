@@ -1,15 +1,7 @@
 #import "SectionTwoViewController.h"
 
 @interface SectionTwoViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *label_1;
-@property (weak, nonatomic) IBOutlet UILabel *label_2;
-@property (weak, nonatomic) IBOutlet UILabel *label_3;
-@property (weak, nonatomic) IBOutlet UILabel *label_4;
-@property (weak, nonatomic) IBOutlet UILabel *bulletPointLabel_1;
-@property (weak, nonatomic) IBOutlet UILabel *bulletPointLabel_2;
-@property (weak, nonatomic) IBOutlet UILabel *bulletPointLabel_3;
-@property (weak, nonatomic) IBOutlet UILabel *bulletPointLabel_4;
-@property (weak, nonatomic) IBOutlet UILabel *bulletPointLabel_5;
+@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *labelArray_1;
 @property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *bulletPoints;
 
 @end
