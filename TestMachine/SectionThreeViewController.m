@@ -79,17 +79,9 @@
         }
         _descriptionLabel.text = _descriptionString;
     }
-    [self fadeIn:_descriptionLabel delay:0.1];
+    [_descriptionLabel fadeInWithDuration:0.5 delay:0.1];
 }
 
-- (void) fadeIn:(UIView*)view delay:(float) delay;
-{
-    view.alpha = 0;
-    
-    [UIView animateWithDuration:1.0 delay:delay options:UIViewAnimationOptionCurveEaseIn
-                     animations:^{ view.alpha = 1;}
-                     completion:nil];
-}
 
 
 @end

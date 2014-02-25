@@ -26,6 +26,7 @@
 		44C2A02F18BC2373007808B8 /* Flash.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02B18BC2373007808B8 /* Flash.txt */; };
 		44C2A03018BC2373007808B8 /* ScaleOut.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02C18BC2373007808B8 /* ScaleOut.txt */; };
 		44C2A03118BC2373007808B8 /* SoftwareDefined.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */; };
+		44C2A03418BC3162007808B8 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2A03318BC3162007808B8 /* UIView+Animation.m */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -91,11 +92,13 @@
 		44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
 		44C1338E18BBC46C00D64DA5 /* SectionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionThreeViewController.h; sourceTree = "<group>"; };
 		44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionThreeViewController.m; sourceTree = "<group>"; };
-		44C2A02818BC14EE007808B8 /* Converged.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Converged.txt; sourceTree = "<group>"; };
-		44C2A02A18BC2373007808B8 /* Cloud.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cloud.txt; sourceTree = "<group>"; };
-		44C2A02B18BC2373007808B8 /* Flash.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flash.txt; sourceTree = "<group>"; };
-		44C2A02C18BC2373007808B8 /* ScaleOut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScaleOut.txt; sourceTree = "<group>"; };
-		44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SoftwareDefined.txt; sourceTree = "<group>"; };
+		44C2A02818BC14EE007808B8 /* Converged.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Converged.txt; path = ../Converged.txt; sourceTree = "<group>"; };
+		44C2A02A18BC2373007808B8 /* Cloud.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cloud.txt; path = ../Cloud.txt; sourceTree = "<group>"; };
+		44C2A02B18BC2373007808B8 /* Flash.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Flash.txt; path = ../Flash.txt; sourceTree = "<group>"; };
+		44C2A02C18BC2373007808B8 /* ScaleOut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ScaleOut.txt; path = ../ScaleOut.txt; sourceTree = "<group>"; };
+		44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SoftwareDefined.txt; path = ../SoftwareDefined.txt; sourceTree = "<group>"; };
+		44C2A03218BC3162007808B8 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Animation.h"; path = "TestMachine/UIView+Animation.h"; sourceTree = "<group>"; };
+		44C2A03318BC3162007808B8 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Animation.m"; path = "TestMachine/UIView+Animation.m"; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GetToKnowUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetToKnowUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -206,11 +209,8 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
-				44C2A02A18BC2373007808B8 /* Cloud.txt */,
-				44C2A02B18BC2373007808B8 /* Flash.txt */,
-				44C2A02C18BC2373007808B8 /* ScaleOut.txt */,
-				44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */,
-				44C2A02818BC14EE007808B8 /* Converged.txt */,
+				44C2A03218BC3162007808B8 /* UIView+Animation.h */,
+				44C2A03318BC3162007808B8 /* UIView+Animation.m */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -266,6 +266,11 @@
 		44D76998189484410060617F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44C2A02A18BC2373007808B8 /* Cloud.txt */,
+				44C2A02B18BC2373007808B8 /* Flash.txt */,
+				44C2A02C18BC2373007808B8 /* ScaleOut.txt */,
+				44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */,
+				44C2A02818BC14EE007808B8 /* Converged.txt */,
 				B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */,
 				4474865418A070DB00FA06CF /* youtube.html */,
 				44EC830918A468C80036D1B7 /* Lato-Black.ttf */,
@@ -464,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4474862C189E7D9100FA06CF /* Themer.m in Sources */,
+				44C2A03418BC3162007808B8 /* UIView+Animation.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
 				B8034EBD18BAF05A00A56CE9 /* WebGuiViewController.m in Sources */,
 				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
