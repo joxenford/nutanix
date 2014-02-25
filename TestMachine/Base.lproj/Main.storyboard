@@ -465,20 +465,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap on a component's icon below to learn more about it" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnK-vk-ecK">
-                                <rect key="frame" x="265" y="206" width="494" height="21"/>
+                                <rect key="frame" x="262" y="195" width="494" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rB-lg-Cf2">
-                                <rect key="frame" x="20" y="464" width="326" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="1rB-lg-Cf2" userLabel=" Label - Description">
+                                <rect key="frame" x="20" y="430" width="984" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UU-kf-PlN" userLabel="Button View">
-                                <rect key="frame" x="-14" y="235" width="1058" height="219"/>
+                                <rect key="frame" x="-17" y="224" width="1058" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dif-6j-jBG">
@@ -571,8 +571,8 @@
                     <navigationItem key="navigationItem" id="zdt-j7-0hd"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="componetDescriptionLabel" destination="1rB-lg-Cf2" id="DOo-0v-DCE"/>
                         <outlet property="convergedButton" destination="dif-6j-jBG" id="d33-HB-8Bw"/>
+                        <outlet property="descriptionLabel" destination="1rB-lg-Cf2" id="yIV-fU-aze"/>
                         <outlet property="hybridButton" destination="BKG-y4-O6m" id="QyA-tb-aK6"/>
                         <outlet property="scaleOutButton" destination="ITA-Vd-Gh5" id="CDL-WV-bTf"/>
                         <outlet property="serverAttachedFlashButton" destination="44O-V7-oyU" id="doV-Tc-6sj"/>

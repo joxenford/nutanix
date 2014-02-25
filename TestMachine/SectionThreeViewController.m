@@ -6,16 +6,20 @@
 @property (strong, nonatomic) IBOutlet UIButton *softwareDefinedButton;
 @property (strong, nonatomic) IBOutlet UIButton *serverAttachedFlashButton;
 @property (strong, nonatomic) IBOutlet UIButton *hybridButton;
-@property (strong, nonatomic) IBOutlet UILabel *componetDescriptionLabel;
+@property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 
 @end
 
 @implementation SectionThreeViewController
 {
     NSArray* _buttonArray;
+    NSArray* _labelArray;
+    NSString* _convergedString;
+    NSString* _scaleOutString;
+    NSString* _softwareDefinedString;
+    NSString* _serverAttachedFlashString;
+    NSString* _cloudHybridString;
 }
-
-
 
 - (void)viewDidLoad
 {
@@ -23,7 +27,6 @@
     
     _buttonArray = @[_convergedButton, _scaleOutButton, _softwareDefinedButton, _serverAttachedFlashButton, _hybridButton];
 }
-
 
 - (IBAction)buttonPressed:(id)sender
 {
@@ -39,19 +42,24 @@
       [sender setSelected:YES];
     
     if (i == 1) {
-        _componetDescriptionLabel.text = @"Converged";
+        NSString * fName = [[NSBundle mainBundle] pathForResource:@"converged" ofType:@"txt"];
+        if (fName) {
+            _convergedString = [NSString stringWithContentsOfFile:fName encoding:NSUTF8StringEncoding error:nil];
+        }
+        _descriptionLabel.text = _convergedString;
+    
     }
     if (i == 2) {
-        _componetDescriptionLabel.text = @"Scale Out";
+        _descriptionLabel.text = @"Scale Out";
     }
     if (i == 3) {
-        _componetDescriptionLabel.text = @"Software Defined";
+        _descriptionLabel.text = @"Software Defined";
     }
     if (i == 4) {
-        _componetDescriptionLabel.text = @"Server-Attached Flash";
+        _descriptionLabel.text = @"Server-Attached Flash";
     }
     if (i == 5) {
-        _componetDescriptionLabel.text = @"Hybrid";
+        _descriptionLabel.text = @"Hybrid";
     }
 }
 
