@@ -8,4 +8,13 @@
 
 
 
+- (void)updateLabel:(NSString*)passedObject;
+{
+    
+}
+- (void)loadWebView:(NSString*)content;
+{
+    
+}
+
 @end

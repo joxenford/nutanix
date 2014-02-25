@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */; };
 		441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */; };
-		441601E4189E73B20065B4F3 /* table_header_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 441601E1189E73B20065B4F3 /* table_header_1.png */; };
-		4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44748625189E7D9100FA06CF /* DefaultTheme.plist */; };
-		4474862B189E7D9100FA06CF /* MainTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748627189E7D9100FA06CF /* MainTheme.m */; };
-		4474862C189E7D9100FA06CF /* Themer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44748629189E7D9100FA06CF /* Themer.m */; };
 		4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474864D18A02C1900FA06CF /* IntroViewController.m */; };
 		4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474865218A0655B00FA06CF /* SectionOneViewController.m */; };
 		4474865518A070DB00FA06CF /* youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = 4474865418A070DB00FA06CF /* youtube.html */; };
@@ -74,12 +70,6 @@
 /* Begin PBXFileReference section */
 		441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		441601E1189E73B20065B4F3 /* table_header_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_header_1.png; sourceTree = "<group>"; };
-		44748625189E7D9100FA06CF /* DefaultTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DefaultTheme.plist; path = ../DefaultTheme.plist; sourceTree = "<group>"; };
-		44748626189E7D9100FA06CF /* MainTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTheme.h; path = ../MainTheme.h; sourceTree = "<group>"; };
-		44748627189E7D9100FA06CF /* MainTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTheme.m; path = ../MainTheme.m; sourceTree = "<group>"; };
-		44748628189E7D9100FA06CF /* Themer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Themer.h; path = ../Themer.h; sourceTree = "<group>"; };
-		44748629189E7D9100FA06CF /* Themer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Themer.m; path = ../Themer.m; sourceTree = "<group>"; };
 		4474864C18A02C1900FA06CF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		4474864D18A02C1900FA06CF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		4474865118A0655B00FA06CF /* SectionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionOneViewController.h; sourceTree = "<group>"; };
@@ -100,8 +90,8 @@
 		44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SoftwareDefined.txt; path = ../SoftwareDefined.txt; sourceTree = "<group>"; };
 		44C2A03218BC3162007808B8 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
 		44C2A03318BC3162007808B8 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
-		44C2A03518BC36EF007808B8 /* SectionTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionTwoViewController.h; path = TestMachine/SectionTwoViewController.h; sourceTree = "<group>"; };
-		44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionTwoViewController.m; path = TestMachine/SectionTwoViewController.m; sourceTree = "<group>"; };
+		44C2A03518BC36EF007808B8 /* SectionTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionTwoViewController.h; sourceTree = "<group>"; };
+		44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionTwoViewController.m; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GetToKnowUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetToKnowUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -176,6 +166,8 @@
 		448411FD18BB9F910065D5C3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				44C2A03518BC36EF007808B8 /* SectionTwoViewController.h */,
+				44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */,
 				44C1338E18BBC46C00D64DA5 /* SectionThreeViewController.h */,
 				44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */,
 				B8034EBE18BAF6FC00A56CE9 /* InteractiveWebGuiViewController.h */,
@@ -214,8 +206,6 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
-				44C2A03518BC36EF007808B8 /* SectionTwoViewController.h */,
-				44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -252,15 +242,9 @@
 			children = (
 				448411FE18BB9FB60065D5C3 /* Custom */,
 				448411FD18BB9F910065D5C3 /* ViewControllers */,
-				44748625189E7D9100FA06CF /* DefaultTheme.plist */,
-				44748626189E7D9100FA06CF /* MainTheme.h */,
-				44748627189E7D9100FA06CF /* MainTheme.m */,
-				44748628189E7D9100FA06CF /* Themer.h */,
-				44748629189E7D9100FA06CF /* Themer.m */,
 				44D769A0189484410060617F /* AppDelegate.h */,
 				44D769A1189484410060617F /* AppDelegate.m */,
 				44D769A3189484410060617F /* Main.storyboard */,
-				441601E1189E73B20065B4F3 /* table_header_1.png */,
 				44D769AC189484410060617F /* Images.xcassets */,
 				44D76998189484410060617F /* Supporting Files */,
 			);
@@ -408,9 +392,7 @@
 				44D7699C189484410060617F /* InfoPlist.strings in Resources */,
 				44EC831418A468C80036D1B7 /* Lato-BlackItalic.ttf in Resources */,
 				44EC831B18A468C80036D1B7 /* Lato-LightItalic.ttf in Resources */,
-				4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */,
 				44C2A03118BC2373007808B8 /* SoftwareDefined.txt in Resources */,
-				441601E4189E73B20065B4F3 /* table_header_1.png in Resources */,
 				B8034E2618BAEEEF00A56CE9 /* webGUI-youtube.html in Resources */,
 				44EC831518A468C80036D1B7 /* Lato-Bold.ttf in Resources */,
 				44EC831718A468C80036D1B7 /* Lato-Hairline.ttf in Resources */,
@@ -473,7 +455,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4474862C189E7D9100FA06CF /* Themer.m in Sources */,
 				44C2A03418BC3162007808B8 /* UIView+Animation.m in Sources */,
 				44C2A03718BC36EF007808B8 /* SectionTwoViewController.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
@@ -482,7 +463,6 @@
 				44C1339018BBC46C00D64DA5 /* SectionThreeViewController.m in Sources */,
 				44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */,
 				44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */,
-				4474862B189E7D9100FA06CF /* MainTheme.m in Sources */,
 				4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */,
 				4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */,
 				44D769A8189484410060617F /* MasterViewController.m in Sources */,

@@ -4,7 +4,7 @@
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 
-// (void)configureView;
+
 @end
 
 @implementation DetailViewController
@@ -19,23 +19,11 @@
     }
 }
 
-//- (void)configureView
-//{
-//    // Update the user interface for the detail item.
-//
-////    if (self.detailItem) {
-////        self.detailDescriptionLabel.text = [self.detailItem description];
-//    if (self.url) {
-//        self.detailDescriptionLabel.text = _url; }
-//    NSLog(@"Passed URL: %@", _url);
-//}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
- //   [self configureView];
-  
+
     [self loadWebView:self.content];
     
 }
@@ -44,8 +32,7 @@
     NSURL* url = [NSURL URLWithString:self.url];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];
- //   [self.webView loadHTMLString:self.content baseURL:nil];
- //   NSLog(@"content: %@", content);
+
 }
 
 #pragma mark - Split view

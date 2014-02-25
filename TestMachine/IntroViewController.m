@@ -1,5 +1,4 @@
 #import "IntroViewController.h"
-#import "Themer.h"
 #import "UIView+Animation.h"
 
 @interface IntroViewController ()
@@ -21,14 +20,5 @@
     [_gladYouAskedLabel fadeInWithDuration:1 delay:9];
     [_nextButton fadeInWithDuration:1 delay:12];
 }
-
-//- (void) fadeIn:(UIView*)view delay:(float) delay;
-//{
-//    view.alpha = 0;
-//    
-//    [UIView animateWithDuration:1.0 delay:delay options:UIViewAnimationOptionCurveEaseIn
-//                     animations:^{ view.alpha = 1;}
-//                     completion:nil];
-//}
 
 @end
