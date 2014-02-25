@@ -21,7 +21,11 @@
 		44870E2218A7DC2500B5F9F4 /* VideoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2118A7DC2500B5F9F4 /* VideoMasterViewController.m */; };
 		44870E2518A7DCD000B5F9F4 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */; };
 		44C1339018BBC46C00D64DA5 /* SectionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */; };
-		44C2A02918BC14EE007808B8 /* converged.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02818BC14EE007808B8 /* converged.txt */; };
+		44C2A02918BC14EE007808B8 /* Converged.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02818BC14EE007808B8 /* Converged.txt */; };
+		44C2A02E18BC2373007808B8 /* Cloud.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02A18BC2373007808B8 /* Cloud.txt */; };
+		44C2A02F18BC2373007808B8 /* Flash.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02B18BC2373007808B8 /* Flash.txt */; };
+		44C2A03018BC2373007808B8 /* ScaleOut.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02C18BC2373007808B8 /* ScaleOut.txt */; };
+		44C2A03118BC2373007808B8 /* SoftwareDefined.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -87,7 +91,11 @@
 		44870E2418A7DCD000B5F9F4 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
 		44C1338E18BBC46C00D64DA5 /* SectionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionThreeViewController.h; sourceTree = "<group>"; };
 		44C1338F18BBC46C00D64DA5 /* SectionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionThreeViewController.m; sourceTree = "<group>"; };
-		44C2A02818BC14EE007808B8 /* converged.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = converged.txt; sourceTree = "<group>"; };
+		44C2A02818BC14EE007808B8 /* Converged.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Converged.txt; sourceTree = "<group>"; };
+		44C2A02A18BC2373007808B8 /* Cloud.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cloud.txt; sourceTree = "<group>"; };
+		44C2A02B18BC2373007808B8 /* Flash.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flash.txt; sourceTree = "<group>"; };
+		44C2A02C18BC2373007808B8 /* ScaleOut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScaleOut.txt; sourceTree = "<group>"; };
+		44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SoftwareDefined.txt; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GetToKnowUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetToKnowUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -198,7 +206,11 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
-				44C2A02818BC14EE007808B8 /* converged.txt */,
+				44C2A02A18BC2373007808B8 /* Cloud.txt */,
+				44C2A02B18BC2373007808B8 /* Flash.txt */,
+				44C2A02C18BC2373007808B8 /* ScaleOut.txt */,
+				44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */,
+				44C2A02818BC14EE007808B8 /* Converged.txt */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -376,7 +388,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C2A02918BC14EE007808B8 /* converged.txt in Resources */,
+				44C2A02918BC14EE007808B8 /* Converged.txt in Resources */,
+				44C2A03018BC2373007808B8 /* ScaleOut.txt in Resources */,
 				44EC831A18A468C80036D1B7 /* Lato-Light.ttf in Resources */,
 				441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */,
 				44D769AD189484410060617F /* Images.xcassets in Resources */,
@@ -386,14 +399,17 @@
 				44EC831418A468C80036D1B7 /* Lato-BlackItalic.ttf in Resources */,
 				44EC831B18A468C80036D1B7 /* Lato-LightItalic.ttf in Resources */,
 				4474862A189E7D9100FA06CF /* DefaultTheme.plist in Resources */,
+				44C2A03118BC2373007808B8 /* SoftwareDefined.txt in Resources */,
 				441601E4189E73B20065B4F3 /* table_header_1.png in Resources */,
 				B8034E2618BAEEEF00A56CE9 /* webGUI-youtube.html in Resources */,
 				44EC831518A468C80036D1B7 /* Lato-Bold.ttf in Resources */,
 				44EC831718A468C80036D1B7 /* Lato-Hairline.ttf in Resources */,
 				441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */,
 				4474865518A070DB00FA06CF /* youtube.html in Resources */,
+				44C2A02E18BC2373007808B8 /* Cloud.txt in Resources */,
 				44EC831318A468C80036D1B7 /* Lato-Black.ttf in Resources */,
 				44D769A5189484410060617F /* Main.storyboard in Resources */,
+				44C2A02F18BC2373007808B8 /* Flash.txt in Resources */,
 				44EC831918A468C80036D1B7 /* Lato-Italic.ttf in Resources */,
 				44EC831618A468C80036D1B7 /* Lato-BoldItalic.ttf in Resources */,
 			);

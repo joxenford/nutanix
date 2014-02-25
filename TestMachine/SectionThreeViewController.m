@@ -7,6 +7,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *serverAttachedFlashButton;
 @property (strong, nonatomic) IBOutlet UIButton *hybridButton;
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
+@property (weak, nonatomic) IBOutlet UIScrollView *decriptionScrollView;
 
 @end
 
@@ -42,15 +43,20 @@
       [sender setSelected:YES];
     
     if (i == 1) {
-        NSString * fName = [[NSBundle mainBundle] pathForResource:@"converged" ofType:@"txt"];
-        if (fName) {
-            _convergedString = [NSString stringWithContentsOfFile:fName encoding:NSUTF8StringEncoding error:nil];
+        NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Converged" ofType:@"txt"];
+        if (fileName) {
+            _convergedString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
         _descriptionLabel.text = _convergedString;
     
     }
     if (i == 2) {
-        _descriptionLabel.text = @"Scale Out";
+        NSString* fileName = [[NSBundle mainBundle] pathForResource:@"ScaleOut" ofType:@"txt"];
+        if (fileName) {
+            _scaleOutString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+        }
+        _descriptionLabel.text = _scaleOutString;
+        
     }
     if (i == 3) {
         _descriptionLabel.text = @"Software Defined";
