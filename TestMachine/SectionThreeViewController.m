@@ -15,7 +15,7 @@
 {
     NSArray* _buttonArray;
     NSArray* _labelArray;
-    NSString* _convergedString;
+    NSString* _descriptionString;
     NSString* _scaleOutString;
     NSString* _softwareDefinedString;
     NSString* _serverAttachedFlashString;
@@ -45,30 +45,51 @@
     if (i == 1) {
         NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Converged" ofType:@"txt"];
         if (fileName) {
-            _convergedString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
-        _descriptionLabel.text = _convergedString;
+        _descriptionLabel.text = _descriptionString;
     
     }
     if (i == 2) {
         NSString* fileName = [[NSBundle mainBundle] pathForResource:@"ScaleOut" ofType:@"txt"];
         if (fileName) {
-            _scaleOutString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
-        _descriptionLabel.text = _scaleOutString;
+        _descriptionLabel.text = _descriptionString;
         
     }
     if (i == 3) {
-        _descriptionLabel.text = @"Software Defined";
+        NSString* fileName = [[NSBundle mainBundle] pathForResource:@"SoftwareDefined" ofType:@"txt"];
+        if (fileName) {
+            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+        }
+        _descriptionLabel.text = _descriptionString;
     }
     if (i == 4) {
-        _descriptionLabel.text = @"Server-Attached Flash";
+        NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Flash" ofType:@"txt"];
+        if (fileName) {
+            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+        }
+        _descriptionLabel.text = _descriptionString;
     }
     if (i == 5) {
-        _descriptionLabel.text = @"Hybrid";
+        NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Cloud" ofType:@"txt"];
+        if (fileName) {
+            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+        }
+        _descriptionLabel.text = _descriptionString;
     }
+    [self fadeIn:_descriptionLabel delay:0.1];
 }
 
+- (void) fadeIn:(UIView*)view delay:(float) delay;
+{
+    view.alpha = 0;
+    
+    [UIView animateWithDuration:1.0 delay:delay options:UIViewAnimationOptionCurveEaseIn
+                     animations:^{ view.alpha = 1;}
+                     completion:nil];
+}
 
 
 @end

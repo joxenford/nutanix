@@ -285,7 +285,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="752" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-Id-WPn">
-                                <rect key="frame" x="71" y="364" width="752" height="168"/>
+                                <rect key="frame" x="241" y="344" width="752" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="168" id="WDn-LR-ycE"/>
@@ -306,11 +306,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0fm-nK-gZw" firstAttribute="top" secondItem="zBc-Id-WPn" secondAttribute="bottom" constant="50" id="0eH-QN-UaL"/>
-                            <constraint firstItem="zBc-Id-WPn" firstAttribute="top" secondItem="87w-Nv-s0Z" secondAttribute="bottom" constant="26" id="4i1-hc-Web"/>
+                            <constraint firstItem="0fm-nK-gZw" firstAttribute="top" secondItem="zBc-Id-WPn" secondAttribute="bottom" constant="70" id="0eH-QN-UaL"/>
+                            <constraint firstItem="zBc-Id-WPn" firstAttribute="top" secondItem="87w-Nv-s0Z" secondAttribute="bottom" constant="6" id="4i1-hc-Web"/>
                             <constraint firstItem="0fm-nK-gZw" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="405" id="4xB-kt-X4c"/>
                             <constraint firstItem="bo5-tP-hJE" firstAttribute="top" secondItem="uYi-g0-LQs" secondAttribute="bottom" constant="26" id="Irb-jb-nLz"/>
-                            <constraint firstItem="zBc-Id-WPn" firstAttribute="leading" secondItem="87w-Nv-s0Z" secondAttribute="leading" id="KRD-CL-4vc"/>
+                            <constraint firstItem="zBc-Id-WPn" firstAttribute="leading" secondItem="87w-Nv-s0Z" secondAttribute="leading" constant="170" id="KRD-CL-4vc"/>
                             <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="0fm-nK-gZw" secondAttribute="bottom" constant="113" id="L72-YX-BqT"/>
                             <constraint firstItem="87w-Nv-s0Z" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="8" symbolic="YES" id="LHL-pC-Duj"/>
                             <constraint firstItem="87w-Nv-s0Z" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="71" id="V22-V3-rPr"/>
@@ -568,18 +568,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xVS-GS-x3z">
-                                <rect key="frame" x="0.0" y="398" width="1024" height="334"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="1rB-lg-Cf2" userLabel="Label - Description">
+                                <rect key="frame" x="26" y="413" width="984" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="1rB-lg-Cf2" userLabel=" Label - Description">
-                                        <rect key="frame" x="20" y="20" width="984" height="294"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </scrollView>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -590,7 +584,6 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="convergedButton" destination="dif-6j-jBG" id="d33-HB-8Bw"/>
-                        <outlet property="decriptionScrollView" destination="xVS-GS-x3z" id="UPg-Dy-ueP"/>
                         <outlet property="descriptionLabel" destination="1rB-lg-Cf2" id="yIV-fU-aze"/>
                         <outlet property="hybridButton" destination="BKG-y4-O6m" id="QyA-tb-aK6"/>
                         <outlet property="scaleOutButton" destination="ITA-Vd-Gh5" id="CDL-WV-bTf"/>
