@@ -258,9 +258,7 @@
                                 <rect key="frame" x="898" y="667" width="88" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="HVr-6M-bww"/>
-                                    <constraint firstAttribute="width" constant="88" id="Pxz-aq-L3e"/>
-                                    <constraint firstAttribute="height" constant="44" id="zUO-or-A36"/>
+                                    <constraint firstAttribute="width" constant="88" id="yLZ-Js-Di6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="NEXT">
@@ -279,45 +277,53 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="LargeLabel"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="717" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Nv-s0Z">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="717" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Nv-s0Z">
                                 <rect key="frame" x="71" y="130" width="717" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Nutanix is a software company that happens to sell hardware to provide a unique converged infrastructure approach called the "Virtual Computing Platform". While we have some very attractive hardware form factors, the key is the software that makes it all work together.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="752" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-Id-WPn">
-                                <rect key="frame" x="154" y="360" width="752" height="168"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="752" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-Id-WPn">
+                                <rect key="frame" x="71" y="364" width="752" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="168" id="WDn-LR-ycE"/>
+                                </constraints>
                                 <string key="text">The Nutanix Virtual Computing Platform provides your virtual workloads with all of the performance benefits of local, direct-attached- storage, while still providing all of the management benefits of a shared storage model. You may be asking yourself, “How can Nutanix do this”?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Well, we’re glad you asked..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-nK-gZw">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Well, we’re glad you asked..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-nK-gZw">
                                 <rect key="frame" x="405" y="582" width="283" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="283" id="o88-9B-4CX"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zBc-Id-WPn" firstAttribute="top" secondItem="87w-Nv-s0Z" secondAttribute="bottom" constant="45" id="9KG-ie-1xC"/>
-                            <constraint firstItem="bo5-tP-hJE" firstAttribute="top" secondItem="uYi-g0-LQs" secondAttribute="bottom" constant="26" id="DmD-7f-tgH"/>
-                            <constraint firstItem="87w-Nv-s0Z" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="-15" id="JIU-Wc-BBr"/>
-                            <constraint firstItem="87w-Nv-s0Z" firstAttribute="leading" secondItem="zBc-Id-WPn" secondAttribute="leading" id="LE2-GM-Soh"/>
-                            <constraint firstAttribute="centerX" secondItem="0fm-nK-gZw" secondAttribute="centerX" constant="-34.5" id="NRi-Qg-KiT"/>
-                            <constraint firstItem="0fm-nK-gZw" firstAttribute="top" secondItem="zBc-Id-WPn" secondAttribute="bottom" constant="54" id="PwB-cb-bF6"/>
-                            <constraint firstAttribute="trailing" secondItem="Q54-Qv-kMn" secondAttribute="trailing" constant="38" id="T8G-Bp-AO8"/>
-                            <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="87w-Nv-s0Z" secondAttribute="leading" id="bEK-47-QmB"/>
-                            <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="Q54-Qv-kMn" secondAttribute="bottom" constant="20" symbolic="YES" id="f53-fp-4xx"/>
-                            <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="20" id="kHR-Rh-pxn"/>
-                            <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="597" id="ryn-uE-zwD"/>
-                            <constraint firstAttribute="centerY" secondItem="0fm-nK-gZw" secondAttribute="centerY" constant="-210" id="sva-AC-qgE"/>
+                            <constraint firstItem="0fm-nK-gZw" firstAttribute="top" secondItem="zBc-Id-WPn" secondAttribute="bottom" constant="50" id="0eH-QN-UaL"/>
+                            <constraint firstItem="zBc-Id-WPn" firstAttribute="top" secondItem="87w-Nv-s0Z" secondAttribute="bottom" constant="26" id="4i1-hc-Web"/>
+                            <constraint firstItem="0fm-nK-gZw" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="405" id="4xB-kt-X4c"/>
+                            <constraint firstItem="bo5-tP-hJE" firstAttribute="top" secondItem="uYi-g0-LQs" secondAttribute="bottom" constant="26" id="Irb-jb-nLz"/>
+                            <constraint firstItem="zBc-Id-WPn" firstAttribute="leading" secondItem="87w-Nv-s0Z" secondAttribute="leading" id="KRD-CL-4vc"/>
+                            <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="0fm-nK-gZw" secondAttribute="bottom" constant="113" id="L72-YX-BqT"/>
+                            <constraint firstItem="87w-Nv-s0Z" firstAttribute="top" secondItem="bo5-tP-hJE" secondAttribute="bottom" constant="8" symbolic="YES" id="LHL-pC-Duj"/>
+                            <constraint firstItem="87w-Nv-s0Z" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="71" id="V22-V3-rPr"/>
+                            <constraint firstItem="HZE-0J-wid" firstAttribute="top" secondItem="Q54-Qv-kMn" secondAttribute="bottom" constant="8" id="Z9a-hs-tql"/>
+                            <constraint firstItem="Q54-Qv-kMn" firstAttribute="top" secondItem="uYi-g0-LQs" secondAttribute="bottom" constant="603" id="mO4-7c-9XP"/>
+                            <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="20" symbolic="YES" id="rmh-1k-nPH"/>
+                            <constraint firstAttribute="trailing" secondItem="Q54-Qv-kMn" secondAttribute="trailing" constant="38" id="xXI-AE-jME"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" id="GI6-Ap-DIm"/>
+                    <navigationItem key="navigationItem" title="Overview" id="GI6-Ap-DIm">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="DGe-YX-8H7"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="_nextButton" destination="Q54-Qv-kMn" id="KTE-79-zOE"/>
                         <outlet property="gladYouAskedLabel" destination="0fm-nK-gZw" id="uml-L8-vKr"/>
@@ -378,7 +384,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" id="TSa-na-LbV"/>
+                    <navigationItem key="navigationItem" title="Overview" id="TSa-na-LbV">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="yCJ-FQ-8BW"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="webView" destination="PyU-q7-6ya" id="bNk-Af-0vI"/>
@@ -409,7 +417,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8qG-3r-1Q6"/>
+                    <navigationItem key="navigationItem" title="Web Console" id="8qG-3r-1Q6">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="4il-ig-G7U"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="webGuiView" destination="ida-Fh-Rjd" id="Ejo-8d-A5l"/>
@@ -472,13 +482,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="1rB-lg-Cf2" userLabel=" Label - Description">
-                                <rect key="frame" x="20" y="430" width="984" height="286"/>
+                                <rect key="frame" x="20" y="418" width="984" height="294"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UU-kf-PlN" userLabel="Button View">
-                                <rect key="frame" x="-17" y="224" width="1058" height="219"/>
+                                <rect key="frame" x="-17" y="220" width="1058" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dif-6j-jBG">
@@ -568,7 +578,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zdt-j7-0hd"/>
+                    <navigationItem key="navigationItem" title="Overview" id="zdt-j7-0hd">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="3o7-Fj-8Rx"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="convergedButton" destination="dif-6j-jBG" id="d33-HB-8Bw"/>
@@ -613,7 +625,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8Q-kh-ELj">
-                                <rect key="frame" x="306" y="604" width="413" height="94"/>
+                                <rect key="frame" x="306" y="603" width="413" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Click Here for an Interactive Mock-up">
@@ -627,7 +639,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jRt-xi-uaf"/>
+                    <navigationItem key="navigationItem" title="Web Console" id="jRt-xi-uaf">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="hiG-Qg-CH5"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="webGuiWebView" destination="Dr8-6V-NH2" id="lfs-jw-JoD"/>
@@ -649,9 +663,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fER-GX-wKo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fER-GX-wKo">
                                 <rect key="frame" x="916" y="661" width="88" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Gae-f6-7Kp"/>
+                                    <constraint firstAttribute="width" constant="88" id="Mde-KD-RPN"/>
+                                </constraints>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -659,98 +677,136 @@
                                     <segue destination="Tyk-Mk-Xhe" kind="push" id="JVf-iv-Kb4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Nutanix Solution" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z46-6s-ZAu">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Nutanix Solution" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z46-6s-ZAu">
                                 <rect key="frame" x="20" y="78" width="263" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="263" id="FAt-aD-2hc"/>
+                                    <constraint firstAttribute="height" constant="21" id="ZYi-cG-YkY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="LargeLabel"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="A5W-gO-2cn">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="A5W-gO-2cn">
                                 <rect key="frame" x="20" y="107" width="975" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="9E0-YZ-rlf"/>
+                                </constraints>
                                 <string key="text">The Nutanix Virtual Computing Platform is a converged infrastructure solution that consolidates the compute (server) tier and the storage tier into a single, integrated appliance.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="MfS-Q7-Iea">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="MfS-Q7-Iea">
                                 <rect key="frame" x="20" y="164" width="975" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="1q1-id-JWb"/>
+                                </constraints>
                                 <string key="text">Nutanix uses the same design principles and technologies that power IT innovators such as Google, Facebook, and Amazon. It tailors these for mainstream enterprises and government agencies.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Nutanix solution is radically simple compared to traditional datacenter infrastructures." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="R0B-C5-wf6">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Nutanix solution is radically simple compared to traditional datacenter infrastructures." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="R0B-C5-wf6">
                                 <rect key="frame" x="20" y="230" width="984" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="STv-v1-PlJ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="fvD-KZ-2CG">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="fvD-KZ-2CG">
                                 <rect key="frame" x="20" y="440" width="975" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="55P-vh-pH3"/>
+                                </constraints>
                                 <string key="text">The modular building-block design allows your organization to start with small deployments and grow incrementally into very large cluster installations. With one appliance, you can move from a small operation to handling large-scale server virtualization deployments, virtual desktop initiatives, test and development applications, big data (e.g. Splunk, Hadoop) projects, and more.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Rapid time to value: deployment in about an hour, no matter what size the cluster is" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="i4A-sG-m9b">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Rapid time to value: deployment in about an hour, no matter what size the cluster is" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="i4A-sG-m9b">
                                 <rect key="frame" x="20" y="256" width="872" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="872" id="IrC-bZ-qY1"/>
+                                    <constraint firstAttribute="height" constant="33" id="SUJ-me-aho"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Powerful off-the-shelf, non-proprietary hardware" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="syI-o1-yfW">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Powerful off-the-shelf, non-proprietary hardware" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="syI-o1-yfW">
                                 <rect key="frame" x="20" y="326" width="872" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="cFh-dv-REa"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• No disruption to on-going operations" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="iFh-FQ-8Kb">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• No disruption to on-going operations" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="iFh-FQ-8Kb">
                                 <rect key="frame" x="20" y="279" width="872" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="eCp-dg-k4x"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Easily, and dynamically, scales" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="jsl-mY-aun">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Easily, and dynamically, scales" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="jsl-mY-aun">
                                 <rect key="frame" x="20" y="303" width="872" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Dai-VF-4xq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Reduces the cost and complexity of storage" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="Rea-cD-Ggz">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Reduces the cost and complexity of storage" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="Rea-cD-Ggz">
                                 <rect key="frame" x="20" y="350" width="872" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="AA3-sW-hA3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Works with legacy components, protecting investments you’ve already made" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="Xez-EU-3dN">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Works with legacy components, protecting investments you’ve already made" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="Xez-EU-3dN">
                                 <rect key="frame" x="20" y="375" width="872" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="m2B-hq-iu2"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Delivers advanced, enterprise-class storage capabilities" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="l0J-oP-B0s">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Delivers advanced, enterprise-class storage capabilities" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="l0J-oP-B0s">
                                 <rect key="frame" x="20" y="399" width="872" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="kB9-iu-JNA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="kB9-iu-JNA">
                                 <rect key="frame" x="20" y="532" width="975" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="8Sv-GH-rfX"/>
+                                </constraints>
                                 <string key="text">The Nutanix Virtual Computing Platform integrates high-performance server resources with enterprise-class storage in a cost-effective 2U appliance. It eliminates the need for network-based storage architecture, such as a storage area network (SAN) or network-attached storage (NAS). The scalability and performance that the world’s largest, most efficient datacenters enjoy are now available to all enterprises and government agencies.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -758,9 +814,51 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jsl-mY-aun" firstAttribute="top" secondItem="i4A-sG-m9b" secondAttribute="bottom" constant="14" id="0Gv-Gl-zjN"/>
+                            <constraint firstItem="fvD-KZ-2CG" firstAttribute="top" secondItem="l0J-oP-B0s" secondAttribute="bottom" constant="8" symbolic="YES" id="0sI-Ar-kLm"/>
+                            <constraint firstItem="iFh-FQ-8Kb" firstAttribute="leading" secondItem="i4A-sG-m9b" secondAttribute="leading" id="6Mu-q8-UNt"/>
+                            <constraint firstItem="MfS-Q7-Iea" firstAttribute="top" secondItem="A5W-gO-2cn" secondAttribute="bottom" id="73K-cZ-Zpc"/>
+                            <constraint firstItem="iFh-FQ-8Kb" firstAttribute="leading" secondItem="jsl-mY-aun" secondAttribute="leading" id="9CA-Yd-VcV"/>
+                            <constraint firstItem="fvD-KZ-2CG" firstAttribute="trailing" secondItem="kB9-iu-JNA" secondAttribute="trailing" id="9ex-rw-VGx"/>
+                            <constraint firstItem="syI-o1-yfW" firstAttribute="trailing" secondItem="jsl-mY-aun" secondAttribute="trailing" id="AK8-1Q-7ev"/>
+                            <constraint firstItem="Xez-EU-3dN" firstAttribute="top" secondItem="syI-o1-yfW" secondAttribute="bottom" constant="16" id="BaU-JP-oJv"/>
+                            <constraint firstItem="R0B-C5-wf6" firstAttribute="leading" secondItem="MfS-Q7-Iea" secondAttribute="leading" id="BnV-ky-r10"/>
+                            <constraint firstItem="l0J-oP-B0s" firstAttribute="trailing" secondItem="Xez-EU-3dN" secondAttribute="trailing" id="CoK-Eg-iaQ"/>
+                            <constraint firstItem="Rea-cD-Ggz" firstAttribute="top" secondItem="jsl-mY-aun" secondAttribute="bottom" constant="14" id="Gpi-M4-1Q8"/>
+                            <constraint firstItem="iFh-FQ-8Kb" firstAttribute="top" secondItem="R0B-C5-wf6" secondAttribute="bottom" constant="18" id="HEP-BX-Vdb"/>
+                            <constraint firstItem="MFM-Qv-kOh" firstAttribute="top" secondItem="fER-GX-wKo" secondAttribute="bottom" constant="14" id="N6i-tc-ghf"/>
+                            <constraint firstItem="A5W-gO-2cn" firstAttribute="top" secondItem="z46-6s-ZAu" secondAttribute="bottom" constant="8" symbolic="YES" id="NIQ-2R-WVW"/>
+                            <constraint firstItem="Xez-EU-3dN" firstAttribute="leading" secondItem="l0J-oP-B0s" secondAttribute="leading" id="OMw-iD-6ls"/>
+                            <constraint firstItem="l0J-oP-B0s" firstAttribute="leading" secondItem="fvD-KZ-2CG" secondAttribute="leading" id="Q6Q-e9-dZz"/>
+                            <constraint firstAttribute="trailing" secondItem="R0B-C5-wf6" secondAttribute="trailing" constant="20" symbolic="YES" id="SbJ-3b-vmo"/>
+                            <constraint firstItem="MFM-Qv-kOh" firstAttribute="top" secondItem="kB9-iu-JNA" secondAttribute="bottom" constant="50" id="XYt-fU-ZWw"/>
+                            <constraint firstItem="Rea-cD-Ggz" firstAttribute="trailing" secondItem="Xez-EU-3dN" secondAttribute="trailing" id="a4q-pO-dqM"/>
+                            <constraint firstItem="iFh-FQ-8Kb" firstAttribute="trailing" secondItem="jsl-mY-aun" secondAttribute="trailing" id="b1n-nh-TSY"/>
+                            <constraint firstItem="A5W-gO-2cn" firstAttribute="trailing" secondItem="MfS-Q7-Iea" secondAttribute="trailing" id="gxP-j7-Qhb"/>
+                            <constraint firstItem="fER-GX-wKo" firstAttribute="trailing" secondItem="R0B-C5-wf6" secondAttribute="trailing" id="gyA-a7-YeY"/>
+                            <constraint firstItem="i4A-sG-m9b" firstAttribute="trailing" secondItem="iFh-FQ-8Kb" secondAttribute="trailing" id="hAg-dA-qml"/>
+                            <constraint firstItem="jsl-mY-aun" firstAttribute="leading" secondItem="syI-o1-yfW" secondAttribute="leading" id="ifn-Fq-gFB"/>
+                            <constraint firstItem="R0B-C5-wf6" firstAttribute="top" secondItem="MfS-Q7-Iea" secondAttribute="bottom" constant="13" id="jBP-Vd-Xbh"/>
+                            <constraint firstItem="A5W-gO-2cn" firstAttribute="leading" secondItem="z46-6s-ZAu" secondAttribute="leading" id="jXf-yH-kOS"/>
+                            <constraint firstItem="syI-o1-yfW" firstAttribute="top" secondItem="iFh-FQ-8Kb" secondAttribute="bottom" constant="14" id="l8Q-vL-0xr"/>
+                            <constraint firstItem="i4A-sG-m9b" firstAttribute="leading" secondItem="R0B-C5-wf6" secondAttribute="leading" id="moV-td-W54"/>
+                            <constraint firstItem="fvD-KZ-2CG" firstAttribute="top" secondItem="Xez-EU-3dN" secondAttribute="bottom" constant="32" id="o3B-dM-jsj"/>
+                            <constraint firstItem="z46-6s-ZAu" firstAttribute="leading" secondItem="Tac-wl-pSN" secondAttribute="leading" constant="20" symbolic="YES" id="oZH-EN-wRc"/>
+                            <constraint firstItem="Rea-cD-Ggz" firstAttribute="leading" secondItem="syI-o1-yfW" secondAttribute="leading" id="sL4-SU-eJ0"/>
+                            <constraint firstItem="Rea-cD-Ggz" firstAttribute="leading" secondItem="Xez-EU-3dN" secondAttribute="leading" id="to4-VY-gCz"/>
+                            <constraint firstItem="kB9-iu-JNA" firstAttribute="leading" secondItem="fvD-KZ-2CG" secondAttribute="leading" id="uYQ-qg-rUh"/>
+                            <constraint firstItem="l0J-oP-B0s" firstAttribute="top" secondItem="Rea-cD-Ggz" secondAttribute="bottom" constant="16" id="unv-7C-QHm"/>
+                            <constraint firstItem="syI-o1-yfW" firstAttribute="trailing" secondItem="Rea-cD-Ggz" secondAttribute="trailing" id="vTa-Im-T6P"/>
+                            <constraint firstItem="A5W-gO-2cn" firstAttribute="leading" secondItem="MfS-Q7-Iea" secondAttribute="leading" id="wEo-j5-Jt4"/>
+                            <constraint firstItem="z46-6s-ZAu" firstAttribute="top" secondItem="TU3-FA-qmI" secondAttribute="bottom" constant="14" id="xyW-3x-en5"/>
+                            <constraint firstItem="i4A-sG-m9b" firstAttribute="top" secondItem="MfS-Q7-Iea" secondAttribute="bottom" constant="39" id="yK3-2F-snE"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" id="13I-vg-Ooy"/>
+                    <navigationItem key="navigationItem" title="Overview" id="13I-vg-Ooy">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="vgy-Ky-9oX"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3p-Xx-rKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -804,11 +902,11 @@
             </objects>
             <point key="canvasLocation" x="791" y="927"/>
         </scene>
-        <!--Navigation Controller - Web Console-->
+        <!--Navigation Controller - Web  Console-->
         <scene sceneID="JCD-vj-MUJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iki-7w-O4F" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Web Console" id="if9-Fs-k5r"/>
+                    <tabBarItem key="tabBarItem" title="Web  Console" id="if9-Fs-k5r"/>
                     <toolbarItems/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XJ9-YJ-1lU">
