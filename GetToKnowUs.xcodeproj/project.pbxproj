@@ -27,6 +27,7 @@
 		44C2A03018BC2373007808B8 /* ScaleOut.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02C18BC2373007808B8 /* ScaleOut.txt */; };
 		44C2A03118BC2373007808B8 /* SoftwareDefined.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */; };
 		44C2A03418BC3162007808B8 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2A03318BC3162007808B8 /* UIView+Animation.m */; };
+		44C2A03718BC36EF007808B8 /* SectionTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */; };
 		44D76992189484410060617F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76991189484410060617F /* Foundation.framework */; };
 		44D76994189484410060617F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76993189484410060617F /* CoreGraphics.framework */; };
 		44D76996189484410060617F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D76995189484410060617F /* UIKit.framework */; };
@@ -97,8 +98,10 @@
 		44C2A02B18BC2373007808B8 /* Flash.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Flash.txt; path = ../Flash.txt; sourceTree = "<group>"; };
 		44C2A02C18BC2373007808B8 /* ScaleOut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ScaleOut.txt; path = ../ScaleOut.txt; sourceTree = "<group>"; };
 		44C2A02D18BC2373007808B8 /* SoftwareDefined.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SoftwareDefined.txt; path = ../SoftwareDefined.txt; sourceTree = "<group>"; };
-		44C2A03218BC3162007808B8 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Animation.h"; path = "TestMachine/UIView+Animation.h"; sourceTree = "<group>"; };
-		44C2A03318BC3162007808B8 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Animation.m"; path = "TestMachine/UIView+Animation.m"; sourceTree = "<group>"; };
+		44C2A03218BC3162007808B8 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		44C2A03318BC3162007808B8 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		44C2A03518BC36EF007808B8 /* SectionTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionTwoViewController.h; path = TestMachine/SectionTwoViewController.h; sourceTree = "<group>"; };
+		44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionTwoViewController.m; path = TestMachine/SectionTwoViewController.m; sourceTree = "<group>"; };
 		44D7698E189484410060617F /* GetToKnowUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetToKnowUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D76991189484410060617F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D76993189484410060617F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -198,6 +201,8 @@
 		448411FE18BB9FB60065D5C3 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				44C2A03218BC3162007808B8 /* UIView+Animation.h */,
+				44C2A03318BC3162007808B8 /* UIView+Animation.m */,
 				44D769C918952C490060617F /* NewsAndEventsCell.h */,
 				44D769CA18952C490060617F /* NewsAndEventsCell.m */,
 				44D769CB18952C490060617F /* XMLFeedItem.h */,
@@ -209,8 +214,8 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
-				44C2A03218BC3162007808B8 /* UIView+Animation.h */,
-				44C2A03318BC3162007808B8 /* UIView+Animation.m */,
+				44C2A03518BC36EF007808B8 /* SectionTwoViewController.h */,
+				44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -470,6 +475,7 @@
 			files = (
 				4474862C189E7D9100FA06CF /* Themer.m in Sources */,
 				44C2A03418BC3162007808B8 /* UIView+Animation.m in Sources */,
+				44C2A03718BC36EF007808B8 /* SectionTwoViewController.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,
 				B8034EBD18BAF05A00A56CE9 /* WebGuiViewController.m in Sources */,
 				44D769CD18952C490060617F /* NewsAndEventsCell.m in Sources */,
