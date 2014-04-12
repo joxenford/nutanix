@@ -351,7 +351,7 @@
 				ORGANIZATIONNAME = "James Oxenford";
 				TargetAttributes = {
 					44D7698D189484410060617F = {
-						DevelopmentTeam = HJWMFM488E;
+						DevelopmentTeam = F68PJ4G94V;
 					};
 					44D769B1189484410060617F = {
 						TestTargetID = 44D7698D189484410060617F;
@@ -599,13 +599,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timothy Federwitz (5YZ2C9AU7L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Timothy Federwitz (5YZ2C9AU7L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMachine/GetToKnowUs-Prefix.pch";
 				INFOPLIST_FILE = "TestMachine/GetToKnowUs-Info.plist";
 				PRODUCT_NAME = GetToKnowUs;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "430A2768-61B9-4A82-8C8B-56781D6A016F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -616,13 +616,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timothy Federwitz (5YZ2C9AU7L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Timothy Federwitz (5YZ2C9AU7L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMachine/GetToKnowUs-Prefix.pch";
 				INFOPLIST_FILE = "TestMachine/GetToKnowUs-Info.plist";
 				PRODUCT_NAME = GetToKnowUs;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "430A2768-61B9-4A82-8C8B-56781D6A016F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
