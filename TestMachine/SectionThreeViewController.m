@@ -27,6 +27,7 @@
     [super viewDidLoad];
     
     _buttonArray = @[_convergedButton, _scaleOutButton, _softwareDefinedButton, _serverAttachedFlashButton, _hybridButton];
+    [Flurry logEvent:@"Section Three Viewed"];
 }
 
 - (IBAction)buttonPressed:(id)sender

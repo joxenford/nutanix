@@ -155,6 +155,7 @@
         XMLFeedItem* newsItem = [newsFeed objectAtIndex:indexPath.row];
         detailViewController.url = [newsItem link];
         detailViewController.content = [newsItem content];
+        [Flurry logEvent:[newsItem title]];
        
     }
 }

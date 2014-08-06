@@ -21,9 +21,7 @@
 {
     [super viewDidLoad];
     [self displayBulletPoints];
-   
-    
-
+    [Flurry logEvent:@"Section Two Viewed"];
 }
 
 

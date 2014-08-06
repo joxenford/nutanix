@@ -17,6 +17,8 @@
 		445B342D1992C4BA0019952D /* GothamRnd-LightIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34251992C4BA0019952D /* GothamRnd-LightIta.ttf */; };
 		445B342E1992C4BA0019952D /* GothamRnd-MedIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34261992C4BA0019952D /* GothamRnd-MedIta.ttf */; };
 		445B342F1992C4BA0019952D /* GothamRnd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34271992C4BA0019952D /* GothamRnd-Medium.ttf */; };
+		445B35681992CEAB0019952D /* libFlurry_5.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B35671992CEAB0019952D /* libFlurry_5.2.0.a */; };
+		445B356A1992CEDE0019952D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B35691992CEDE0019952D /* SystemConfiguration.framework */; };
 		4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474864D18A02C1900FA06CF /* IntroViewController.m */; };
 		4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474865218A0655B00FA06CF /* SectionOneViewController.m */; };
 		4474865518A070DB00FA06CF /* youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = 4474865418A070DB00FA06CF /* youtube.html */; };
@@ -86,6 +88,9 @@
 		445B34251992C4BA0019952D /* GothamRnd-LightIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-LightIta.ttf"; sourceTree = "<group>"; };
 		445B34261992C4BA0019952D /* GothamRnd-MedIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-MedIta.ttf"; sourceTree = "<group>"; };
 		445B34271992C4BA0019952D /* GothamRnd-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.ttf"; sourceTree = "<group>"; };
+		445B35661992CEAB0019952D /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		445B35671992CEAB0019952D /* libFlurry_5.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.2.0.a; sourceTree = "<group>"; };
+		445B35691992CEDE0019952D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4474864C18A02C1900FA06CF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		4474864D18A02C1900FA06CF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		4474865118A0655B00FA06CF /* SectionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionOneViewController.h; sourceTree = "<group>"; };
@@ -157,6 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445B356A1992CEDE0019952D /* SystemConfiguration.framework in Frameworks */,
+				445B35681992CEAB0019952D /* libFlurry_5.2.0.a in Frameworks */,
 				4474866118A1DD5100FA06CF /* QuartzCore.framework in Frameworks */,
 				4474865F18A1DD4900FA06CF /* CoreImage.framework in Frameworks */,
 				44D76994189484410060617F /* CoreGraphics.framework in Frameworks */,
@@ -206,6 +213,15 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		445B35651992CEAB0019952D /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				445B35661992CEAB0019952D /* Flurry.h */,
+				445B35671992CEAB0019952D /* libFlurry_5.2.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
 		448411FD18BB9F910065D5C3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +265,7 @@
 		44D76985189484410060617F = {
 			isa = PBXGroup;
 			children = (
+				445B35651992CEAB0019952D /* Flurry */,
 				44D76997189484410060617F /* GreenMachine */,
 				44D769B9189484410060617F /* GreenMachineTests */,
 				44D76990189484410060617F /* Frameworks */,
@@ -269,6 +286,7 @@
 		44D76990189484410060617F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				445B35691992CEDE0019952D /* SystemConfiguration.framework */,
 				4474866018A1DD5100FA06CF /* QuartzCore.framework */,
 				4474865E18A1DD4900FA06CF /* CoreImage.framework */,
 				44D76991189484410060617F /* Foundation.framework */,
@@ -644,6 +662,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMachine/GetToKnowUs-Prefix.pch";
 				INFOPLIST_FILE = "TestMachine/GetToKnowUs-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry-iOS-5.2.0/Flurry",
+					"$(PROJECT_DIR)/Flurry-iOS-5.2.0/FlurryAds",
+					"$(PROJECT_DIR)/Flurry",
+				);
 				PRODUCT_NAME = GetToKnowUs;
 				PROVISIONING_PROFILE = "430A2768-61B9-4A82-8C8B-56781D6A016F";
 				WRAPPER_EXTENSION = app;
@@ -661,6 +685,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMachine/GetToKnowUs-Prefix.pch";
 				INFOPLIST_FILE = "TestMachine/GetToKnowUs-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry-iOS-5.2.0/Flurry",
+					"$(PROJECT_DIR)/Flurry-iOS-5.2.0/FlurryAds",
+					"$(PROJECT_DIR)/Flurry",
+				);
 				PRODUCT_NAME = GetToKnowUs;
 				PROVISIONING_PROFILE = "430A2768-61B9-4A82-8C8B-56781D6A016F";
 				WRAPPER_EXTENSION = app;

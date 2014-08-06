@@ -1,5 +1,6 @@
-platform :ios, '7.0'
+target "GetToKnowUs" do
+    xcodeproj 'GetToKnowUs.xcodeproj'
+    pod 'NUI'
+    pod 'FlurrySDK'
 
-pod 'NUI'
-
-
+end

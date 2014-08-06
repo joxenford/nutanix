@@ -19,6 +19,7 @@
     [_nutanixVirtualComputingLabel fadeInWithDuration:1 delay:5];
     [_gladYouAskedLabel fadeInWithDuration:1 delay:9];
     [_nextButton fadeInWithDuration:1 delay:12];
+    [Flurry logEvent:@"Intro viewed"];
 }
 
 @end
