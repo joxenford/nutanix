@@ -1,7 +1,7 @@
-@primaryFontName: Lato-Regular;
-@secondaryFontName: Lato-Regular;
-@secondaryFontNameBold: Lato-Bold;
-@inputFontName: Lato-Regular;
+@primaryFontName: GothamRounded-Light;
+@secondaryFontName: GothamRounded-Light;
+@secondaryFontNameBold: GothamRounded-Medium;
+@inputFontName: GothamRounded-Light;
 @primaryFontColor: #555555;
 @secondaryFontColor: #888888;
 @nutanixBlue: #034ea2;
