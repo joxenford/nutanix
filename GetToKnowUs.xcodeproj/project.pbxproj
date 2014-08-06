@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */; };
 		441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */; };
+		445B34281992C4BA0019952D /* GothamRnd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34201992C4BA0019952D /* GothamRnd-Bold.ttf */; };
+		445B34291992C4BA0019952D /* GothamRnd-BoldIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34211992C4BA0019952D /* GothamRnd-BoldIta.ttf */; };
+		445B342A1992C4BA0019952D /* GothamRnd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34221992C4BA0019952D /* GothamRnd-Book.ttf */; };
+		445B342B1992C4BA0019952D /* GothamRnd-BookIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34231992C4BA0019952D /* GothamRnd-BookIta.ttf */; };
+		445B342C1992C4BA0019952D /* GothamRnd-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34241992C4BA0019952D /* GothamRnd-Light.ttf */; };
+		445B342D1992C4BA0019952D /* GothamRnd-LightIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34251992C4BA0019952D /* GothamRnd-LightIta.ttf */; };
+		445B342E1992C4BA0019952D /* GothamRnd-MedIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34261992C4BA0019952D /* GothamRnd-MedIta.ttf */; };
+		445B342F1992C4BA0019952D /* GothamRnd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34271992C4BA0019952D /* GothamRnd-Medium.ttf */; };
 		4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474864D18A02C1900FA06CF /* IntroViewController.m */; };
 		4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474865218A0655B00FA06CF /* SectionOneViewController.m */; };
 		4474865518A070DB00FA06CF /* youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = 4474865418A070DB00FA06CF /* youtube.html */; };
@@ -70,6 +78,14 @@
 /* Begin PBXFileReference section */
 		441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		445B34201992C4BA0019952D /* GothamRnd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Bold.ttf"; sourceTree = "<group>"; };
+		445B34211992C4BA0019952D /* GothamRnd-BoldIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-BoldIta.ttf"; sourceTree = "<group>"; };
+		445B34221992C4BA0019952D /* GothamRnd-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Book.ttf"; sourceTree = "<group>"; };
+		445B34231992C4BA0019952D /* GothamRnd-BookIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-BookIta.ttf"; sourceTree = "<group>"; };
+		445B34241992C4BA0019952D /* GothamRnd-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Light.ttf"; sourceTree = "<group>"; };
+		445B34251992C4BA0019952D /* GothamRnd-LightIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-LightIta.ttf"; sourceTree = "<group>"; };
+		445B34261992C4BA0019952D /* GothamRnd-MedIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-MedIta.ttf"; sourceTree = "<group>"; };
+		445B34271992C4BA0019952D /* GothamRnd-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.ttf"; sourceTree = "<group>"; };
 		4474864C18A02C1900FA06CF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		4474864D18A02C1900FA06CF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		4474865118A0655B00FA06CF /* SectionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionOneViewController.h; sourceTree = "<group>"; };
@@ -163,6 +179,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		445B341F1992C4820019952D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				445B34201992C4BA0019952D /* GothamRnd-Bold.ttf */,
+				445B34211992C4BA0019952D /* GothamRnd-BoldIta.ttf */,
+				445B34221992C4BA0019952D /* GothamRnd-Book.ttf */,
+				445B34231992C4BA0019952D /* GothamRnd-BookIta.ttf */,
+				445B34241992C4BA0019952D /* GothamRnd-Light.ttf */,
+				445B34251992C4BA0019952D /* GothamRnd-LightIta.ttf */,
+				445B34261992C4BA0019952D /* GothamRnd-MedIta.ttf */,
+				445B34271992C4BA0019952D /* GothamRnd-Medium.ttf */,
+				44EC831018A468C80036D1B7 /* Lato-Light.ttf */,
+				44EC831118A468C80036D1B7 /* Lato-LightItalic.ttf */,
+				44EC831218A468C80036D1B7 /* Lato-Regular.ttf */,
+				441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */,
+				441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */,
+				44EC830918A468C80036D1B7 /* Lato-Black.ttf */,
+				44EC830A18A468C80036D1B7 /* Lato-BlackItalic.ttf */,
+				44EC830B18A468C80036D1B7 /* Lato-Bold.ttf */,
+				44EC830C18A468C80036D1B7 /* Lato-BoldItalic.ttf */,
+				44EC830D18A468C80036D1B7 /* Lato-Hairline.ttf */,
+				44EC830E18A468C80036D1B7 /* Lato-HairlineItalic.ttf */,
+				44EC830F18A468C80036D1B7 /* Lato-Italic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		448411FD18BB9F910065D5C3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,18 +305,7 @@
 				44C2A02818BC14EE007808B8 /* Converged.txt */,
 				B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */,
 				4474865418A070DB00FA06CF /* youtube.html */,
-				44EC830918A468C80036D1B7 /* Lato-Black.ttf */,
-				44EC830A18A468C80036D1B7 /* Lato-BlackItalic.ttf */,
-				44EC830B18A468C80036D1B7 /* Lato-Bold.ttf */,
-				44EC830C18A468C80036D1B7 /* Lato-BoldItalic.ttf */,
-				44EC830D18A468C80036D1B7 /* Lato-Hairline.ttf */,
-				44EC830E18A468C80036D1B7 /* Lato-HairlineItalic.ttf */,
-				44EC830F18A468C80036D1B7 /* Lato-Italic.ttf */,
-				44EC831018A468C80036D1B7 /* Lato-Light.ttf */,
-				44EC831118A468C80036D1B7 /* Lato-LightItalic.ttf */,
-				44EC831218A468C80036D1B7 /* Lato-Regular.ttf */,
-				441601DF189E73B20065B4F3 /* Montserrat-Bold.ttf */,
-				441601E0189E73B20065B4F3 /* Montserrat-Regular.ttf */,
+				445B341F1992C4820019952D /* Fonts */,
 				44D76999189484410060617F /* GetToKnowUs-Info.plist */,
 				44D7699A189484410060617F /* InfoPlist.strings */,
 				44D7699D189484410060617F /* main.m */,
@@ -383,12 +415,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C2A02918BC14EE007808B8 /* Converged.txt in Resources */,
+				445B34291992C4BA0019952D /* GothamRnd-BoldIta.ttf in Resources */,
 				44C2A03018BC2373007808B8 /* ScaleOut.txt in Resources */,
 				44EC831A18A468C80036D1B7 /* Lato-Light.ttf in Resources */,
 				441601E2189E73B20065B4F3 /* Montserrat-Bold.ttf in Resources */,
+				445B342E1992C4BA0019952D /* GothamRnd-MedIta.ttf in Resources */,
+				445B342B1992C4BA0019952D /* GothamRnd-BookIta.ttf in Resources */,
 				44D769AD189484410060617F /* Images.xcassets in Resources */,
+				445B342F1992C4BA0019952D /* GothamRnd-Medium.ttf in Resources */,
 				44EC831C18A468C80036D1B7 /* Lato-Regular.ttf in Resources */,
 				44EC831818A468C80036D1B7 /* Lato-HairlineItalic.ttf in Resources */,
+				445B342D1992C4BA0019952D /* GothamRnd-LightIta.ttf in Resources */,
+				445B342A1992C4BA0019952D /* GothamRnd-Book.ttf in Resources */,
+				445B342C1992C4BA0019952D /* GothamRnd-Light.ttf in Resources */,
 				44D7699C189484410060617F /* InfoPlist.strings in Resources */,
 				44EC831418A468C80036D1B7 /* Lato-BlackItalic.ttf in Resources */,
 				44EC831B18A468C80036D1B7 /* Lato-LightItalic.ttf in Resources */,
@@ -399,6 +438,7 @@
 				441601E3189E73B20065B4F3 /* Montserrat-Regular.ttf in Resources */,
 				4474865518A070DB00FA06CF /* youtube.html in Resources */,
 				44C2A02E18BC2373007808B8 /* Cloud.txt in Resources */,
+				445B34281992C4BA0019952D /* GothamRnd-Bold.ttf in Resources */,
 				44EC831318A468C80036D1B7 /* Lato-Black.ttf in Resources */,
 				44D769A5189484410060617F /* Main.storyboard in Resources */,
 				44C2A02F18BC2373007808B8 /* Flash.txt in Resources */,

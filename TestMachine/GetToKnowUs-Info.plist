@@ -26,6 +26,14 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>GothamRnd-Medium.ttf</string>
+		<string>GothamRnd-MedIta.ttf</string>
+		<string>GothamRnd-LightIta.ttf</string>
+		<string>GothamRnd-Book.ttf</string>
+		<string>GothamRnd-Light.ttf</string>
+		<string>GothamRnd-BookIta.ttf</string>
+		<string>GothamRnd-Bold.ttf</string>
+		<string>GothamRnd-BoldIta.ttf</string>
 		<string>Montserrat-Regular.ttf</string>
 		<string>Montserrat-Bold.ttf</string>
 		<string>Lato-BoldItalic.ttf</string>
