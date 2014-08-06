@@ -4,8 +4,8 @@
 @inputFontName: Lato-Regular;
 @primaryFontColor: #555555;
 @secondaryFontColor: #888888;
-@nutanixBlue: #0072BB;
-@nutanixGreen: #D4DF3B;
+@nutanixBlue: #034ea2;
+@nutanixGreen: #b0d236;
 @primaryBackgroundColor: #E6E6E6;
 @primaryBackgroundTintColor: #ECECEC;
 @primaryBackgroundColorTop: #F3F3F3;
