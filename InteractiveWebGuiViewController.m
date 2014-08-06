@@ -18,6 +18,7 @@
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     [_webGuiView loadRequest:request];
     [_webGuiView  fadeInWithDuration:1 delay:0.1];
+    [Flurry logEvent:@"WebGUI launched"];
 	
 }
 
