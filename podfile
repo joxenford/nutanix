@@ -1,5 +1,4 @@
 target "GetToKnowUs" do
-    xcodeproj 'GetToKnowUs.xcodeproj'
     pod 'NUI'
     pod 'FlurrySDK'
 

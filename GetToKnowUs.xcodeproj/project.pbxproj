@@ -19,6 +19,7 @@
 		445B342F1992C4BA0019952D /* GothamRnd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445B34271992C4BA0019952D /* GothamRnd-Medium.ttf */; };
 		445B35681992CEAB0019952D /* libFlurry_5.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B35671992CEAB0019952D /* libFlurry_5.2.0.a */; };
 		445B356A1992CEDE0019952D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B35691992CEDE0019952D /* SystemConfiguration.framework */; };
+		446ACD481994060E00651915 /* RssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 446ACD471994060E00651915 /* RssParser.m */; };
 		4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474864D18A02C1900FA06CF /* IntroViewController.m */; };
 		4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474865218A0655B00FA06CF /* SectionOneViewController.m */; };
 		4474865518A070DB00FA06CF /* youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = 4474865418A070DB00FA06CF /* youtube.html */; };
@@ -91,6 +92,8 @@
 		445B35661992CEAB0019952D /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		445B35671992CEAB0019952D /* libFlurry_5.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.2.0.a; sourceTree = "<group>"; };
 		445B35691992CEDE0019952D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		446ACD461994060E00651915 /* RssParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssParser.h; sourceTree = "<group>"; };
+		446ACD471994060E00651915 /* RssParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssParser.m; sourceTree = "<group>"; };
 		4474864C18A02C1900FA06CF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		4474864D18A02C1900FA06CF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		4474865118A0655B00FA06CF /* SectionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionOneViewController.h; sourceTree = "<group>"; };
@@ -222,6 +225,15 @@
 			path = Flurry;
 			sourceTree = "<group>";
 		};
+		446ACD45199405EA00651915 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				446ACD461994060E00651915 /* RssParser.h */,
+				446ACD471994060E00651915 /* RssParser.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		448411FD18BB9F910065D5C3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +313,7 @@
 		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
+				446ACD45199405EA00651915 /* Services */,
 				448411FE18BB9FB60065D5C3 /* Custom */,
 				448411FD18BB9F910065D5C3 /* ViewControllers */,
 				44D769A0189484410060617F /* AppDelegate.h */,
@@ -524,6 +537,7 @@
 				4474864E18A02C1900FA06CF /* IntroViewController.m in Sources */,
 				4474865318A0655B00FA06CF /* SectionOneViewController.m in Sources */,
 				44D769A8189484410060617F /* MasterViewController.m in Sources */,
+				446ACD481994060E00651915 /* RssParser.m in Sources */,
 				44D7699E189484410060617F /* main.m in Sources */,
 				44D769CE18952C490060617F /* XMLFeedItem.m in Sources */,
 				B8034EC018BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m in Sources */,
