@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B6B973AD-008E-4D72-B997-667BA1EB22BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GetToKnowUs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7718535E-AAA3-449C-BC3C-17A68FE700CC</key>
+		<string>ssh://bitbucket.org/joxenford/greenmachine2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GetToKnowUs.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7718535E-AAA3-449C-BC3C-17A68FE700CC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/joxenford/greenmachine2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7718535E-AAA3-449C-BC3C-17A68FE700CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7718535E-AAA3-449C-BC3C-17A68FE700CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>greenmachine2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
