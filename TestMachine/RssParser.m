@@ -26,7 +26,7 @@
 {
     self = [super init];
     if (self) {
-        //self.stories = [[NSMutableArray alloc] init];
+        self.stories = [[NSMutableArray alloc] init];
     }
     return self;
 }
