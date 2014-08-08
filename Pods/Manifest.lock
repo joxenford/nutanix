@@ -1,13 +1,18 @@
 PODS:
   - CoreParse (1.1)
+  - FlurrySDK (5.2.0):
+    - FlurrySDK/FlurrySDK
+  - FlurrySDK/FlurrySDK (5.2.0)
   - NUI (0.5.1):
     - CoreParse
 
 DEPENDENCIES:
+  - FlurrySDK
   - NUI
 
 SPEC CHECKSUMS:
-  CoreParse: 11f0ec66ac10a637fc16995b13ca372e2eeb61dc
-  NUI: ee197d6f9101b8288a354f18325f1fa5b4814c0f
+  CoreParse: 8e48976cdfaf023cac49d625dfb20343e05f9d1d
+  FlurrySDK: 5322b9eb0d0b538f1a1983a6717f3a2e2ba03047
+  NUI: 770f24f4fa8c4e81fcf6de704bc6ee82a5205d1d
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.33.1
