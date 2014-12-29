@@ -13,7 +13,7 @@ static NSDateFormatter* DATE_FORMATTER;
     });
 }
 
-- (instancetype) initWithType:(XMLFeedItemType)type title:(NSString*)title date:(NSString*)date link:(NSString*)link description:(NSString*)description content:(NSString*)content
+- (instancetype) initWithType:(XMLFeedItemType)type title:(NSString*)title date:(NSString*)date link:(NSString*)link summary:(NSString*)summary content:(NSString*)content
 {
     if (nil != (self = [super init])) {
         _type = type;
@@ -21,7 +21,7 @@ static NSDateFormatter* DATE_FORMATTER;
         _date = [DATE_FORMATTER dateFromString:date];
         _dateAsString = date;
         _link = link;
-        _description = description;
+        _summary = summary;
         _content = content;
     }
     return self;

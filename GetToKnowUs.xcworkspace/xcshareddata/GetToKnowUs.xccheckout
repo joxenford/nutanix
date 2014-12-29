@@ -10,6 +10,8 @@
 	<string>GetToKnowUs</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B</key>
+		<string>bitbucket.org:joxenford/greenmachine2.git</string>
 		<key>7718535E-AAA3-449C-BC3C-17A68FE700CC</key>
 		<string>ssh://bitbucket.org/joxenford/greenmachine2.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>GetToKnowUs.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7718535E-AAA3-449C-BC3C-17A68FE700CC</key>
+		<key>2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B</key>
 		<string>..</string>
+		<key>7718535E-AAA3-449C-BC3C-17A68FE700CC</key>
+		<string>../../greenmachine2</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://bitbucket.org/joxenford/greenmachine2.git</string>
+	<string>bitbucket.org:joxenford/greenmachine2.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7718535E-AAA3-449C-BC3C-17A68FE700CC</string>
+	<string>2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>7718535E-AAA3-449C-BC3C-17A68FE700CC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>greenmachine2</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Nutanix-GetToKnowUs</string>
 		</dict>
 	</array>
 </dict>

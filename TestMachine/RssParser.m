@@ -13,7 +13,7 @@
 @property (strong, nonatomic) NSMutableString* title;
 @property (strong, nonatomic) NSMutableString* date;
 @property (strong, nonatomic) NSMutableString* link;
-@property (strong, nonatomic) NSMutableString* description;
+@property (strong, nonatomic) NSMutableString* summary;
 @property (strong, nonatomic) NSMutableString* content;
 @property (strong, nonatomic) NSMutableArray* stories;
 
@@ -66,7 +66,7 @@
             self.title   = [[NSMutableString alloc] init];
             self.date    = [[NSMutableString alloc] init];
             self.link    = [[NSMutableString alloc] init];
-            self.description = [[NSMutableString alloc] init];
+            self.summary = [[NSMutableString alloc] init];
             self.content = [[NSMutableString alloc] init];
         }
     }
@@ -82,7 +82,7 @@
             [self.link appendString:string];
             
         } else if ([self.element  isEqualToString:@"description"]) {
-            [self.description appendString:string];
+            [self.summary appendString:string];
             
         } else if ([self.element isEqualToString:@"pubDate"]) {
             [self.date appendString:string];
@@ -101,7 +101,7 @@
                                      title:[self.title stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]
                                      date:[self.date stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]
                                      link:[self.link stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]
-                                     description:[self.description stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]
+                                     summary:[self.description stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]
                                      content:[self.content stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]
                                      ];
             [self.stories addObject:newsItem];
