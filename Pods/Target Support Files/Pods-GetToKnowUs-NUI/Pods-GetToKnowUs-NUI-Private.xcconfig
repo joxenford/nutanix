@@ -1,0 +1,5 @@
+#include "Pods-GetToKnowUs-NUI.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/NUI" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FlurrySDK" "${PODS_ROOT}/Headers/Public/NUI" "${PODS_ROOT}/Headers/Public/NUIParse"
+OTHER_LDFLAGS = ${PODS_GETTOKNOWUS_NUI_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

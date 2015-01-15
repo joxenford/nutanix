@@ -1,0 +1,1 @@
+PODS_GETTOKNOWUS_NUIPARSE_OTHER_LDFLAGS = -framework "Foundation"

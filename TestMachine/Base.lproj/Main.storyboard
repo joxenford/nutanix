@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="L4P-Yx-m7w">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="L4P-Yx-m7w">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -40,12 +40,10 @@
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IQE-Ln-Wvp">
                                 <rect key="frame" x="20" y="202" width="663" height="501"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="table_header_1" translatesAutoresizingMaskIntoConstraints="NO" id="rym-po-v3I">
                                 <rect key="frame" x="191" y="72" width="320" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -54,7 +52,6 @@
                             <constraint firstItem="0XM-y9-sOw" firstAttribute="centerY" secondItem="svH-Pt-448" secondAttribute="centerY" constant="-207.5" id="jWN-iV-94e"/>
                             <constraint firstAttribute="trailing" secondItem="0XM-y9-sOw" secondAttribute="trailing" constant="20" symbolic="YES" id="tHV-ZD-HQj"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="mOI-FS-AaM"/>
@@ -68,7 +65,7 @@
             </objects>
             <point key="canvasLocation" x="1589" y="-1072"/>
         </scene>
-        <!--Split View Controller - News-->
+        <!--News-->
         <scene sceneID="Nki-YV-4Qg">
             <objects>
                 <splitViewController id="H1p-Uh-vWS" sceneMemberID="viewController">
@@ -106,7 +103,7 @@
             </objects>
             <point key="canvasLocation" x="-1903" y="1149"/>
         </scene>
-        <!--Master View Controller - News-->
+        <!--News-->
         <scene sceneID="smW-Zh-WAh">
             <objects>
                 <tableViewController title="News" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" sceneMemberID="viewController">
@@ -114,7 +111,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="Arm-wq-HPj" rowHeight="77" style="IBUITableViewCellStyleDefault" id="WCw-Qf-5nD" customClass="NewsAndEventsCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="77"/>
@@ -167,11 +163,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="table_header_1" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-Am-9Aq">
                                 <rect key="frame" x="191" y="66" width="320" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="VkT-KS-0ul"/>
@@ -181,7 +175,7 @@
             </objects>
             <point key="canvasLocation" x="1700" y="927"/>
         </scene>
-        <!--Table View Controller - Video-->
+        <!--Video-->
         <scene sceneID="2Ci-cn-1m0">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="xee-wr-cLp" sceneMemberID="viewController">
@@ -189,7 +183,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="70" id="0im-hh-581">
                                 <rect key="frame" x="0.0" y="86" width="320" height="70"/>
@@ -226,7 +219,7 @@
             </objects>
             <point key="canvasLocation" x="791" y="-21"/>
         </scene>
-        <!--Split View Controller - Video-->
+        <!--Video-->
         <scene sceneID="e7v-la-kZj">
             <objects>
                 <splitViewController id="tuQ-X7-Vds" sceneMemberID="viewController">
@@ -242,7 +235,7 @@
             </objects>
             <point key="canvasLocation" x="-445" y="495"/>
         </scene>
-        <!--Intro View Controller - IntroViewController-->
+        <!--IntroViewController-->
         <scene sceneID="HmB-PN-b9v">
             <objects>
                 <viewController title="IntroViewController" id="qEr-pm-WE5" customClass="IntroViewController" sceneMemberID="viewController">
@@ -256,7 +249,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q54-Qv-kMn">
                                 <rect key="frame" x="898" y="667" width="88" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="88" id="yLZ-Js-Di6"/>
                                 </constraints>
@@ -270,7 +262,6 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Nutanix?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bo5-tP-hJE">
                                 <rect key="frame" x="20" y="90" width="202" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -279,14 +270,12 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="717" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Nv-s0Z">
                                 <rect key="frame" x="71" y="130" width="717" height="208"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Nutanix is a software company that happens to sell hardware to provide a unique converged infrastructure approach called the "Virtual Computing Platform". While we have some very attractive hardware form factors, the key is the software that makes it all work together.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="752" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-Id-WPn">
                                 <rect key="frame" x="241" y="344" width="752" height="168"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="168" id="WDn-LR-ycE"/>
                                 </constraints>
@@ -296,7 +285,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Well, we’re glad you asked..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-nK-gZw">
                                 <rect key="frame" x="405" y="582" width="283" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="283" id="o88-9B-4CX"/>
                                 </constraints>
@@ -319,7 +307,6 @@
                             <constraint firstItem="bo5-tP-hJE" firstAttribute="leading" secondItem="GA5-Hl-ZKd" secondAttribute="leading" constant="20" symbolic="YES" id="rmh-1k-nPH"/>
                             <constraint firstAttribute="trailing" secondItem="Q54-Qv-kMn" secondAttribute="trailing" constant="38" id="xXI-AE-jME"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="GI6-Ap-DIm">
                         <barButtonItem key="backBarButtonItem" title="Back" id="DGe-YX-8H7"/>
@@ -337,7 +324,7 @@
             </objects>
             <point key="canvasLocation" x="847" y="1849"/>
         </scene>
-        <!--Section One View Controller - SectionOneViewController-->
+        <!--SectionOneViewController-->
         <scene sceneID="YiX-QB-1ad">
             <objects>
                 <viewController title="SectionOneViewController" id="3Vo-y6-kPx" customClass="SectionOneViewController" sceneMemberID="viewController">
@@ -351,7 +338,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puN-S7-d8C">
                                 <rect key="frame" x="916" y="661" width="88" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -361,7 +347,6 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How Does Nutanix Work?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wD-Tn-NAI">
                                 <rect key="frame" x="20" y="78" width="323" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -370,19 +355,16 @@
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PyU-q7-6ya">
                                 <rect key="frame" x="192" y="194" width="640" height="390"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90980398650000005" green="0.90196084980000002" blue="0.89411771299999998" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a ~4½ minute video that will visually describe how the Nutanix Virtual Computing Platform works." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drw-pO-YPt">
                                 <rect key="frame" x="49" y="140" width="927" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="TSa-na-LbV">
                         <barButtonItem key="backBarButtonItem" title="Back" id="yCJ-FQ-8BW"/>
@@ -396,7 +378,7 @@
             </objects>
             <point key="canvasLocation" x="2018" y="1849"/>
         </scene>
-        <!--Interactive Web Gui View Controller - Interactive Web Gui View Controller-->
+        <!--Interactive Web Gui View Controller-->
         <scene sceneID="orJ-Dv-nQK">
             <objects>
                 <viewController title="Interactive Web Gui View Controller" id="136-qD-4dp" customClass="InteractiveWebGuiViewController" sceneMemberID="viewController">
@@ -410,12 +392,10 @@
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ida-Fh-Rjd">
                                 <rect key="frame" x="13" y="0.0" width="996" height="768"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Web Console" id="8qG-3r-1Q6">
                         <barButtonItem key="backBarButtonItem" title="Back" id="4il-ig-G7U"/>
@@ -445,7 +425,7 @@
             </objects>
             <point key="canvasLocation" x="752" y="-1072"/>
         </scene>
-        <!--Section Three View Controller - SectionThreeViewController-->
+        <!--SectionThreeViewController-->
         <scene sceneID="Q4J-Xe-r5A">
             <objects>
                 <viewController title="SectionThreeViewController" id="Tyk-Mk-Xhe" customClass="SectionThreeViewController" sceneMemberID="viewController">
@@ -459,7 +439,6 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Virtual Computing Platform" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2D-Uw-AFJ">
                                 <rect key="frame" x="20" y="78" width="326" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -468,7 +447,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="QCW-gf-wwB">
                                 <rect key="frame" x="20" y="106" width="975" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">An extensible, appliance-based server with built-in enterprise storage that optimizes any VM. Built with the same distributed software that powers leading cloud infrastructures, it radically simplifies enterprise IT by replacing legacy storage with a modular datacenter ‘building block’ that can be deployed in about an hour.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -476,18 +454,15 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap on a component's icon below to learn more about it" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnK-vk-ecK">
                                 <rect key="frame" x="262" y="195" width="494" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UU-kf-PlN" userLabel="Button View">
                                 <rect key="frame" x="-17" y="220" width="1058" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dif-6j-jBG">
                                         <rect key="frame" x="20" y="16" width="242" height="191"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" image="01_Converged_Inactive">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -503,7 +478,6 @@
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITA-Vd-Gh5">
                                         <rect key="frame" x="262" y="16" width="161" height="191"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" image="02_ScaleOut_Inactive">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -519,7 +493,6 @@
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdL-25-wfW">
                                         <rect key="frame" x="423" y="16" width="207" height="191"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" image="03_SoftwareDefined_Inactive">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -535,7 +508,6 @@
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44O-V7-oyU">
                                         <rect key="frame" x="630" y="16" width="178" height="191"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" image="04_Flash_Inactive">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -551,7 +523,6 @@
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKG-y4-O6m">
                                         <rect key="frame" x="796" y="16" width="242" height="191"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" image="05_Cloud_Inactive">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -570,13 +541,11 @@
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="1rB-lg-Cf2" userLabel="Label - Description">
                                 <rect key="frame" x="26" y="413" width="984" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="zdt-j7-0hd">
                         <barButtonItem key="backBarButtonItem" title="Back" id="3o7-Fj-8Rx"/>
@@ -595,7 +564,7 @@
             </objects>
             <point key="canvasLocation" x="4299" y="1849"/>
         </scene>
-        <!--Web Gui View Controller - Web Gui View Controller-->
+        <!--Web Gui View Controller-->
         <scene sceneID="3HM-oo-s2H">
             <objects>
                 <viewController title="Web Gui View Controller" id="YIT-0o-S9T" customClass="WebGuiViewController" sceneMemberID="viewController">
@@ -609,24 +578,20 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Nutanix Web Console" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tu6-Si-sBW">
                                 <rect key="frame" x="27" y="80" width="344" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dr8-6V-NH2">
                                 <rect key="frame" x="192" y="204" width="640" height="360"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a short ~2 minute video showing the various components of the Nutanix web console" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFW-7P-xQA">
                                 <rect key="frame" x="112" y="148" width="801" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8Q-kh-ELj">
                                 <rect key="frame" x="306" y="603" width="413" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Click Here for an Interactive Mock-up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -637,7 +602,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Web Console" id="jRt-xi-uaf">
                         <barButtonItem key="backBarButtonItem" title="Back" id="hiG-Qg-CH5"/>
@@ -651,7 +615,7 @@
             </objects>
             <point key="canvasLocation" x="853" y="2840"/>
         </scene>
-        <!--Section Two View Controller - SectionTwoViewController-->
+        <!--SectionTwoViewController-->
         <scene sceneID="Bdn-37-oae">
             <objects>
                 <viewController title="SectionTwoViewController" id="Q8R-Op-zJc" customClass="SectionTwoViewController" sceneMemberID="viewController">
@@ -665,7 +629,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fER-GX-wKo">
                                 <rect key="frame" x="916" y="661" width="88" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Gae-f6-7Kp"/>
                                     <constraint firstAttribute="width" constant="88" id="Mde-KD-RPN"/>
@@ -679,7 +642,6 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Nutanix Solution" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z46-6s-ZAu">
                                 <rect key="frame" x="20" y="78" width="263" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="263" id="FAt-aD-2hc"/>
                                     <constraint firstAttribute="height" constant="21" id="ZYi-cG-YkY"/>
@@ -692,7 +654,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="A5W-gO-2cn">
                                 <rect key="frame" x="20" y="107" width="975" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="9E0-YZ-rlf"/>
                                 </constraints>
@@ -703,7 +664,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="MfS-Q7-Iea">
                                 <rect key="frame" x="20" y="164" width="975" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="1q1-id-JWb"/>
                                 </constraints>
@@ -714,7 +674,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Nutanix solution is radically simple compared to traditional datacenter infrastructures." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="984" translatesAutoresizingMaskIntoConstraints="NO" id="R0B-C5-wf6">
                                 <rect key="frame" x="20" y="230" width="984" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="STv-v1-PlJ"/>
                                 </constraints>
@@ -724,7 +683,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="fvD-KZ-2CG">
                                 <rect key="frame" x="20" y="440" width="975" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="104" id="55P-vh-pH3"/>
                                 </constraints>
@@ -735,7 +693,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Rapid time to value: deployment in about an hour, no matter what size the cluster is" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="i4A-sG-m9b">
                                 <rect key="frame" x="20" y="256" width="872" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="872" id="IrC-bZ-qY1"/>
                                     <constraint firstAttribute="height" constant="33" id="SUJ-me-aho"/>
@@ -746,7 +703,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Powerful off-the-shelf, non-proprietary hardware" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="syI-o1-yfW">
                                 <rect key="frame" x="20" y="326" width="872" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="cFh-dv-REa"/>
                                 </constraints>
@@ -756,7 +712,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• No disruption to on-going operations" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="iFh-FQ-8Kb">
                                 <rect key="frame" x="20" y="279" width="872" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="eCp-dg-k4x"/>
                                 </constraints>
@@ -766,7 +721,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Easily, and dynamically, scales" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="jsl-mY-aun">
                                 <rect key="frame" x="20" y="303" width="872" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="Dai-VF-4xq"/>
                                 </constraints>
@@ -776,7 +730,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Reduces the cost and complexity of storage" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="Rea-cD-Ggz">
                                 <rect key="frame" x="20" y="350" width="872" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="AA3-sW-hA3"/>
                                 </constraints>
@@ -786,7 +739,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Works with legacy components, protecting investments you’ve already made" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="Xez-EU-3dN">
                                 <rect key="frame" x="20" y="375" width="872" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="m2B-hq-iu2"/>
                                 </constraints>
@@ -796,14 +748,12 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Delivers advanced, enterprise-class storage capabilities" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="872" translatesAutoresizingMaskIntoConstraints="NO" id="l0J-oP-B0s">
                                 <rect key="frame" x="20" y="399" width="872" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="975" translatesAutoresizingMaskIntoConstraints="NO" id="kB9-iu-JNA">
                                 <rect key="frame" x="20" y="532" width="975" height="137"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="137" id="8Sv-GH-rfX"/>
                                 </constraints>
@@ -854,7 +804,6 @@
                             <constraint firstItem="z46-6s-ZAu" firstAttribute="top" secondItem="TU3-FA-qmI" secondAttribute="bottom" constant="14" id="xyW-3x-en5"/>
                             <constraint firstItem="i4A-sG-m9b" firstAttribute="top" secondItem="MfS-Q7-Iea" secondAttribute="bottom" constant="39" id="yK3-2F-snE"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="13I-vg-Ooy">
                         <barButtonItem key="backBarButtonItem" title="Back" id="vgy-Ky-9oX"/>
@@ -876,7 +825,7 @@
             </objects>
             <point key="canvasLocation" x="3164" y="1849"/>
         </scene>
-        <!--Navigation Controller - Overview-->
+        <!--Overview-->
         <scene sceneID="Ko3-11-jtP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S19-Dm-HeO" sceneMemberID="viewController">
@@ -913,7 +862,7 @@
             </objects>
             <point key="canvasLocation" x="791" y="927"/>
         </scene>
-        <!--Navigation Controller - Web  Console-->
+        <!--Web  Console-->
         <scene sceneID="JCD-vj-MUJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iki-7w-O4F" sceneMemberID="viewController">
@@ -947,10 +896,10 @@
         <image name="05_Cloud_Inactive" width="219" height="191"/>
         <image name="table_header_1" width="320" height="88"/>
     </resources>
-    <color key="tintColor" red="0.011764705882352941" green="0.30588235294117649" blue="0.63529411764705879" alpha="1" colorSpace="deviceRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" red="0.011764705882352941" green="0.30588235294117649" blue="0.63529411764705879" alpha="1" colorSpace="deviceRGB"/>
 </document>
