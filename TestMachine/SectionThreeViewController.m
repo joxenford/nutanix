@@ -9,23 +9,18 @@
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 @property (weak, nonatomic) IBOutlet UIScrollView *decriptionScrollView;
 @property (strong) NSArray* buttonArray;
+@property (strong) NSString* descriptionString;
 
 @end
 
 @implementation SectionThreeViewController
-{
-    NSString* _descriptionString;
-    NSString* _scaleOutString;
-    NSString* _softwareDefinedString;
-    NSString* _serverAttachedFlashString;
-    NSString* _cloudHybridString;
-}
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.buttonArray = @[_convergedButton, _scaleOutButton, _softwareDefinedButton, _serverAttachedFlashButton, _hybridButton];
+    self.buttonArray = @[self.convergedButton, self.scaleOutButton, self.softwareDefinedButton, self.serverAttachedFlashButton, self.hybridButton];
     [Flurry logEvent:@"Section Three Viewed"];
 }
 
@@ -45,41 +40,41 @@
     if (i == 1) {
         NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Converged" ofType:@"txt"];
         if (fileName) {
-            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+            self.descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
-        _descriptionLabel.text = _descriptionString;
+        self.descriptionLabel.text = self.descriptionString;
     
     }
     if (i == 2) {
         NSString* fileName = [[NSBundle mainBundle] pathForResource:@"ScaleOut" ofType:@"txt"];
         if (fileName) {
-            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+            self.descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
-        _descriptionLabel.text = _descriptionString;
+        self.descriptionLabel.text = self.descriptionString;
         
     }
     if (i == 3) {
         NSString* fileName = [[NSBundle mainBundle] pathForResource:@"SoftwareDefined" ofType:@"txt"];
         if (fileName) {
-            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+            self.descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
-        _descriptionLabel.text = _descriptionString;
+        self.descriptionLabel.text = self.descriptionString;
     }
     if (i == 4) {
         NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Flash" ofType:@"txt"];
         if (fileName) {
-            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+            self.descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
-        _descriptionLabel.text = _descriptionString;
+        self.descriptionLabel.text = self.descriptionString;
     }
     if (i == 5) {
         NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Cloud" ofType:@"txt"];
         if (fileName) {
-            _descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
+            self.descriptionString = [NSString stringWithContentsOfFile:fileName encoding:NSUTF8StringEncoding error:nil];
         }
-        _descriptionLabel.text = _descriptionString;
+        self.descriptionLabel.text = self.descriptionString;
     }
-    [_descriptionLabel fadeInWithDuration:0.5 delay:0.1];
+    [self.descriptionLabel fadeInWithDuration:0.5 delay:0.1];
 }
 
 
