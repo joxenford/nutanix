@@ -16,10 +16,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   // self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
- //   UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
- //   self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     if (!self.rssParser) {
     self.rssParser = [[RssParser alloc] init];
@@ -33,7 +29,7 @@
         self.newsFeed = stories;
         [self.tableView performSelectorOnMainThread:@selector(reloadData) withObject:self waitUntilDone:YES];
     } orFailure:^(NSError *error) {
-        
+        // add error handler
     }];
 
 }

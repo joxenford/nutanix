@@ -8,13 +8,12 @@
 @property (strong, nonatomic) IBOutlet UIButton *hybridButton;
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 @property (weak, nonatomic) IBOutlet UIScrollView *decriptionScrollView;
+@property (strong) NSArray* buttonArray;
 
 @end
 
 @implementation SectionThreeViewController
 {
-    NSArray* _buttonArray;
-    NSArray* _labelArray;
     NSString* _descriptionString;
     NSString* _scaleOutString;
     NSString* _softwareDefinedString;
@@ -26,7 +25,7 @@
 {
     [super viewDidLoad];
     
-    _buttonArray = @[_convergedButton, _scaleOutButton, _softwareDefinedButton, _serverAttachedFlashButton, _hybridButton];
+    self.buttonArray = @[_convergedButton, _scaleOutButton, _softwareDefinedButton, _serverAttachedFlashButton, _hybridButton];
     [Flurry logEvent:@"Section Three Viewed"];
 }
 
