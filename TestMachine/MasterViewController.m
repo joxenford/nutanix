@@ -30,9 +30,11 @@
         if (error) {
             // handle it
         } else
-        self.newsFeed = stories;
-        [self.tableView performSelectorOnMainThread:@selector(reloadData) withObject:self waitUntilDone:YES];
-    }];
+        self.newsFeed = stories;        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.tableView reloadData];
+        });
+}];
 }
 
 
