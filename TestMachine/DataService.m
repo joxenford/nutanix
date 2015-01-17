@@ -2,23 +2,37 @@
 
 @implementation DataService
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
+
 -(void) downloadDataFromURL:(NSURL*)url WithCompletionHandler:(void(^)(NSData*, NSError*))completionHandler;
 {
-    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10];
-    
-    [NSURLConnection sendAsynchronousRequest:request
-                                       queue:[[NSOperationQueue alloc] init]
-                           completionHandler:^(NSURLResponse* response,
-                                               NSData* data,
-                                               NSError* connectionError) {
-                               if (connectionError) {
-                                   completionHandler(nil, connectionError);
-                               }
-                               else { 
-                                   completionHandler(data, nil);
-                               }
-                           }];
-
+    NSURLSession *session = [NSURLSession sharedSession];
+    [[session dataTaskWithURL:url completionHandler:^(NSData *data,
+                                                     NSURLResponse *response,
+                                                     NSError *connectionError) {
+        if (connectionError) {
+            NSLog(@"%@", connectionError.localizedDescription);
+            completionHandler(nil, connectionError);
+        }
+        if (response) {
+            // handle this
+            NSLog(@"%@", response);
+        }
+        if (data) {
+            // handle this
+            NSLog(@"%@", data);
+            completionHandler(data, nil);
+        }
+        
+    }] resume];
 }
 
 @end

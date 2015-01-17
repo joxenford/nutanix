@@ -31,31 +31,12 @@
     return self;
 }
 
-- (void)parseXMLWithCompletionHandler:(void (^)(NSArray* stories, NSError *))completionHandler
+-(void) configureParserWithData:(NSData*)data
 {
-    NSURL* url = [NSURL URLWithString:kFeedURL];
-    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10];
-    
-    [NSURLConnection sendAsynchronousRequest:request
-                                       queue:[[NSOperationQueue alloc] init]
-                           completionHandler:^(NSURLResponse* response,
-                                               NSData* data,
-                                               NSError* connectionError) {
-                               if (connectionError) {
-                                   completionHandler(nil, connectionError);
-                               }
-                               else {
-                                   self.stories = [[NSMutableArray alloc] init];
-                                   self.rssParser = [[NSXMLParser alloc] initWithContentsOfURL:[NSURL URLWithString:kFeedURL]];
-                                   [self.rssParser setDelegate:self];
-                                   [self.rssParser parse];
-                                   
-                                   completionHandler(self.stories, nil);
-                               }
-                           }];
-    
+    self.rssParser = [[NSXMLParser alloc] initWithData:data];
+    self.rssParser.delegate = self;
+    [self.rssParser parse];
 }
-
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
 {

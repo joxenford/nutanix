@@ -2,6 +2,6 @@
 
 @interface RssParser : NSObject
 
-- (void)parseXMLWithCompletionHandler:(void (^)(NSArray* stories, NSError *))completionHandler;
+-(void) configureParserWithData:(NSData*)data;
 
 @end
