@@ -61,6 +61,7 @@
 		44EC831A18A468C80036D1B7 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EC831018A468C80036D1B7 /* Lato-Light.ttf */; };
 		44EC831B18A468C80036D1B7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EC831118A468C80036D1B7 /* Lato-LightItalic.ttf */; };
 		44EC831C18A468C80036D1B7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EC831218A468C80036D1B7 /* Lato-Regular.ttf */; };
+		44F5C05F1A6AA5AB0031F1F3 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F5C05E1A6AA5AB0031F1F3 /* DataService.m */; };
 		900149F030184CB6A9552289 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D27575FFC9492DB01E3C50 /* libPods.a */; };
 		9CA20FA7492C48CAB2A8C490 /* libPods-GetToKnowUs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067153402F6A4CB08EA40C8A /* libPods-GetToKnowUs.a */; };
 		B8034E2618BAEEEF00A56CE9 /* webGUI-youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */; };
@@ -151,6 +152,8 @@
 		44EC831018A468C80036D1B7 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		44EC831118A468C80036D1B7 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		44EC831218A468C80036D1B7 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		44F5C05D1A6AA5AB0031F1F3 /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		44F5C05E1A6AA5AB0031F1F3 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
 		B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "webGUI-youtube.html"; path = "../webGUI-youtube.html"; sourceTree = "<group>"; };
 		B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebGuiViewController.h; path = ../WebGuiViewController.h; sourceTree = "<group>"; };
 		B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebGuiViewController.m; path = ../WebGuiViewController.m; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 			children = (
 				446ACD461994060E00651915 /* RssParser.h */,
 				446ACD471994060E00651915 /* RssParser.m */,
+				44F5C05D1A6AA5AB0031F1F3 /* DataService.h */,
+				44F5C05E1A6AA5AB0031F1F3 /* DataService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
+				44F5C05C1A6A9B660031F1F3 /* Model */,
 				446ACD45199405EA00651915 /* Services */,
 				448411FE18BB9FB60065D5C3 /* Custom */,
 				448411FD18BB9F910065D5C3 /* ViewControllers */,
@@ -354,6 +360,13 @@
 				44D769BC189484410060617F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44F5C05C1A6A9B660031F1F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -534,6 +547,7 @@
 				44D769CE18952C490060617F /* XMLFeedItem.m in Sources */,
 				B8034EC018BAF6FC00A56CE9 /* InteractiveWebGuiViewController.m in Sources */,
 				44D769AB189484410060617F /* DetailViewController.m in Sources */,
+				44F5C05F1A6AA5AB0031F1F3 /* DataService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

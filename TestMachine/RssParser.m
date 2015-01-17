@@ -54,32 +54,6 @@
                                }
                            }];
     
-
-}
-
-- (void)parseXMLWithSuccess:(void(^)(NSArray*))successBlock orFailure:(void(^)(NSError*))failureBlock
-{
-    NSURL* url = [NSURL URLWithString:kFeedURL];
-    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10];
-    
-    [NSURLConnection sendAsynchronousRequest:request
-                                       queue:[[NSOperationQueue alloc] init]
-                           completionHandler:^(NSURLResponse* response,
-                                               NSData* data,
-                                               NSError* connectionError) {
-                               if (connectionError) {
-                                   failureBlock(connectionError);
-                               }
-                               else {
-                                   self.stories = [[NSMutableArray alloc] init];
-                                   self.rssParser = [[NSXMLParser alloc] initWithContentsOfURL:[NSURL URLWithString:kFeedURL]];
-                                   [self.rssParser setDelegate:self];
-                                   [self.rssParser parse];
-                                   
-                                   successBlock(self.stories);
-                               }
-                           }];
-
 }
 
 
