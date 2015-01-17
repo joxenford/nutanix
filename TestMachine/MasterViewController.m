@@ -25,13 +25,14 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.rssParser parseXMLWithSuccess:^(NSArray *stories) {
+    
+    [self.rssParser parseXMLWithCompletionHandler:^(NSArray* stories, NSError *error) {
+        if (error) {
+            // handle it
+        } else
         self.newsFeed = stories;
         [self.tableView performSelectorOnMainThread:@selector(reloadData) withObject:self waitUntilDone:YES];
-    } orFailure:^(NSError *error) {
-        // add error handler
     }];
-
 }
 
 
