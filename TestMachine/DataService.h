@@ -2,6 +2,6 @@
 
 @interface DataService : NSObject
 
--(void) downloadDataWithCompletionHandler:(void(^)(NSData*, NSError*))completionHandler;
+-(void) downloadDataFromURL:(NSURL*)url WithCompletionHandler:(void(^)(NSData*, NSError*))completionHandler;
 
 @end
