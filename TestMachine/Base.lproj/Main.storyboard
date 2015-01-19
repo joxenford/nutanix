@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="-497" y="-2030"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="sho-id-EsV">
             <objects>
-                <tabBarController definesPresentationContext="YES" id="L4P-Yx-m7w" sceneMemberID="viewController">
+                <tabBarController definesPresentationContext="YES" id="L4P-Yx-m7w" customClass="GTKUUITabBarViewController" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Yu4-MI-GHK">

@@ -23,16 +23,13 @@
             completionHandler(nil, connectionError);
         }
         if (response) {
-            // handle this
-            NSLog(@"%@", response);
+            NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
+            if (httpResponse.statusCode == 200 && data)
+                NSLog(@"%@", response);
+                NSLog(@"%@", data);
+                completionHandler(data, nil);
         }
-        if (data) {
-            // handle this
-            NSLog(@"%@", data);
-            completionHandler(data, nil);
-        }
-        
-    }] resume];
+           }] resume];
 }
 
 @end

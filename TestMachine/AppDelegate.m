@@ -1,13 +1,13 @@
 #import "AppDelegate.h"
 #import "NUIAppearance.h"
 #import "RssParser.h"
-#import "MasterViewController.h"
+//#import "MasterViewController.h"
 #import "Flurry.h"
 #import "DataService.h"
 #import "SessionManager.h"
+#import "GTKUUITabBarViewController.h"
 
 @interface AppDelegate ()
-@property (strong,nonatomic) RssParser* rssParser;
 
 @end
 
@@ -24,9 +24,10 @@
     [sessionManager.dataService downloadDataFromURL:[NSURL URLWithString:@"http://www.nutanix.com/feed/"]WithCompletionHandler:^(NSData *data, NSError *error) {
         RssParser* rssParser = [[RssParser alloc] init];
         [rssParser configureParserWithData:data];
-        
     }];
     
+    GTKUUITabBarViewController *rootViewController=(GTKUUITabBarViewController *)((AppDelegate *)[[UIApplication sharedApplication] delegate]).window.rootViewController;
+    rootViewController.sessionManager = sessionManager;
     return YES;    
 }
 

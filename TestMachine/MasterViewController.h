@@ -1,12 +1,10 @@
-
 #import <UIKit/UIKit.h>
-
+#import "SessionManager.h"
 @class DetailViewController;
-@class RssParser;
 
 @interface MasterViewController : UITableViewController
 
-@property (strong,nonatomic) RssParser* rssParser;
 @property (strong, nonatomic) DetailViewController* detailViewController;
+@property (strong) SessionManager* sessionManager;
 
 @end

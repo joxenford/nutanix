@@ -63,6 +63,7 @@
 		44EC831C18A468C80036D1B7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EC831218A468C80036D1B7 /* Lato-Regular.ttf */; };
 		44F5C05F1A6AA5AB0031F1F3 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F5C05E1A6AA5AB0031F1F3 /* DataService.m */; };
 		44F5C0621A6AC19E0031F1F3 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F5C0611A6AC19E0031F1F3 /* SessionManager.m */; };
+		44F5C0671A6AEDBA0031F1F3 /* GTKUUITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F5C0661A6AEDBA0031F1F3 /* GTKUUITabBarViewController.m */; };
 		900149F030184CB6A9552289 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D27575FFC9492DB01E3C50 /* libPods.a */; };
 		9CA20FA7492C48CAB2A8C490 /* libPods-GetToKnowUs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067153402F6A4CB08EA40C8A /* libPods-GetToKnowUs.a */; };
 		B8034E2618BAEEEF00A56CE9 /* webGUI-youtube.html in Resources */ = {isa = PBXBuildFile; fileRef = B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */; };
@@ -157,6 +158,8 @@
 		44F5C05E1A6AA5AB0031F1F3 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
 		44F5C0601A6AC19E0031F1F3 /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
 		44F5C0611A6AC19E0031F1F3 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		44F5C0651A6AEDBA0031F1F3 /* GTKUUITabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTKUUITabBarViewController.h; sourceTree = "<group>"; };
+		44F5C0661A6AEDBA0031F1F3 /* GTKUUITabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTKUUITabBarViewController.m; sourceTree = "<group>"; };
 		B8034E2518BAEEEF00A56CE9 /* webGUI-youtube.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "webGUI-youtube.html"; path = "../webGUI-youtube.html"; sourceTree = "<group>"; };
 		B8034EBB18BAF05A00A56CE9 /* WebGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebGuiViewController.h; path = ../WebGuiViewController.h; sourceTree = "<group>"; };
 		B8034EBC18BAF05A00A56CE9 /* WebGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebGuiViewController.m; path = ../WebGuiViewController.m; sourceTree = "<group>"; };
@@ -229,8 +232,6 @@
 				446ACD471994060E00651915 /* RssParser.m */,
 				44F5C05D1A6AA5AB0031F1F3 /* DataService.h */,
 				44F5C05E1A6AA5AB0031F1F3 /* DataService.m */,
-				44F5C0601A6AC19E0031F1F3 /* SessionManager.h */,
-				44F5C0611A6AC19E0031F1F3 /* SessionManager.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -238,6 +239,7 @@
 		448411FD18BB9F910065D5C3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				44F5C0641A6AED750031F1F3 /* Custom */,
 				44C2A03518BC36EF007808B8 /* SectionTwoViewController.h */,
 				44C2A03618BC36EF007808B8 /* SectionTwoViewController.m */,
 				44C1338E18BBC46C00D64DA5 /* SectionThreeViewController.h */,
@@ -315,6 +317,7 @@
 		44D76997189484410060617F /* GreenMachine */ = {
 			isa = PBXGroup;
 			children = (
+				44F5C0631A6AC5440031F1F3 /* Managers */,
 				44F5C05C1A6A9B660031F1F3 /* Model */,
 				446ACD45199405EA00651915 /* Services */,
 				448411FE18BB9FB60065D5C3 /* Custom */,
@@ -372,6 +375,24 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		44F5C0631A6AC5440031F1F3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				44F5C0601A6AC19E0031F1F3 /* SessionManager.h */,
+				44F5C0611A6AC19E0031F1F3 /* SessionManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		44F5C0641A6AED750031F1F3 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				44F5C0651A6AEDBA0031F1F3 /* GTKUUITabBarViewController.h */,
+				44F5C0661A6AEDBA0031F1F3 /* GTKUUITabBarViewController.m */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,6 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F5C0671A6AEDBA0031F1F3 /* GTKUUITabBarViewController.m in Sources */,
 				44C2A03418BC3162007808B8 /* UIView+Animation.m in Sources */,
 				44C2A03718BC36EF007808B8 /* SectionTwoViewController.m in Sources */,
 				44D769A2189484410060617F /* AppDelegate.m in Sources */,

@@ -17,26 +17,7 @@
 {
     [super viewDidLoad];
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-//    if (!self.rssParser) {
-//    self.rssParser = [[RssParser alloc] init];
-//    }
 }
-
-- (void) viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-//    [self.rssParser parseXMLWithCompletionHandler:^(NSArray* stories, NSError *error) {
-//        if (error) {
-//            // handle it
-//        } else
-//        self.newsFeed = stories;        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            [self.tableView reloadData];
-//        });
-//}];
-}
-
 
 #pragma mark - Table View
 

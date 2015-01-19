@@ -4,6 +4,7 @@
 @interface SessionManager : NSObject
 
 @property (strong) DataService* dataService;
+@property (strong) NSArray* stories;
 
 -(instancetype) initWithDataService:(DataService*)dataService;
 
