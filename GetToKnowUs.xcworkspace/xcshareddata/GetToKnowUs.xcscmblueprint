@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B" : 0,
+    "7718535E-AAA3-449C-BC3C-17A68FE700CC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B6B973AD-008E-4D72-B997-667BA1EB22BC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B" : "Nutanix-GetToKnowUs",
+    "7718535E-AAA3-449C-BC3C-17A68FE700CC" : "greenmachine2"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GetToKnowUs",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GetToKnowUs.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:joxenford\/greenmachine2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F39CCA97BEB7FAF4DB622A091A6D9C792B4E72B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/joxenford\/greenmachine2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7718535E-AAA3-449C-BC3C-17A68FE700CC"
+    }
+  ]
+}
